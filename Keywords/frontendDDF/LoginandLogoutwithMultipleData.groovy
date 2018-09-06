@@ -33,7 +33,7 @@ public class LoginandLogoutwithMultipleData {
 		InternalData data = findTestData("FrontendDDF/LoginandLogoutMultipleData")
 		for (def index : (0..data.getRowNumbers() - 2)) //-1 means all the data will run. -2 means upto second last data will run and so on...
 		{
-
+//
 			WebUI.setText(findTestObject('Demo/Page_JobyCo/input_ctl00ContentPlaceHolder1'), data.internallyGetValue("demo_usn", index))
 
 			WebUI.setText(findTestObject('Demo/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'), data.internallyGetValue("demo_pass", index))
