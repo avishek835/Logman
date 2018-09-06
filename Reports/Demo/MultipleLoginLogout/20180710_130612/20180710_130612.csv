@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+MultipleLoginLogout,,,2018-07-10 13:07:44,2018-07-10 13:07:46,1.160s,ERROR
+,,,,,,
+Test Cases/Demo/LoginandLogoutWithMultipledata,,,2018-07-10 13:07:45,2018-07-10 13:07:46,0.600s,ERROR
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(New Test Data),,,2018-07-10 13:07:46,2018-07-10 13:07:46,0.017s,PASSED

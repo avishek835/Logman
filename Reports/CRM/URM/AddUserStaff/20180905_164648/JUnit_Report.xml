@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AddUserStaff" time="29" tests="1" failures="0" errors="0">
+   <testsuite name="AddUserStaff" tests="1" failures="0" errors="0" time="29" timestamp="2018-09-05 16:46:50" hostname="Avishek - DESKTOP-UNOIIMH" id="Test Suites/CRM/URM/AddUserStaff">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\URM\\AddUserStaff\\20180905_164648"/>
+         <property name="logFiles" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\URM\\AddUserStaff\\20180905_164648\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Avishek - DESKTOP-UNOIIMH"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.3.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="172.16.10.89"/>
+         <property name="sessionId" value="b3d8bdeb7fe2a2e9588d4464bfc91835"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/CRM/URM/AddUserStaff" classname="Test Cases/CRM/URM/AddUserStaff" status="PASSED">
+         <system-out><![CDATA[2018-09-05 16:46:51 - [TEST_CASE][PASSED] - Test Cases/CRM/URM/AddUserStaff: Test Cases/CRM/URM/AddUserStaff
+
+2018-09-05 16:46:51 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-05 16:46:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-05 16:46:55 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://172.16.20.5:93/' successfully
+
+2018-09-05 16:46:58 - [MESSAGE][PASSED] - Navigate to 'http://172.16.20.5:93/' successfully
+
+2018-09-05 16:46:58 - [TEST_STEP][PASSED] - setText: Text 'support@switch2web.com' is set on object 'Object Repository/AddStaffUser/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-09-05 16:46:58 - [MESSAGE][PASSED] - Text 'support@switch2web.com' is set on object 'Object Repository/AddStaffUser/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-09-05 16:46:58 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/AddStaffUser/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-09-05 16:46:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/AddStaffUser/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-09-05 16:46:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddStaffUser/Page_JobyCo/input_ctl00ContentPlaceHolder1_2' is clicked on
+
+2018-09-05 16:46:59 - [MESSAGE][PASSED] - Object: 'Object Repository/AddStaffUser/Page_JobyCo/input_ctl00ContentPlaceHolder1_2' is clicked on
+
+2018-09-05 16:46:59 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-09-05 16:46:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-09-05 16:46:59 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-09-05 16:47:00 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-09-05 16:47:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddStaffUser/Page_/span_drawer-hamburger-icon' is clicked on
+
+2018-09-05 16:47:00 - [MESSAGE][PASSED] - Object: 'Object Repository/AddStaffUser/Page_/span_drawer-hamburger-icon' is clicked on
+
+2018-09-05 16:47:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddStaffUser/Page_/a_User' is clicked on
+
+2018-09-05 16:47:00 - [MESSAGE][PASSED] - Object: 'Object Repository/AddStaffUser/Page_/a_User' is clicked on
+
+2018-09-05 16:47:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddStaffUser/Page_/a_New User' is clicked on
+
+2018-09-05 16:47:01 - [MESSAGE][PASSED] - Object: 'Object Repository/AddStaffUser/Page_/a_New User' is clicked on
+
+2018-09-05 16:47:01 - [TEST_STEP][PASSED] - setText: Text 'avistaff5@mailinator.com' is set on object 'Object Repository/AddStaffUser/Page_/input_ctl00ContentPlaceHolder1'
+
+2018-09-05 16:47:02 - [MESSAGE][PASSED] - Text 'avistaff5@mailinator.com' is set on object 'Object Repository/AddStaffUser/Page_/input_ctl00ContentPlaceHolder1'
+
+2018-09-05 16:47:02 - [TEST_STEP][PASSED] - setText: Text 'avistaff5@mailinator.com' is set on object 'Object Repository/AddStaffUser/Page_/input_ctl00ContentPlaceHolder1_1'
+
+2018-09-05 16:47:02 - [MESSAGE][PASSED] - Text 'avistaff5@mailinator.com' is set on object 'Object Repository/AddStaffUser/Page_/input_ctl00ContentPlaceHolder1_1'
+
+2018-09-05 16:47:02 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/AddStaffUser/Page_/input_ctl00ContentPlaceHolder1_2'
+
+2018-09-05 16:47:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/AddStaffUser/Page_/input_ctl00ContentPlaceHolder1_2'
+
+2018-09-05 16:47:02 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/AddStaffUser/Page_/input_ctl00ContentPlaceHolder1_3'
+
+2018-09-05 16:47:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/AddStaffUser/Page_/input_ctl00ContentPlaceHolder1_3'
+
+2018-09-05 16:47:03 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/AddStaffUser/Page_/select_Select TitleMrMrsMissMs'  using regular expression
+
+2018-09-05 16:47:03 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/AddStaffUser/Page_/select_Select TitleMrMrsMissMs'  using regular expression
+
+2018-09-05 16:47:03 - [TEST_STEP][PASSED] - setText: Text 'avistaff5' is set on object 'Object Repository/AddStaffUser/Page_/input_ctl00ContentPlaceHolder1_4'
+
+2018-09-05 16:47:03 - [MESSAGE][PASSED] - Text 'avistaff5' is set on object 'Object Repository/AddStaffUser/Page_/input_ctl00ContentPlaceHolder1_4'
+
+2018-09-05 16:47:03 - [TEST_STEP][PASSED] - setText: Text 'avistaff5' is set on object 'Object Repository/AddStaffUser/Page_/input_ctl00ContentPlaceHolder1_5'
+
+2018-09-05 16:47:04 - [MESSAGE][PASSED] - Text 'avistaff5' is set on object 'Object Repository/AddStaffUser/Page_/input_ctl00ContentPlaceHolder1_5'
+
+2018-09-05 16:47:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/RoleObjectCapture/Page_/input_ctl00ContentPlaceHolder1' is clicked on
+
+2018-09-05 16:47:04 - [MESSAGE][PASSED] - Object: 'Object Repository/RoleObjectCapture/Page_/input_ctl00ContentPlaceHolder1' is clicked on
+
+2018-09-05 16:47:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddStaffUser/Page_/th_September 2018' is clicked on
+
+2018-09-05 16:47:04 - [MESSAGE][PASSED] - Object: 'Object Repository/AddStaffUser/Page_/th_September 2018' is clicked on
+
+2018-09-05 16:47:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddStaffUser/Page_/th_2018' is clicked on
+
+2018-09-05 16:47:04 - [MESSAGE][PASSED] - Object: 'Object Repository/AddStaffUser/Page_/th_2018' is clicked on
+
+2018-09-05 16:47:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddStaffUser/Page_/th_' is clicked on
+
+2018-09-05 16:47:05 - [MESSAGE][PASSED] - Object: 'Object Repository/AddStaffUser/Page_/th_' is clicked on
+
+2018-09-05 16:47:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddStaffUser/Page_/span_2000' is clicked on
+
+2018-09-05 16:47:05 - [MESSAGE][PASSED] - Object: 'Object Repository/AddStaffUser/Page_/span_2000' is clicked on
+
+2018-09-05 16:47:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddStaffUser/Page_/span_Jan' is clicked on
+
+2018-09-05 16:47:05 - [MESSAGE][PASSED] - Object: 'Object Repository/AddStaffUser/Page_/span_Jan' is clicked on
+
+2018-09-05 16:47:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddStaffUser/Page_/td_3' is clicked on
+
+2018-09-05 16:47:05 - [MESSAGE][PASSED] - Object: 'Object Repository/AddStaffUser/Page_/td_3' is clicked on
+
+2018-09-05 16:47:05 - [TEST_STEP][PASSED] - setText: Text 'kolkata' is set on object 'Object Repository/AddStaffUser/Page_/input_ctl00ContentPlaceHolder1_6'
+
+2018-09-05 16:47:05 - [MESSAGE][PASSED] - Text 'kolkata' is set on object 'Object Repository/AddStaffUser/Page_/input_ctl00ContentPlaceHolder1_6'
+
+2018-09-05 16:47:05 - [TEST_STEP][PASSED] - setText: Text 'Bristol' is set on object 'Object Repository/AddStaffUser/Page_/input_ctl00ContentPlaceHolder1_7'
+
+2018-09-05 16:47:06 - [MESSAGE][PASSED] - Text 'Bristol' is set on object 'Object Repository/AddStaffUser/Page_/input_ctl00ContentPlaceHolder1_7'
+
+2018-09-05 16:47:06 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '156' are selected in object 'Object Repository/AddStaffUser/Page_/select_Select CountryAfghanist'  using regular expression
+
+2018-09-05 16:47:09 - [MESSAGE][PASSED] - All options with value '156' are selected in object 'Object Repository/AddStaffUser/Page_/select_Select CountryAfghanist'  using regular expression
+
+2018-09-05 16:47:09 - [TEST_STEP][PASSED] - setText: Text '7898654512' is set on object 'Object Repository/AddStaffUser/Page_/input_ctl00ContentPlaceHolder1_8'
+
+2018-09-05 16:47:10 - [MESSAGE][PASSED] - Text '7898654512' is set on object 'Object Repository/AddStaffUser/Page_/input_ctl00ContentPlaceHolder1_8'
+
+2018-09-05 16:47:10 - [TEST_STEP][PASSED] - setText: Text 'pet name' is set on object 'Object Repository/AddStaffUser/Page_/input_ctl00ContentPlaceHolder1_9'
+
+2018-09-05 16:47:10 - [MESSAGE][PASSED] - Text 'pet name' is set on object 'Object Repository/AddStaffUser/Page_/input_ctl00ContentPlaceHolder1_9'
+
+2018-09-05 16:47:10 - [TEST_STEP][PASSED] - setText: Text 'katty' is set on object 'Object Repository/AddStaffUser/Page_/input_ctl00ContentPlaceHolder1_10'
+
+2018-09-05 16:47:10 - [MESSAGE][PASSED] - Text 'katty' is set on object 'Object Repository/AddStaffUser/Page_/input_ctl00ContentPlaceHolder1_10'
+
+2018-09-05 16:47:10 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '12' are selected in object 'Object Repository/AddStaffUser/Page_/select_Select RoleAdministrato'  using regular expression
+
+2018-09-05 16:47:11 - [MESSAGE][PASSED] - All options with value '12' are selected in object 'Object Repository/AddStaffUser/Page_/select_Select RoleAdministrato'  using regular expression
+
+2018-09-05 16:47:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddStaffUser/Page_/input_ctl00ContentPlaceHolder1_11' is clicked on
+
+2018-09-05 16:47:11 - [MESSAGE][PASSED] - Object: 'Object Repository/AddStaffUser/Page_/input_ctl00ContentPlaceHolder1_11' is clicked on
+
+2018-09-05 16:47:11 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-09-05 16:47:17 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-09-05 16:47:17 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-09-05 16:47:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-09-05 16:47:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddStaffUser/Page_/button_OK' is clicked on
+
+2018-09-05 16:47:17 - [MESSAGE][PASSED] - Object: 'Object Repository/AddStaffUser/Page_/button_OK' is clicked on
+
+2018-09-05 16:47:17 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-09-05 16:47:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-09-05 16:47:17 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-09-05 16:47:18 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-09-05 16:47:18 - [TEST_STEP][PASSED] - setText: Text 'avi' is set on object 'Object Repository/AddStaffUser/Page_/input'
+
+2018-09-05 16:47:19 - [MESSAGE][PASSED] - Text 'avi' is set on object 'Object Repository/AddStaffUser/Page_/input'
+
+2018-09-05 16:47:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddStaffUser/Page_/span_glyphicon glyphicon-user' is clicked on
+
+2018-09-05 16:47:19 - [MESSAGE][PASSED] - Object: 'Object Repository/AddStaffUser/Page_/span_glyphicon glyphicon-user' is clicked on
+
+2018-09-05 16:47:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddStaffUser/Page_/button_Sign Out' is clicked on
+
+2018-09-05 16:47:19 - [MESSAGE][PASSED] - Object: 'Object Repository/AddStaffUser/Page_/button_Sign Out' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-05 16:46:50 - [TEST_SUITE][PASSED] - AddUserStaff: Test Cases/CRM/URM/AddUserStaff]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

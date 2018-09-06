@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="StaffUserLogin" time="43" tests="0" failures="1" errors="0">
+   <testsuite name="StaffUserLogin" tests="0" failures="1" errors="0" time="43" timestamp="2018-09-05 16:52:40" hostname="Avishek - DESKTOP-UNOIIMH" id="Test Suites/CRM/URM/StaffUserLogin">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\URM\\StaffUserLogin\\20180905_165238"/>
+         <property name="logFiles" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\URM\\StaffUserLogin\\20180905_165238\\execution0.log"/>
+         <property name="attachments" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\URM\\StaffUserLogin\\20180905_165238\\1536146571110.png, E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\URM\\StaffUserLogin\\20180905_165238\\1536146603308.png"/>
+         <property name="hostName" value="Avishek - DESKTOP-UNOIIMH"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.3.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="172.16.10.89"/>
+         <property name="sessionId" value="6bb681f6f971f37e68cebd913c771a12"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/CRM/URM/StaffUserlogin" classname="Test Cases/CRM/URM/StaffUserlogin" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/UserLogin/Page_/span_glyphicon glyphicon-user' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/UserLogin/Page_/span_glyphicon glyphicon-user' located by 'By.xpath: /html[1]/body[@class=&quot;drawer drawer--left darkBG drawer-close&quot;]/div[3]/main[1]/section[@class=&quot;item&quot;]/section[@class=&quot;topBar affix&quot;]/div[@class=&quot;col-md-6&quot;]/ul[@class=&quot;acntLog&quot;]/li[@class=&quot;dropdown&quot;]/a[@class=&quot;dropdown-toggle&quot;]/span[@class=&quot;glyphicon glyphicon-user pull-right userID&quot;]' not found)"/>
+         <system-out><![CDATA[2018-09-05 16:52:41 - [TEST_CASE][FAILED] - Test Cases/CRM/URM/StaffUserlogin: Test Cases/CRM/URM/StaffUserlogin FAILED because (of) Unable to click on object 'Object Repository/UserLogin/Page_/span_glyphicon glyphicon-user' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/UserLogin/Page_/span_glyphicon glyphicon-user' located by 'By.xpath: /html[1]/body[@class="drawer drawer--left darkBG drawer-close"]/div[3]/main[1]/section[@class="item"]/section[@class="topBar affix"]/div[@class="col-md-6"]/ul[@class="acntLog"]/li[@class="dropdown"]/a[@class="dropdown-toggle"]/span[@class="glyphicon glyphicon-user pull-right userID"]' not found)
+
+2018-09-05 16:52:41 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-05 16:52:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-05 16:52:44 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://172.16.20.5:93/' successfully
+
+2018-09-05 16:52:46 - [MESSAGE][PASSED] - Navigate to 'http://172.16.20.5:93/' successfully
+
+2018-09-05 16:52:46 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-05 16:52:48 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-05 16:52:48 - [TEST_STEP][PASSED] - setText: Text 'avistaff3@mailinator.com' is set on object 'Object Repository/UserLogin/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-09-05 16:52:48 - [MESSAGE][PASSED] - Text 'avistaff3@mailinator.com' is set on object 'Object Repository/UserLogin/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-09-05 16:52:48 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/UserLogin/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-09-05 16:52:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/UserLogin/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-09-05 16:52:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/UserLogin/Page_JobyCo/input_ctl00ContentPlaceHolder1_2' is clicked on
+
+2018-09-05 16:52:50 - [MESSAGE][PASSED] - Object: 'Object Repository/UserLogin/Page_JobyCo/input_ctl00ContentPlaceHolder1_2' is clicked on
+
+2018-09-05 16:52:50 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-09-05 16:52:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-09-05 16:52:50 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-09-05 16:52:50 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-09-05 16:52:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/UserLogin/Page_/button_toggle navigation' is clicked on
+
+2018-09-05 16:52:50 - [MESSAGE][PASSED] - Object: 'Object Repository/UserLogin/Page_/button_toggle navigation' is clicked on
+
+2018-09-05 16:52:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/UserLogin/Page_/button_toggle navigation_1' is clicked on
+
+2018-09-05 16:52:51 - [MESSAGE][PASSED] - Object: 'Object Repository/UserLogin/Page_/button_toggle navigation_1' is clicked on
+
+2018-09-05 16:52:51 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-09-05 16:52:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\URM\\StaffUserLogin\\20180905_165238\\1536146571110.png]]
+
+2018-09-05 16:52:51 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-09-05 16:52:51 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-09-05 16:52:51 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-09-05 16:52:51 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-09-05 16:52:51 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/UserLogin/Page_/span_glyphicon glyphicon-user' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/UserLogin/Page_/span_glyphicon glyphicon-user' located by 'By.xpath: /html[1]/body[@class="drawer drawer--left darkBG drawer-close"]/div[3]/main[1]/section[@class="item"]/section[@class="topBar affix"]/div[@class="col-md-6"]/ul[@class="acntLog"]/li[@class="dropdown"]/a[@class="dropdown-toggle"]/span[@class="glyphicon glyphicon-user pull-right userID"]' not found)
+
+2018-09-05 16:53:23 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/UserLogin/Page_/span_glyphicon glyphicon-user' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/UserLogin/Page_/span_glyphicon glyphicon-user' located by 'By.xpath: /html[1]/body[@class="drawer drawer--left darkBG drawer-close"]/div[3]/main[1]/section[@class="item"]/section[@class="topBar affix"]/div[@class="col-md-6"]/ul[@class="acntLog"]/li[@class="dropdown"]/a[@class="dropdown-toggle"]/span[@class="glyphicon glyphicon-user pull-right userID"]' not found)
+[[ATTACHMENT|E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\URM\\StaffUserLogin\\20180905_165238\\1536146603308.png]]]]></system-out>
+         <system-err><![CDATA[2018-09-05 16:52:41 - [TEST_CASE][FAILED] - Test Cases/CRM/URM/StaffUserlogin: Test Cases/CRM/URM/StaffUserlogin FAILED because (of) Unable to click on object 'Object Repository/UserLogin/Page_/span_glyphicon glyphicon-user' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/UserLogin/Page_/span_glyphicon glyphicon-user' located by 'By.xpath: /html[1]/body[@class="drawer drawer--left darkBG drawer-close"]/div[3]/main[1]/section[@class="item"]/section[@class="topBar affix"]/div[@class="col-md-6"]/ul[@class="acntLog"]/li[@class="dropdown"]/a[@class="dropdown-toggle"]/span[@class="glyphicon glyphicon-user pull-right userID"]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-05 16:52:40 - [TEST_SUITE][FAILED] - StaffUserLogin: Test Cases/CRM/URM/StaffUserlogin FAILED because (of) Unable to click on object 'Object Repository/UserLogin/Page_/span_glyphicon glyphicon-user' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/UserLogin/Page_/span_glyphicon glyphicon-user' located by 'By.xpath: /html[1]/body[@class="drawer drawer--left darkBG drawer-close"]/div[3]/main[1]/section[@class="item"]/section[@class="topBar affix"]/div[@class="col-md-6"]/ul[@class="acntLog"]/li[@class="dropdown"]/a[@class="dropdown-toggle"]/span[@class="glyphicon glyphicon-user pull-right userID"]' not found)]]></system-out>
+      <system-err><![CDATA[2018-09-05 16:52:40 - [TEST_SUITE][FAILED] - StaffUserLogin: Test Cases/CRM/URM/StaffUserlogin FAILED because (of) Unable to click on object 'Object Repository/UserLogin/Page_/span_glyphicon glyphicon-user' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/UserLogin/Page_/span_glyphicon glyphicon-user' located by 'By.xpath: /html[1]/body[@class="drawer drawer--left darkBG drawer-close"]/div[3]/main[1]/section[@class="item"]/section[@class="topBar affix"]/div[@class="col-md-6"]/ul[@class="acntLog"]/li[@class="dropdown"]/a[@class="dropdown-toggle"]/span[@class="glyphicon glyphicon-user pull-right userID"]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ViewAllBookingsCRM" time="92" tests="1" failures="0" errors="0">
+   <testsuite name="ViewAllBookingsCRM" tests="1" failures="0" errors="0" time="92" timestamp="2018-07-26 19:27:07" hostname="Avishek - DESKTOP-UNOIIMH" id="Test Suites/Demo/ViewAllBookingsCRM">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\Demo\\ViewAllBookingsCRM\\20180726_192704"/>
+         <property name="logFiles" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\Demo\\ViewAllBookingsCRM\\20180726_192704\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Avishek - DESKTOP-UNOIIMH"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="172.16.10.89"/>
+         <property name="sessionId" value="8008ef07b54d7c83d56192001c5524f7"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Demo/ViewAllBookingsCRM" classname="Test Cases/Demo/ViewAllBookingsCRM" status="PASSED">
+         <system-out><![CDATA[2018-07-26 19:27:08 - [TEST_CASE][PASSED] - Test Cases/Demo/ViewAllBookingsCRM: Test Cases/Demo/ViewAllBookingsCRM
+
+2018-07-26 19:27:09 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-26 19:27:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-26 19:27:16 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://172.16.20.5:93/' successfully
+
+2018-07-26 19:27:18 - [MESSAGE][PASSED] - Navigate to 'http://172.16.20.5:93/' successfully
+
+2018-07-26 19:27:18 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-26 19:27:20 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-26 19:27:20 - [TEST_STEP][PASSED] - setText: Text 'avishek101@mailinator.com' is set on object 'Object Repository/Page_JobyCo/input_ctl00ContentPlaceHolder1 (3)'
+
+2018-07-26 19:27:25 - [MESSAGE][PASSED] - Text 'avishek101@mailinator.com' is set on object 'Object Repository/Page_JobyCo/input_ctl00ContentPlaceHolder1 (3)'
+
+2018-07-26 19:27:25 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_JobyCo/input_ctl00ContentPlaceHolder1_1 (2)'
+
+2018-07-26 19:27:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_JobyCo/input_ctl00ContentPlaceHolder1_1 (2)'
+
+2018-07-26 19:27:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_JobyCo/input_ctl00ContentPlaceHolder1_2 (2)' is clicked on
+
+2018-07-26 19:27:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JobyCo/input_ctl00ContentPlaceHolder1_2 (2)' is clicked on
+
+2018-07-26 19:27:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/button_toggle navigation (4)' is clicked on
+
+2018-07-26 19:27:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_toggle navigation (4)' is clicked on
+
+2018-07-26 19:27:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/a_Booking (1)' is clicked on
+
+2018-07-26 19:27:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/a_Booking (1)' is clicked on
+
+2018-07-26 19:27:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/a_View All Bookings (1)' is clicked on
+
+2018-07-26 19:27:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/a_View All Bookings (1)' is clicked on
+
+2018-07-26 19:27:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/a_JBCO000000144' is clicked on
+
+2018-07-26 19:27:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/a_JBCO000000144' is clicked on
+
+2018-07-26 19:27:40 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-26 19:27:42 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-26 19:27:42 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page_/button_ (1)' is hovered
+
+2018-07-26 19:27:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_ (1)' is hovered
+
+2018-07-26 19:27:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/button_ (1)' is clicked on
+
+2018-07-26 19:27:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_ (1)' is clicked on
+
+2018-07-26 19:27:47 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-26 19:27:49 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-26 19:27:49 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Page_/a_2' successfully
+
+2018-07-26 19:27:51 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_/a_2' successfully
+
+2018-07-26 19:27:51 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page_/a_2' is hovered
+
+2018-07-26 19:27:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/a_2' is hovered
+
+2018-07-26 19:27:54 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-26 19:27:57 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-26 19:27:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/a_2' is clicked on
+
+2018-07-26 19:27:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/a_2' is clicked on
+
+2018-07-26 19:27:59 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/ObjectViewBookingsCRM/Page_/a_JBCO000000135), 10) == true): Object: 'Object Repository/ObjectViewBookingsCRM/Page_/button_' is clicked on
+
+2018-07-26 19:28:00 - [MESSAGE][PASSED] - Object 'Object Repository/ObjectViewBookingsCRM/Page_/a_JBCO000000135' is present
+
+2018-07-26 19:28:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ObjectViewBookingsCRM/Page_/a_JBCO000000135' is clicked on
+
+2018-07-26 19:28:02 - [MESSAGE][PASSED] - Object: 'Object Repository/ObjectViewBookingsCRM/Page_/a_JBCO000000135' is clicked on
+
+2018-07-26 19:28:02 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-26 19:28:04 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-26 19:28:04 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/ObjectViewBookingsCRM/Page_/button_' is hovered
+
+2018-07-26 19:28:07 - [MESSAGE][PASSED] - Object: 'Object Repository/ObjectViewBookingsCRM/Page_/button_' is hovered
+
+2018-07-26 19:28:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ObjectViewBookingsCRM/Page_/button_' is clicked on
+
+2018-07-26 19:28:09 - [MESSAGE][PASSED] - Object: 'Object Repository/ObjectViewBookingsCRM/Page_/button_' is clicked on
+
+2018-07-26 19:28:09 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-26 19:28:11 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-26 19:28:11 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/ObjectViewBookingsCRM/Page_/a_5' successfully
+
+2018-07-26 19:28:13 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ObjectViewBookingsCRM/Page_/a_5' successfully
+
+2018-07-26 19:28:13 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/ObjectViewBookingsCRM/Page_/a_5' is hovered
+
+2018-07-26 19:28:16 - [MESSAGE][PASSED] - Object: 'Object Repository/ObjectViewBookingsCRM/Page_/a_5' is hovered
+
+2018-07-26 19:28:16 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-26 19:28:18 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-26 19:28:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ObjectViewBookingsCRM/Page_/a_5' is clicked on
+
+2018-07-26 19:28:20 - [MESSAGE][PASSED] - Object: 'Object Repository/ObjectViewBookingsCRM/Page_/a_5' is clicked on
+
+2018-07-26 19:28:20 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/ObjectViewBookingsCRM/Page_/a_JBCO000000115), 10) == true): Object: 'Object Repository/ObjectViewBookingsCRM/Page_/button_' is clicked on
+
+2018-07-26 19:28:21 - [MESSAGE][PASSED] - Object 'Object Repository/ObjectViewBookingsCRM/Page_/a_JBCO000000115' is present
+
+2018-07-26 19:28:21 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/ObjectAddBookingCRM/Page_/Page_/input_ctl00ContentPlaceHolder1' successfully
+
+2018-07-26 19:28:23 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ObjectAddBookingCRM/Page_/Page_/input_ctl00ContentPlaceHolder1' successfully
+
+2018-07-26 19:28:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ObjectViewBookingsCRM/Page_/a_JBCO000000115' is clicked on
+
+2018-07-26 19:28:26 - [MESSAGE][PASSED] - Object: 'Object Repository/ObjectViewBookingsCRM/Page_/a_JBCO000000115' is clicked on
+
+2018-07-26 19:28:26 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-26 19:28:28 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-26 19:28:28 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/ObjectViewBookingsCRM/Page_/button_' is hovered
+
+2018-07-26 19:28:31 - [MESSAGE][PASSED] - Object: 'Object Repository/ObjectViewBookingsCRM/Page_/button_' is hovered
+
+2018-07-26 19:28:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ObjectViewBookingsCRM/Page_/button_' is clicked on
+
+2018-07-26 19:28:33 - [MESSAGE][PASSED] - Object: 'Object Repository/ObjectViewBookingsCRM/Page_/button_' is clicked on
+
+2018-07-26 19:28:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/span_glyphicon glyphicon-user (4)' is clicked on
+
+2018-07-26 19:28:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/span_glyphicon glyphicon-user (4)' is clicked on
+
+2018-07-26 19:28:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/button_Sign Out (4)' is clicked on
+
+2018-07-26 19:28:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Sign Out (4)' is clicked on
+
+2018-07-26 19:28:37 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-26 19:28:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-26 19:27:07 - [TEST_SUITE][PASSED] - ViewAllBookingsCRM: Test Cases/Demo/ViewAllBookingsCRM]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

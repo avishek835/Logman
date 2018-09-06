@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="MultipleSignUp" time="117" tests="1" failures="0" errors="0">
+   <testsuite name="MultipleSignUp" tests="1" failures="0" errors="0" time="117" timestamp="2018-07-10 19:32:49" hostname="Avishek - DESKTOP-UNOIIMH" id="Test Suites/Demo/MultipleSignUp">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\Demo\\MultipleSignUp\\20180710_193246"/>
+         <property name="logFiles" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\Demo\\MultipleSignUp\\20180710_193246\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Avishek - DESKTOP-UNOIIMH"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="172.16.10.93"/>
+         <property name="sessionId" value="bee30bcc117b8722184c03f99f1bf8f6"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Demo/MultipleSignUp" classname="Test Cases/Demo/MultipleSignUp" status="PASSED">
+         <system-out><![CDATA[2018-07-10 19:32:49 - [TEST_CASE][PASSED] - Test Cases/Demo/MultipleSignUp: Test Cases/Demo/MultipleSignUp
+
+2018-07-10 19:32:50 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Demo/SignUp): Test data is internal data, reading internal data
+
+2018-07-10 19:32:50 - [TEST_STEP][PASSED] - Statement - For (def index : (0..(data.getRowNumbers() - 4))): Browser is closed
+
+2018-07-10 19:32:50 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-10 19:32:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-10 19:32:53 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://logmanproj.com/Login.aspx' successfully
+
+2018-07-10 19:33:01 - [MESSAGE][PASSED] - Navigate to 'http://logmanproj.com/Login.aspx' successfully
+
+2018-07-10 19:33:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/a_Sign Up' is clicked on
+
+2018-07-10 19:33:05 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/a_Sign Up' is clicked on
+
+2018-07-10 19:33:05 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-10 19:33:06 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-10 19:33:06 - [TEST_STEP][PASSED] - setText: Text 'Avishek' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-10 19:33:06 - [MESSAGE][PASSED] - Text 'Avishek' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-10 19:33:06 - [TEST_STEP][PASSED] - setText: Text 'avishek35@mailinator.com' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-10 19:33:06 - [MESSAGE][PASSED] - Text 'avishek35@mailinator.com' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-10 19:33:06 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_2'
+
+2018-07-10 19:33:07 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_2'
+
+2018-07-10 19:33:07 - [TEST_STEP][PASSED] - setText: Text '1234567890' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_phone'
+
+2018-07-10 19:33:07 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_phone'
+
+2018-07-10 19:33:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_3' is clicked on
+
+2018-07-10 19:33:07 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_3' is clicked on
+
+2018-07-10 19:33:07 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is hovered
+
+2018-07-10 19:33:07 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is hovered
+
+2018-07-10 19:33:07 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-10 19:33:13 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-10 19:33:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is clicked on
+
+2018-07-10 19:33:14 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is clicked on
+
+2018-07-10 19:33:14 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-10 19:33:14 - [MESSAGE][PASSED] - Browser is closed
+
+2018-07-10 19:33:14 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-10 19:33:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-10 19:33:16 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://logmanproj.com/Login.aspx' successfully
+
+2018-07-10 19:33:20 - [MESSAGE][PASSED] - Navigate to 'http://logmanproj.com/Login.aspx' successfully
+
+2018-07-10 19:33:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/a_Sign Up' is clicked on
+
+2018-07-10 19:33:23 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/a_Sign Up' is clicked on
+
+2018-07-10 19:33:23 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-10 19:33:25 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-10 19:33:25 - [TEST_STEP][PASSED] - setText: Text 'Avishek' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-10 19:33:25 - [MESSAGE][PASSED] - Text 'Avishek' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-10 19:33:25 - [TEST_STEP][PASSED] - setText: Text 'avishek36@mailinator.com' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-10 19:33:25 - [MESSAGE][PASSED] - Text 'avishek36@mailinator.com' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-10 19:33:25 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_2'
+
+2018-07-10 19:33:25 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_2'
+
+2018-07-10 19:33:25 - [TEST_STEP][PASSED] - setText: Text '1234567890' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_phone'
+
+2018-07-10 19:33:26 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_phone'
+
+2018-07-10 19:33:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_3' is clicked on
+
+2018-07-10 19:33:26 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_3' is clicked on
+
+2018-07-10 19:33:26 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is hovered
+
+2018-07-10 19:33:26 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is hovered
+
+2018-07-10 19:33:26 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-10 19:33:27 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-10 19:33:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is clicked on
+
+2018-07-10 19:33:27 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is clicked on
+
+2018-07-10 19:33:27 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-10 19:33:28 - [MESSAGE][PASSED] - Browser is closed
+
+2018-07-10 19:33:28 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-10 19:33:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-10 19:33:30 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://logmanproj.com/Login.aspx' successfully
+
+2018-07-10 19:33:33 - [MESSAGE][PASSED] - Navigate to 'http://logmanproj.com/Login.aspx' successfully
+
+2018-07-10 19:33:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/a_Sign Up' is clicked on
+
+2018-07-10 19:33:36 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/a_Sign Up' is clicked on
+
+2018-07-10 19:33:36 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-10 19:33:37 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-10 19:33:37 - [TEST_STEP][PASSED] - setText: Text 'Avishek' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-10 19:33:37 - [MESSAGE][PASSED] - Text 'Avishek' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-10 19:33:37 - [TEST_STEP][PASSED] - setText: Text 'avishek38@mailinator.com' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-10 19:33:38 - [MESSAGE][PASSED] - Text 'avishek38@mailinator.com' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-10 19:33:38 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_2'
+
+2018-07-10 19:33:38 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_2'
+
+2018-07-10 19:33:38 - [TEST_STEP][PASSED] - setText: Text '1234567890' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_phone'
+
+2018-07-10 19:33:38 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_phone'
+
+2018-07-10 19:33:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_3' is clicked on
+
+2018-07-10 19:33:38 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_3' is clicked on
+
+2018-07-10 19:33:38 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is hovered
+
+2018-07-10 19:33:38 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is hovered
+
+2018-07-10 19:33:38 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-10 19:33:39 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-10 19:33:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is clicked on
+
+2018-07-10 19:33:39 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is clicked on
+
+2018-07-10 19:33:39 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-10 19:33:40 - [MESSAGE][PASSED] - Browser is closed
+
+2018-07-10 19:33:40 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-10 19:33:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-10 19:33:42 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://logmanproj.com/Login.aspx' successfully
+
+2018-07-10 19:33:46 - [MESSAGE][PASSED] - Navigate to 'http://logmanproj.com/Login.aspx' successfully
+
+2018-07-10 19:33:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/a_Sign Up' is clicked on
+
+2018-07-10 19:33:49 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/a_Sign Up' is clicked on
+
+2018-07-10 19:33:49 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-10 19:33:50 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-10 19:33:50 - [TEST_STEP][PASSED] - setText: Text 'Avishek' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-10 19:33:50 - [MESSAGE][PASSED] - Text 'Avishek' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-10 19:33:50 - [TEST_STEP][PASSED] - setText: Text 'avishek39@mailinator.com' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-10 19:33:51 - [MESSAGE][PASSED] - Text 'avishek39@mailinator.com' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-10 19:33:51 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_2'
+
+2018-07-10 19:33:51 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_2'
+
+2018-07-10 19:33:51 - [TEST_STEP][PASSED] - setText: Text '1234567890' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_phone'
+
+2018-07-10 19:33:51 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_phone'
+
+2018-07-10 19:33:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_3' is clicked on
+
+2018-07-10 19:33:51 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_3' is clicked on
+
+2018-07-10 19:33:51 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is hovered
+
+2018-07-10 19:33:51 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is hovered
+
+2018-07-10 19:33:51 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-10 19:33:52 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-10 19:33:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is clicked on
+
+2018-07-10 19:33:52 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is clicked on
+
+2018-07-10 19:33:52 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-10 19:33:53 - [MESSAGE][PASSED] - Browser is closed
+
+2018-07-10 19:33:53 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-10 19:33:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-10 19:33:55 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://logmanproj.com/Login.aspx' successfully
+
+2018-07-10 19:33:58 - [MESSAGE][PASSED] - Navigate to 'http://logmanproj.com/Login.aspx' successfully
+
+2018-07-10 19:33:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/a_Sign Up' is clicked on
+
+2018-07-10 19:34:03 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/a_Sign Up' is clicked on
+
+2018-07-10 19:34:03 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-10 19:34:04 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-10 19:34:04 - [TEST_STEP][PASSED] - setText: Text 'Avishek' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-10 19:34:04 - [MESSAGE][PASSED] - Text 'Avishek' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-10 19:34:04 - [TEST_STEP][PASSED] - setText: Text 'avishek40@mailinator.com' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-10 19:34:04 - [MESSAGE][PASSED] - Text 'avishek40@mailinator.com' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-10 19:34:04 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_2'
+
+2018-07-10 19:34:05 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_2'
+
+2018-07-10 19:34:05 - [TEST_STEP][PASSED] - setText: Text '1234567890' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_phone'
+
+2018-07-10 19:34:05 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_phone'
+
+2018-07-10 19:34:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_3' is clicked on
+
+2018-07-10 19:34:05 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_3' is clicked on
+
+2018-07-10 19:34:05 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is hovered
+
+2018-07-10 19:34:05 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is hovered
+
+2018-07-10 19:34:05 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-10 19:34:06 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-10 19:34:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is clicked on
+
+2018-07-10 19:34:06 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is clicked on
+
+2018-07-10 19:34:06 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-10 19:34:07 - [MESSAGE][PASSED] - Browser is closed
+
+2018-07-10 19:34:07 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-10 19:34:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-10 19:34:09 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://logmanproj.com/Login.aspx' successfully
+
+2018-07-10 19:34:13 - [MESSAGE][PASSED] - Navigate to 'http://logmanproj.com/Login.aspx' successfully
+
+2018-07-10 19:34:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/a_Sign Up' is clicked on
+
+2018-07-10 19:34:16 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/a_Sign Up' is clicked on
+
+2018-07-10 19:34:16 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-10 19:34:17 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-10 19:34:17 - [TEST_STEP][PASSED] - setText: Text 'Avishek' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-10 19:34:17 - [MESSAGE][PASSED] - Text 'Avishek' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-10 19:34:17 - [TEST_STEP][PASSED] - setText: Text 'avishek41@mailinator.com' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-10 19:34:17 - [MESSAGE][PASSED] - Text 'avishek41@mailinator.com' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-10 19:34:17 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_2'
+
+2018-07-10 19:34:18 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_2'
+
+2018-07-10 19:34:18 - [TEST_STEP][PASSED] - setText: Text '1234567890' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_phone'
+
+2018-07-10 19:34:18 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_phone'
+
+2018-07-10 19:34:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_3' is clicked on
+
+2018-07-10 19:34:18 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_3' is clicked on
+
+2018-07-10 19:34:18 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is hovered
+
+2018-07-10 19:34:18 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is hovered
+
+2018-07-10 19:34:18 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-10 19:34:19 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-10 19:34:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is clicked on
+
+2018-07-10 19:34:19 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is clicked on
+
+2018-07-10 19:34:19 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-10 19:34:20 - [MESSAGE][PASSED] - Browser is closed
+
+2018-07-10 19:34:20 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-10 19:34:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-10 19:34:22 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://logmanproj.com/Login.aspx' successfully
+
+2018-07-10 19:34:26 - [MESSAGE][PASSED] - Navigate to 'http://logmanproj.com/Login.aspx' successfully
+
+2018-07-10 19:34:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/a_Sign Up' is clicked on
+
+2018-07-10 19:34:29 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/a_Sign Up' is clicked on
+
+2018-07-10 19:34:29 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-10 19:34:31 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-10 19:34:31 - [TEST_STEP][PASSED] - setText: Text 'Avishek' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-10 19:34:31 - [MESSAGE][PASSED] - Text 'Avishek' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-10 19:34:31 - [TEST_STEP][PASSED] - setText: Text 'avishek42@mailinator.com' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-10 19:34:31 - [MESSAGE][PASSED] - Text 'avishek42@mailinator.com' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-10 19:34:31 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_2'
+
+2018-07-10 19:34:31 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_2'
+
+2018-07-10 19:34:31 - [TEST_STEP][PASSED] - setText: Text '1234567890' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_phone'
+
+2018-07-10 19:34:32 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_phone'
+
+2018-07-10 19:34:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_3' is clicked on
+
+2018-07-10 19:34:32 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_3' is clicked on
+
+2018-07-10 19:34:32 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is hovered
+
+2018-07-10 19:34:32 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is hovered
+
+2018-07-10 19:34:32 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-10 19:34:33 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-10 19:34:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is clicked on
+
+2018-07-10 19:34:33 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is clicked on
+
+2018-07-10 19:34:33 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-10 19:34:34 - [MESSAGE][PASSED] - Browser is closed
+
+2018-07-10 19:34:34 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-10 19:34:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-10 19:34:36 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://logmanproj.com/Login.aspx' successfully
+
+2018-07-10 19:34:39 - [MESSAGE][PASSED] - Navigate to 'http://logmanproj.com/Login.aspx' successfully
+
+2018-07-10 19:34:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/a_Sign Up' is clicked on
+
+2018-07-10 19:34:43 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/a_Sign Up' is clicked on
+
+2018-07-10 19:34:43 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-10 19:34:44 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-10 19:34:44 - [TEST_STEP][PASSED] - setText: Text 'Avishek' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-10 19:34:44 - [MESSAGE][PASSED] - Text 'Avishek' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-10 19:34:44 - [TEST_STEP][PASSED] - setText: Text 'avishek43@mailinator.com' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-10 19:34:44 - [MESSAGE][PASSED] - Text 'avishek43@mailinator.com' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-10 19:34:44 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_2'
+
+2018-07-10 19:34:45 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_2'
+
+2018-07-10 19:34:45 - [TEST_STEP][PASSED] - setText: Text '1234567890' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_phone'
+
+2018-07-10 19:34:45 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_phone'
+
+2018-07-10 19:34:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_3' is clicked on
+
+2018-07-10 19:34:45 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_3' is clicked on
+
+2018-07-10 19:34:45 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is hovered
+
+2018-07-10 19:34:45 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is hovered
+
+2018-07-10 19:34:45 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-10 19:34:46 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-10 19:34:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is clicked on
+
+2018-07-10 19:34:46 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is clicked on
+
+2018-07-10 19:34:46 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-10 19:34:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-10 19:32:49 - [TEST_SUITE][PASSED] - MultipleSignUp: Test Cases/Demo/MultipleSignUp]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

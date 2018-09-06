@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AddAdministrator" time="13" tests="0" failures="1" errors="0">
+   <testsuite name="AddAdministrator" tests="0" failures="1" errors="0" time="13" timestamp="2018-09-05 16:42:05" hostname="Avishek - DESKTOP-UNOIIMH" id="Test Suites/CRM/URM/AddAdministrator">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\URM\\AddAdministrator\\20180905_163744"/>
+         <property name="logFiles" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\URM\\AddAdministrator\\20180905_163744\\execution0.log"/>
+         <property name="attachments" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\URM\\AddAdministrator\\20180905_163744\\1536145938140.png"/>
+         <property name="hostName" value="Avishek - DESKTOP-UNOIIMH"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.3.1"/>
+         <property name="browser" value="Firefox 61.0"/>
+         <property name="hostAddress" value="172.16.10.89"/>
+         <property name="sessionId" value="8c25fa93-b836-430f-91f3-a90ac3937fc5"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/CRM/URM/AddAdministrator" classname="Test Cases/CRM/URM/AddAdministrator" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/adduseradmin/Page_/button_toggle navigation' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element &lt;button class=&quot;drawer-toggle drawer-hamburger flash&quot; type=&quot;button&quot;> is not clickable at point (43.5,27) because another element &lt;div class=&quot;blockUI blockOverlay&quot;> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-UNOIIMH', ip: '172.16.10.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8892, moz:profile: C:\Users\Avishek\AppData\Lo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 8c25fa93-b836-430f-91f3-a90ac3937fc5)"/>
+         <system-out><![CDATA[2018-09-05 16:42:06 - [TEST_CASE][FAILED] - Test Cases/CRM/URM/AddAdministrator: Test Cases/CRM/URM/AddAdministrator FAILED because (of) Unable to click on object 'Object Repository/adduseradmin/Page_/button_toggle navigation' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <button class="drawer-toggle drawer-hamburger flash" type="button"> is not clickable at point (43.5,27) because another element <div class="blockUI blockOverlay"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-UNOIIMH', ip: '172.16.10.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8892, moz:profile: C:\Users\Avishek\AppData\Lo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 8c25fa93-b836-430f-91f3-a90ac3937fc5)
+
+2018-09-05 16:42:06 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-05 16:42:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-05 16:42:13 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://172.16.20.5:93/' successfully
+
+2018-09-05 16:42:16 - [MESSAGE][PASSED] - Navigate to 'http://172.16.20.5:93/' successfully
+
+2018-09-05 16:42:16 - [TEST_STEP][PASSED] - setText: Text 'support@switch2web.com' is set on object 'Object Repository/adduseradmin/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-09-05 16:42:17 - [MESSAGE][PASSED] - Text 'support@switch2web.com' is set on object 'Object Repository/adduseradmin/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-09-05 16:42:17 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/adduseradmin/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-09-05 16:42:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/adduseradmin/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-09-05 16:42:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/adduseradmin/Page_JobyCo/input_ctl00ContentPlaceHolder1_2' is clicked on
+
+2018-09-05 16:42:17 - [MESSAGE][PASSED] - Object: 'Object Repository/adduseradmin/Page_JobyCo/input_ctl00ContentPlaceHolder1_2' is clicked on
+
+2018-09-05 16:42:17 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-09-05 16:42:18 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-09-05 16:42:18 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-09-05 16:42:18 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-09-05 16:42:18 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/adduseradmin/Page_/button_toggle navigation' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <button class="drawer-toggle drawer-hamburger flash" type="button"> is not clickable at point (43.5,27) because another element <div class="blockUI blockOverlay"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-UNOIIMH', ip: '172.16.10.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8892, moz:profile: C:\Users\Avishek\AppData\Lo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 8c25fa93-b836-430f-91f3-a90ac3937fc5)
+
+2018-09-05 16:42:18 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/adduseradmin/Page_/button_toggle navigation' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <button class="drawer-toggle drawer-hamburger flash" type="button"> is not clickable at point (43.5,27) because another element <div class="blockUI blockOverlay"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-UNOIIMH', ip: '172.16.10.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8892, moz:profile: C:\Users\Avishek\AppData\Lo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 8c25fa93-b836-430f-91f3-a90ac3937fc5)
+[[ATTACHMENT|E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\URM\\AddAdministrator\\20180905_163744\\1536145938140.png]]]]></system-out>
+         <system-err><![CDATA[2018-09-05 16:42:06 - [TEST_CASE][FAILED] - Test Cases/CRM/URM/AddAdministrator: Test Cases/CRM/URM/AddAdministrator FAILED because (of) Unable to click on object 'Object Repository/adduseradmin/Page_/button_toggle navigation' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <button class="drawer-toggle drawer-hamburger flash" type="button"> is not clickable at point (43.5,27) because another element <div class="blockUI blockOverlay"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-UNOIIMH', ip: '172.16.10.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8892, moz:profile: C:\Users\Avishek\AppData\Lo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 8c25fa93-b836-430f-91f3-a90ac3937fc5)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-05 16:42:05 - [TEST_SUITE][FAILED] - AddAdministrator: Test Cases/CRM/URM/AddAdministrator FAILED because (of) Unable to click on object 'Object Repository/adduseradmin/Page_/button_toggle navigation' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <button class="drawer-toggle drawer-hamburger flash" type="button"> is not clickable at point (43.5,27) because another element <div class="blockUI blockOverlay"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-UNOIIMH', ip: '172.16.10.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8892, moz:profile: C:\Users\Avishek\AppData\Lo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 8c25fa93-b836-430f-91f3-a90ac3937fc5)]]></system-out>
+      <system-err><![CDATA[2018-09-05 16:42:05 - [TEST_SUITE][FAILED] - AddAdministrator: Test Cases/CRM/URM/AddAdministrator FAILED because (of) Unable to click on object 'Object Repository/adduseradmin/Page_/button_toggle navigation' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <button class="drawer-toggle drawer-hamburger flash" type="button"> is not clickable at point (43.5,27) because another element <div class="blockUI blockOverlay"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-UNOIIMH', ip: '172.16.10.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8892, moz:profile: C:\Users\Avishek\AppData\Lo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 8c25fa93-b836-430f-91f3-a90ac3937fc5)]]></system-err>
+   </testsuite>
+</testsuites>

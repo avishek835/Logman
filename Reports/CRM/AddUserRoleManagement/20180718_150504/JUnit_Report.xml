@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AddUserRoleManagement" time="118" tests="1" failures="0" errors="0">
+   <testsuite name="AddUserRoleManagement" tests="1" failures="0" errors="0" time="118" timestamp="2018-07-18 15:05:07" hostname="Avishek - DESKTOP-UNOIIMH" id="Test Suites/CRM/AddUserRoleManagement">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\AddUserRoleManagement\\20180718_150504"/>
+         <property name="logFiles" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\AddUserRoleManagement\\20180718_150504\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Avishek - DESKTOP-UNOIIMH"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="172.16.10.156"/>
+         <property name="sessionId" value="482c4cf008bedf5dd7784e150ba60883"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/CRM/AddUserRoleManagment" classname="Test Cases/CRM/AddUserRoleManagment" status="PASSED">
+         <system-out><![CDATA[2018-07-18 15:05:08 - [TEST_CASE][PASSED] - Test Cases/CRM/AddUserRoleManagment: Test Cases/CRM/AddUserRoleManagment
+
+2018-07-18 15:05:09 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-18 15:05:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-18 15:05:14 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://portal.logmanproj.com/Login.aspx' successfully
+
+2018-07-18 15:05:25 - [MESSAGE][PASSED] - Navigate to 'http://portal.logmanproj.com/Login.aspx' successfully
+
+2018-07-18 15:05:25 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-18 15:05:26 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-18 15:05:26 - [TEST_STEP][PASSED] - setText: Text 'tom@alter.com' is set on object 'Object Repository/Page_JobyCo/input_ctl00ContentPlaceHolder1 (1)'
+
+2018-07-18 15:05:26 - [MESSAGE][PASSED] - Text 'tom@alter.com' is set on object 'Object Repository/Page_JobyCo/input_ctl00ContentPlaceHolder1 (1)'
+
+2018-07-18 15:05:26 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-18 15:05:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-18 15:05:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_JobyCo/input_ctl00ContentPlaceHolder1_2' is clicked on
+
+2018-07-18 15:05:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JobyCo/input_ctl00ContentPlaceHolder1_2' is clicked on
+
+2018-07-18 15:05:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/button_toggle navigation (2)' is clicked on
+
+2018-07-18 15:05:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_toggle navigation (2)' is clicked on
+
+2018-07-18 15:05:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/a_User' is clicked on
+
+2018-07-18 15:05:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/a_User' is clicked on
+
+2018-07-18 15:05:31 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-18 15:05:31 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-18 15:05:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/a_View All Users' is clicked on
+
+2018-07-18 15:05:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/a_View All Users' is clicked on
+
+2018-07-18 15:05:34 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-18 15:05:36 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-18 15:05:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/input_ctl00ContentPlaceHolder1 (2)' is clicked on
+
+2018-07-18 15:05:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/input_ctl00ContentPlaceHolder1 (2)' is clicked on
+
+2018-07-18 15:05:37 - [TEST_STEP][PASSED] - setText: Text 'avishek136@mailinator.com' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_1 (2)'
+
+2018-07-18 15:05:37 - [MESSAGE][PASSED] - Text 'avishek136@mailinator.com' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_1 (2)'
+
+2018-07-18 15:05:37 - [TEST_STEP][PASSED] - setText: Text 'avishek136@mailinator.com' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_2 (2)'
+
+2018-07-18 15:05:38 - [MESSAGE][PASSED] - Text 'avishek136@mailinator.com' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_2 (2)'
+
+2018-07-18 15:05:38 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_3 (1)'
+
+2018-07-18 15:05:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_3 (1)'
+
+2018-07-18 15:05:38 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_4'
+
+2018-07-18 15:05:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_4'
+
+2018-07-18 15:05:38 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/Page_/select_Select TitleMrMrsMissMs'  using regular expression
+
+2018-07-18 15:05:39 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page_/select_Select TitleMrMrsMissMs'  using regular expression
+
+2018-07-18 15:05:39 - [TEST_STEP][PASSED] - setText: Text 'AvishekSixteen' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_5'
+
+2018-07-18 15:05:39 - [MESSAGE][PASSED] - Text 'AvishekSixteen' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_5'
+
+2018-07-18 15:05:39 - [TEST_STEP][PASSED] - setText: Text 'Mailinator' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_6'
+
+2018-07-18 15:05:39 - [MESSAGE][PASSED] - Text 'Mailinator' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_6'
+
+2018-07-18 15:05:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/RoleObjectCapture/Page_/input_ctl00ContentPlaceHolder1' is clicked on
+
+2018-07-18 15:05:39 - [MESSAGE][PASSED] - Object: 'Object Repository/RoleObjectCapture/Page_/input_ctl00ContentPlaceHolder1' is clicked on
+
+2018-07-18 15:05:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/RoleObjectCapture/Page_/Page_/th_July 2018' is clicked on
+
+2018-07-18 15:05:40 - [MESSAGE][PASSED] - Object: 'Object Repository/RoleObjectCapture/Page_/Page_/th_July 2018' is clicked on
+
+2018-07-18 15:05:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/RoleObjectCapture/Page_/Page_/th_2018' is clicked on
+
+2018-07-18 15:05:40 - [MESSAGE][PASSED] - Object: 'Object Repository/RoleObjectCapture/Page_/Page_/th_2018' is clicked on
+
+2018-07-18 15:05:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/th_' is clicked on
+
+2018-07-18 15:05:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/th_' is clicked on
+
+2018-07-18 15:05:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/th_' is clicked on
+
+2018-07-18 15:05:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/th_' is clicked on
+
+2018-07-18 15:05:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/th_' is clicked on
+
+2018-07-18 15:05:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/th_' is clicked on
+
+2018-07-18 15:05:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/span_1985' is clicked on
+
+2018-07-18 15:05:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/span_1985' is clicked on
+
+2018-07-18 15:05:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/span_Aug' is clicked on
+
+2018-07-18 15:05:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/span_Aug' is clicked on
+
+2018-07-18 15:05:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/td_23' is clicked on
+
+2018-07-18 15:05:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/td_23' is clicked on
+
+2018-07-18 15:05:40 - [TEST_STEP][PASSED] - setText: Text 'Kolkata' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_7'
+
+2018-07-18 15:05:41 - [MESSAGE][PASSED] - Text 'Kolkata' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_7'
+
+2018-07-18 15:05:41 - [TEST_STEP][PASSED] - setText: Text 'Kolkata' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_8'
+
+2018-07-18 15:05:41 - [MESSAGE][PASSED] - Text 'Kolkata' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_8'
+
+2018-07-18 15:05:41 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '156' are selected in object 'Object Repository/Page_/select_Select CountryAfghanist'  using regular expression
+
+2018-07-18 15:05:45 - [MESSAGE][PASSED] - All options with value '156' are selected in object 'Object Repository/Page_/select_Select CountryAfghanist'  using regular expression
+
+2018-07-18 15:05:45 - [TEST_STEP][PASSED] - setText: Text '1245789865' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_9'
+
+2018-07-18 15:05:45 - [MESSAGE][PASSED] - Text '1245789865' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_9'
+
+2018-07-18 15:05:45 - [TEST_STEP][PASSED] - setText: Text 'pet name' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_10'
+
+2018-07-18 15:05:45 - [MESSAGE][PASSED] - Text 'pet name' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_10'
+
+2018-07-18 15:05:45 - [TEST_STEP][PASSED] - setText: Text 'taffy' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_11'
+
+2018-07-18 15:05:45 - [MESSAGE][PASSED] - Text 'taffy' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_11'
+
+2018-07-18 15:05:45 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '7' are selected in object 'Object Repository/Page_/select_Select RoleSuperAdminAd'  using regular expression
+
+2018-07-18 15:05:46 - [MESSAGE][PASSED] - All options with value '7' are selected in object 'Object Repository/Page_/select_Select RoleSuperAdminAd'  using regular expression
+
+2018-07-18 15:05:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_12' is clicked on
+
+2018-07-18 15:05:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_12' is clicked on
+
+2018-07-18 15:05:46 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-18 15:05:46 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-18 15:05:46 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-18 15:05:50 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-18 15:05:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/input_ctl00ContentPlaceHolder1 (2)' is clicked on
+
+2018-07-18 15:05:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/input_ctl00ContentPlaceHolder1 (2)' is clicked on
+
+2018-07-18 15:05:50 - [TEST_STEP][PASSED] - setText: Text 'avishek137@mailinator.com' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_1 (2)'
+
+2018-07-18 15:05:51 - [MESSAGE][PASSED] - Text 'avishek137@mailinator.com' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_1 (2)'
+
+2018-07-18 15:05:51 - [TEST_STEP][PASSED] - setText: Text 'avishek137@mailinator.com' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_2 (2)'
+
+2018-07-18 15:05:51 - [MESSAGE][PASSED] - Text 'avishek137@mailinator.com' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_2 (2)'
+
+2018-07-18 15:05:51 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_3 (1)'
+
+2018-07-18 15:05:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_3 (1)'
+
+2018-07-18 15:05:51 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_4'
+
+2018-07-18 15:05:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_4'
+
+2018-07-18 15:05:52 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/Page_/select_Select TitleMrMrsMissMs'  using regular expression
+
+2018-07-18 15:05:52 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page_/select_Select TitleMrMrsMissMs'  using regular expression
+
+2018-07-18 15:05:52 - [TEST_STEP][PASSED] - setText: Text 'Avishekhundredeight' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_5'
+
+2018-07-18 15:05:52 - [MESSAGE][PASSED] - Text 'Avishekhundredeight' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_5'
+
+2018-07-18 15:05:52 - [TEST_STEP][PASSED] - setText: Text 'Mailinator' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_6'
+
+2018-07-18 15:05:52 - [MESSAGE][PASSED] - Text 'Mailinator' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_6'
+
+2018-07-18 15:05:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/RoleObjectCapture/Page_/input_ctl00ContentPlaceHolder1' is clicked on
+
+2018-07-18 15:05:53 - [MESSAGE][PASSED] - Object: 'Object Repository/RoleObjectCapture/Page_/input_ctl00ContentPlaceHolder1' is clicked on
+
+2018-07-18 15:05:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/RoleObjectCapture/Page_/Page_/th_July 2018' is clicked on
+
+2018-07-18 15:05:53 - [MESSAGE][PASSED] - Object: 'Object Repository/RoleObjectCapture/Page_/Page_/th_July 2018' is clicked on
+
+2018-07-18 15:05:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/th_2018' is clicked on
+
+2018-07-18 15:05:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/th_2018' is clicked on
+
+2018-07-18 15:05:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/th_' is clicked on
+
+2018-07-18 15:05:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/th_' is clicked on
+
+2018-07-18 15:05:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/th_' is clicked on
+
+2018-07-18 15:05:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/th_' is clicked on
+
+2018-07-18 15:05:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/th_' is clicked on
+
+2018-07-18 15:05:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/th_' is clicked on
+
+2018-07-18 15:05:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/span_1985' is clicked on
+
+2018-07-18 15:05:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/span_1985' is clicked on
+
+2018-07-18 15:05:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/span_Aug' is clicked on
+
+2018-07-18 15:05:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/span_Aug' is clicked on
+
+2018-07-18 15:05:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/td_23' is clicked on
+
+2018-07-18 15:05:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/td_23' is clicked on
+
+2018-07-18 15:05:54 - [TEST_STEP][PASSED] - setText: Text 'Kolkata' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_7'
+
+2018-07-18 15:05:54 - [MESSAGE][PASSED] - Text 'Kolkata' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_7'
+
+2018-07-18 15:05:54 - [TEST_STEP][PASSED] - setText: Text 'Kolkata' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_8'
+
+2018-07-18 15:05:54 - [MESSAGE][PASSED] - Text 'Kolkata' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_8'
+
+2018-07-18 15:05:54 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '156' are selected in object 'Object Repository/Page_/select_Select CountryAfghanist'  using regular expression
+
+2018-07-18 15:05:58 - [MESSAGE][PASSED] - All options with value '156' are selected in object 'Object Repository/Page_/select_Select CountryAfghanist'  using regular expression
+
+2018-07-18 15:05:58 - [TEST_STEP][PASSED] - setText: Text '9874563210' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_9'
+
+2018-07-18 15:05:58 - [MESSAGE][PASSED] - Text '9874563210' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_9'
+
+2018-07-18 15:05:58 - [TEST_STEP][PASSED] - setText: Text 'pet name' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_10'
+
+2018-07-18 15:05:58 - [MESSAGE][PASSED] - Text 'pet name' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_10'
+
+2018-07-18 15:05:58 - [TEST_STEP][PASSED] - setText: Text 'taffy' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_11'
+
+2018-07-18 15:05:58 - [MESSAGE][PASSED] - Text 'taffy' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_11'
+
+2018-07-18 15:05:58 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '8' are selected in object 'Object Repository/Page_/select_Select RoleSuperAdminAd'  using regular expression
+
+2018-07-18 15:05:59 - [MESSAGE][PASSED] - All options with value '8' are selected in object 'Object Repository/Page_/select_Select RoleSuperAdminAd'  using regular expression
+
+2018-07-18 15:05:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_12' is clicked on
+
+2018-07-18 15:05:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_12' is clicked on
+
+2018-07-18 15:05:59 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-18 15:05:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-18 15:05:59 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-18 15:06:02 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-18 15:06:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/input_ctl00ContentPlaceHolder1 (2)' is clicked on
+
+2018-07-18 15:06:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/input_ctl00ContentPlaceHolder1 (2)' is clicked on
+
+2018-07-18 15:06:03 - [TEST_STEP][PASSED] - setText: Text 'avishek138@mailinator.com' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_1 (2)'
+
+2018-07-18 15:06:03 - [MESSAGE][PASSED] - Text 'avishek138@mailinator.com' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_1 (2)'
+
+2018-07-18 15:06:03 - [TEST_STEP][PASSED] - setText: Text 'avishek138@mailinator.com' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_2 (2)'
+
+2018-07-18 15:06:04 - [MESSAGE][PASSED] - Text 'avishek138@mailinator.com' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_2 (2)'
+
+2018-07-18 15:06:04 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_3 (1)'
+
+2018-07-18 15:06:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_3 (1)'
+
+2018-07-18 15:06:04 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_4'
+
+2018-07-18 15:06:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_4'
+
+2018-07-18 15:06:05 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '5' are selected in object 'Object Repository/Page_/select_Select TitleMrMrsMissMs'  using regular expression
+
+2018-07-18 15:06:05 - [MESSAGE][PASSED] - All options with value '5' are selected in object 'Object Repository/Page_/select_Select TitleMrMrsMissMs'  using regular expression
+
+2018-07-18 15:06:05 - [TEST_STEP][PASSED] - setText: Text 'Avishekhundrednine' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_5'
+
+2018-07-18 15:06:06 - [MESSAGE][PASSED] - Text 'Avishekhundrednine' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_5'
+
+2018-07-18 15:06:06 - [TEST_STEP][PASSED] - setText: Text 'mailinatorcom' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_6'
+
+2018-07-18 15:06:06 - [MESSAGE][PASSED] - Text 'mailinatorcom' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_6'
+
+2018-07-18 15:06:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/RoleObjectCapture/Page_/input_ctl00ContentPlaceHolder1' is clicked on
+
+2018-07-18 15:06:06 - [MESSAGE][PASSED] - Object: 'Object Repository/RoleObjectCapture/Page_/input_ctl00ContentPlaceHolder1' is clicked on
+
+2018-07-18 15:06:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/RoleObjectCapture/Page_/Page_/th_July 2018' is clicked on
+
+2018-07-18 15:06:06 - [MESSAGE][PASSED] - Object: 'Object Repository/RoleObjectCapture/Page_/Page_/th_July 2018' is clicked on
+
+2018-07-18 15:06:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/th_2018' is clicked on
+
+2018-07-18 15:06:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/th_2018' is clicked on
+
+2018-07-18 15:06:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/th_' is clicked on
+
+2018-07-18 15:06:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/th_' is clicked on
+
+2018-07-18 15:06:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/th_' is clicked on
+
+2018-07-18 15:06:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/th_' is clicked on
+
+2018-07-18 15:06:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/th_' is clicked on
+
+2018-07-18 15:06:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/th_' is clicked on
+
+2018-07-18 15:06:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/span_1985' is clicked on
+
+2018-07-18 15:06:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/span_1985' is clicked on
+
+2018-07-18 15:06:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/span_Jul' is clicked on
+
+2018-07-18 15:06:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/span_Jul' is clicked on
+
+2018-07-18 15:06:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/td_16' is clicked on
+
+2018-07-18 15:06:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/td_16' is clicked on
+
+2018-07-18 15:06:08 - [TEST_STEP][PASSED] - setText: Text 'Kolkata' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_7'
+
+2018-07-18 15:06:08 - [MESSAGE][PASSED] - Text 'Kolkata' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_7'
+
+2018-07-18 15:06:08 - [TEST_STEP][PASSED] - setText: Text 'Kolkata' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_8'
+
+2018-07-18 15:06:08 - [MESSAGE][PASSED] - Text 'Kolkata' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_8'
+
+2018-07-18 15:06:08 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '156' are selected in object 'Object Repository/Page_/select_Select CountryAfghanist'  using regular expression
+
+2018-07-18 15:06:12 - [MESSAGE][PASSED] - All options with value '156' are selected in object 'Object Repository/Page_/select_Select CountryAfghanist'  using regular expression
+
+2018-07-18 15:06:12 - [TEST_STEP][PASSED] - setText: Text '9515945635' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_9'
+
+2018-07-18 15:06:13 - [MESSAGE][PASSED] - Text '9515945635' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_9'
+
+2018-07-18 15:06:13 - [TEST_STEP][PASSED] - setText: Text 'pet name' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_10'
+
+2018-07-18 15:06:13 - [MESSAGE][PASSED] - Text 'pet name' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_10'
+
+2018-07-18 15:06:13 - [TEST_STEP][PASSED] - setText: Text 'taffy' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_11'
+
+2018-07-18 15:06:13 - [MESSAGE][PASSED] - Text 'taffy' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_11'
+
+2018-07-18 15:06:13 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '9' are selected in object 'Object Repository/Page_/select_Select RoleSuperAdminAd'  using regular expression
+
+2018-07-18 15:06:13 - [MESSAGE][PASSED] - All options with value '9' are selected in object 'Object Repository/Page_/select_Select RoleSuperAdminAd'  using regular expression
+
+2018-07-18 15:06:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_12' is clicked on
+
+2018-07-18 15:06:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_12' is clicked on
+
+2018-07-18 15:06:14 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-18 15:06:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-18 15:06:14 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-18 15:06:17 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-18 15:06:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/input_ctl00ContentPlaceHolder1 (2)' is clicked on
+
+2018-07-18 15:06:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/input_ctl00ContentPlaceHolder1 (2)' is clicked on
+
+2018-07-18 15:06:19 - [TEST_STEP][PASSED] - setText: Text 'avishek139@mailinator.com' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_1 (2)'
+
+2018-07-18 15:06:19 - [MESSAGE][PASSED] - Text 'avishek139@mailinator.com' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_1 (2)'
+
+2018-07-18 15:06:19 - [TEST_STEP][PASSED] - setText: Text 'avishek139@mailinator.com' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_2 (2)'
+
+2018-07-18 15:06:20 - [MESSAGE][PASSED] - Text 'avishek139@mailinator.com' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_2 (2)'
+
+2018-07-18 15:06:20 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_3 (1)'
+
+2018-07-18 15:06:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_3 (1)'
+
+2018-07-18 15:06:20 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_4'
+
+2018-07-18 15:06:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_4'
+
+2018-07-18 15:06:20 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/Page_/select_Select TitleMrMrsMissMs'  using regular expression
+
+2018-07-18 15:06:20 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page_/select_Select TitleMrMrsMissMs'  using regular expression
+
+2018-07-18 15:06:20 - [TEST_STEP][PASSED] - setText: Text 'Avishekhundredten' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_5'
+
+2018-07-18 15:06:21 - [MESSAGE][PASSED] - Text 'Avishekhundredten' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_5'
+
+2018-07-18 15:06:21 - [TEST_STEP][PASSED] - setText: Text 'mailinator' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_6'
+
+2018-07-18 15:06:21 - [MESSAGE][PASSED] - Text 'mailinator' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_6'
+
+2018-07-18 15:06:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/RoleObjectCapture/Page_/input_ctl00ContentPlaceHolder1' is clicked on
+
+2018-07-18 15:06:21 - [MESSAGE][PASSED] - Object: 'Object Repository/RoleObjectCapture/Page_/input_ctl00ContentPlaceHolder1' is clicked on
+
+2018-07-18 15:06:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/RoleObjectCapture/Page_/Page_/th_July 2018' is clicked on
+
+2018-07-18 15:06:21 - [MESSAGE][PASSED] - Object: 'Object Repository/RoleObjectCapture/Page_/Page_/th_July 2018' is clicked on
+
+2018-07-18 15:06:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/th_2018' is clicked on
+
+2018-07-18 15:06:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/th_2018' is clicked on
+
+2018-07-18 15:06:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/th_' is clicked on
+
+2018-07-18 15:06:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/th_' is clicked on
+
+2018-07-18 15:06:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/th_' is clicked on
+
+2018-07-18 15:06:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/th_' is clicked on
+
+2018-07-18 15:06:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/th_' is clicked on
+
+2018-07-18 15:06:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/th_' is clicked on
+
+2018-07-18 15:06:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/span_1985' is clicked on
+
+2018-07-18 15:06:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/span_1985' is clicked on
+
+2018-07-18 15:06:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/span_Aug' is clicked on
+
+2018-07-18 15:06:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/span_Aug' is clicked on
+
+2018-07-18 15:06:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/td_6' is clicked on
+
+2018-07-18 15:06:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/td_6' is clicked on
+
+2018-07-18 15:06:22 - [TEST_STEP][PASSED] - setText: Text 'Kolkata' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_7'
+
+2018-07-18 15:06:23 - [MESSAGE][PASSED] - Text 'Kolkata' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_7'
+
+2018-07-18 15:06:23 - [TEST_STEP][PASSED] - setText: Text 'kolkata' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_8'
+
+2018-07-18 15:06:23 - [MESSAGE][PASSED] - Text 'kolkata' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_8'
+
+2018-07-18 15:06:23 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '156' are selected in object 'Object Repository/Page_/select_Select CountryAfghanist'  using regular expression
+
+2018-07-18 15:06:26 - [MESSAGE][PASSED] - All options with value '156' are selected in object 'Object Repository/Page_/select_Select CountryAfghanist'  using regular expression
+
+2018-07-18 15:06:26 - [TEST_STEP][PASSED] - setText: Text '5698745635' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_9'
+
+2018-07-18 15:06:27 - [MESSAGE][PASSED] - Text '5698745635' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_9'
+
+2018-07-18 15:06:27 - [TEST_STEP][PASSED] - setText: Text 'pet name' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_10'
+
+2018-07-18 15:06:27 - [MESSAGE][PASSED] - Text 'pet name' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_10'
+
+2018-07-18 15:06:27 - [TEST_STEP][PASSED] - setText: Text 'Taffy' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_11'
+
+2018-07-18 15:06:27 - [MESSAGE][PASSED] - Text 'Taffy' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_11'
+
+2018-07-18 15:06:27 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '10' are selected in object 'Object Repository/Page_/select_Select RoleSuperAdminAd'  using regular expression
+
+2018-07-18 15:06:27 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/Page_/select_Select RoleSuperAdminAd'  using regular expression
+
+2018-07-18 15:06:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_12' is clicked on
+
+2018-07-18 15:06:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_12' is clicked on
+
+2018-07-18 15:06:28 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-18 15:06:28 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-18 15:06:28 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-18 15:06:30 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-18 15:06:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/input_ctl00ContentPlaceHolder1 (2)' is clicked on
+
+2018-07-18 15:06:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/input_ctl00ContentPlaceHolder1 (2)' is clicked on
+
+2018-07-18 15:06:31 - [TEST_STEP][PASSED] - setText: Text 'avishek140@mailinator.com' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_1 (2)'
+
+2018-07-18 15:06:31 - [MESSAGE][PASSED] - Text 'avishek140@mailinator.com' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_1 (2)'
+
+2018-07-18 15:06:31 - [TEST_STEP][PASSED] - setText: Text 'avishek140@mailinator.com' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_2 (2)'
+
+2018-07-18 15:06:31 - [MESSAGE][PASSED] - Text 'avishek140@mailinator.com' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_2 (2)'
+
+2018-07-18 15:06:31 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_3 (1)'
+
+2018-07-18 15:06:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_3 (1)'
+
+2018-07-18 15:06:32 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_4'
+
+2018-07-18 15:06:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_4'
+
+2018-07-18 15:06:32 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '5' are selected in object 'Object Repository/Page_/select_Select TitleMrMrsMissMs'  using regular expression
+
+2018-07-18 15:06:32 - [MESSAGE][PASSED] - All options with value '5' are selected in object 'Object Repository/Page_/select_Select TitleMrMrsMissMs'  using regular expression
+
+2018-07-18 15:06:32 - [TEST_STEP][PASSED] - setText: Text 'Avishekhundredeleven' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_5'
+
+2018-07-18 15:06:32 - [MESSAGE][PASSED] - Text 'Avishekhundredeleven' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_5'
+
+2018-07-18 15:06:32 - [TEST_STEP][PASSED] - setText: Text 'Mailinator' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_6'
+
+2018-07-18 15:06:33 - [MESSAGE][PASSED] - Text 'Mailinator' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_6'
+
+2018-07-18 15:06:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/RoleObjectCapture/Page_/input_ctl00ContentPlaceHolder1' is clicked on
+
+2018-07-18 15:06:33 - [MESSAGE][PASSED] - Object: 'Object Repository/RoleObjectCapture/Page_/input_ctl00ContentPlaceHolder1' is clicked on
+
+2018-07-18 15:06:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/RoleObjectCapture/Page_/Page_/th_July 2018' is clicked on
+
+2018-07-18 15:06:33 - [MESSAGE][PASSED] - Object: 'Object Repository/RoleObjectCapture/Page_/Page_/th_July 2018' is clicked on
+
+2018-07-18 15:06:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/th_2018' is clicked on
+
+2018-07-18 15:06:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/th_2018' is clicked on
+
+2018-07-18 15:06:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/th_' is clicked on
+
+2018-07-18 15:06:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/th_' is clicked on
+
+2018-07-18 15:06:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/th_' is clicked on
+
+2018-07-18 15:06:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/th_' is clicked on
+
+2018-07-18 15:06:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/th_' is clicked on
+
+2018-07-18 15:06:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/th_' is clicked on
+
+2018-07-18 15:06:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/span_1985' is clicked on
+
+2018-07-18 15:06:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/span_1985' is clicked on
+
+2018-07-18 15:06:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/span_Aug' is clicked on
+
+2018-07-18 15:06:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/span_Aug' is clicked on
+
+2018-07-18 15:06:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/td_6' is clicked on
+
+2018-07-18 15:06:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/td_6' is clicked on
+
+2018-07-18 15:06:34 - [TEST_STEP][PASSED] - setText: Text 'Kolkata' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_7'
+
+2018-07-18 15:06:34 - [MESSAGE][PASSED] - Text 'Kolkata' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_7'
+
+2018-07-18 15:06:34 - [TEST_STEP][PASSED] - setText: Text 'kolkata' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_8'
+
+2018-07-18 15:06:34 - [MESSAGE][PASSED] - Text 'kolkata' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_8'
+
+2018-07-18 15:06:34 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '156' are selected in object 'Object Repository/Page_/select_Select CountryAfghanist'  using regular expression
+
+2018-07-18 15:06:37 - [MESSAGE][PASSED] - All options with value '156' are selected in object 'Object Repository/Page_/select_Select CountryAfghanist'  using regular expression
+
+2018-07-18 15:06:37 - [TEST_STEP][PASSED] - setText: Text '6598784522' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_9'
+
+2018-07-18 15:06:37 - [MESSAGE][PASSED] - Text '6598784522' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_9'
+
+2018-07-18 15:06:37 - [TEST_STEP][PASSED] - setText: Text 'Pet name' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_10'
+
+2018-07-18 15:06:38 - [MESSAGE][PASSED] - Text 'Pet name' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_10'
+
+2018-07-18 15:06:38 - [TEST_STEP][PASSED] - setText: Text 'taffy' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_11'
+
+2018-07-18 15:06:38 - [MESSAGE][PASSED] - Text 'taffy' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_11'
+
+2018-07-18 15:06:38 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '11' are selected in object 'Object Repository/Page_/select_Select RoleSuperAdminAd'  using regular expression
+
+2018-07-18 15:06:38 - [MESSAGE][PASSED] - All options with value '11' are selected in object 'Object Repository/Page_/select_Select RoleSuperAdminAd'  using regular expression
+
+2018-07-18 15:06:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_12' is clicked on
+
+2018-07-18 15:06:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_12' is clicked on
+
+2018-07-18 15:06:38 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-18 15:06:38 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-18 15:06:38 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-18 15:06:42 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-18 15:06:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/input_ctl00ContentPlaceHolder1 (2)' is clicked on
+
+2018-07-18 15:06:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/input_ctl00ContentPlaceHolder1 (2)' is clicked on
+
+2018-07-18 15:06:43 - [TEST_STEP][PASSED] - setText: Text 'avishek141@mailinator.com' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_1 (2)'
+
+2018-07-18 15:06:43 - [MESSAGE][PASSED] - Text 'avishek141@mailinator.com' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_1 (2)'
+
+2018-07-18 15:06:43 - [TEST_STEP][PASSED] - setText: Text 'avishek141@mailinator.com' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_2 (2)'
+
+2018-07-18 15:06:43 - [MESSAGE][PASSED] - Text 'avishek141@mailinator.com' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_2 (2)'
+
+2018-07-18 15:06:43 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_3 (1)'
+
+2018-07-18 15:06:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_3 (1)'
+
+2018-07-18 15:06:44 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_4'
+
+2018-07-18 15:06:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_4'
+
+2018-07-18 15:06:44 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/Page_/select_Select TitleMrMrsMissMs'  using regular expression
+
+2018-07-18 15:06:44 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page_/select_Select TitleMrMrsMissMs'  using regular expression
+
+2018-07-18 15:06:44 - [TEST_STEP][PASSED] - setText: Text 'Avishekhundredtweleve' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_5'
+
+2018-07-18 15:06:44 - [MESSAGE][PASSED] - Text 'Avishekhundredtweleve' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_5'
+
+2018-07-18 15:06:44 - [TEST_STEP][PASSED] - setText: Text 'Chakraborty' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_6'
+
+2018-07-18 15:06:45 - [MESSAGE][PASSED] - Text 'Chakraborty' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_6'
+
+2018-07-18 15:06:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/RoleObjectCapture/Page_/input_ctl00ContentPlaceHolder1' is clicked on
+
+2018-07-18 15:06:45 - [MESSAGE][PASSED] - Object: 'Object Repository/RoleObjectCapture/Page_/input_ctl00ContentPlaceHolder1' is clicked on
+
+2018-07-18 15:06:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/RoleObjectCapture/Page_/Page_/th_July 2018' is clicked on
+
+2018-07-18 15:06:45 - [MESSAGE][PASSED] - Object: 'Object Repository/RoleObjectCapture/Page_/Page_/th_July 2018' is clicked on
+
+2018-07-18 15:06:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/th_2018' is clicked on
+
+2018-07-18 15:06:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/th_2018' is clicked on
+
+2018-07-18 15:06:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/th_' is clicked on
+
+2018-07-18 15:06:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/th_' is clicked on
+
+2018-07-18 15:06:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/th_' is clicked on
+
+2018-07-18 15:06:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/th_' is clicked on
+
+2018-07-18 15:06:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/th_' is clicked on
+
+2018-07-18 15:06:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/th_' is clicked on
+
+2018-07-18 15:06:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/span_1985' is clicked on
+
+2018-07-18 15:06:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/span_1985' is clicked on
+
+2018-07-18 15:06:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/span_Aug' is clicked on
+
+2018-07-18 15:06:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/span_Aug' is clicked on
+
+2018-07-18 15:06:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/td_16' is clicked on
+
+2018-07-18 15:06:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/td_16' is clicked on
+
+2018-07-18 15:06:46 - [TEST_STEP][PASSED] - setText: Text 'Kolkata' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_7'
+
+2018-07-18 15:06:46 - [MESSAGE][PASSED] - Text 'Kolkata' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_7'
+
+2018-07-18 15:06:46 - [TEST_STEP][PASSED] - setText: Text 'Kolkata' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_8'
+
+2018-07-18 15:06:46 - [MESSAGE][PASSED] - Text 'Kolkata' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_8'
+
+2018-07-18 15:06:46 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '156' are selected in object 'Object Repository/Page_/select_Select CountryAfghanist'  using regular expression
+
+2018-07-18 15:06:49 - [MESSAGE][PASSED] - All options with value '156' are selected in object 'Object Repository/Page_/select_Select CountryAfghanist'  using regular expression
+
+2018-07-18 15:06:49 - [TEST_STEP][PASSED] - setText: Text '9874589630' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_9'
+
+2018-07-18 15:06:49 - [MESSAGE][PASSED] - Text '9874589630' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_9'
+
+2018-07-18 15:06:49 - [TEST_STEP][PASSED] - setText: Text 'Pet name' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_10'
+
+2018-07-18 15:06:49 - [MESSAGE][PASSED] - Text 'Pet name' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_10'
+
+2018-07-18 15:06:49 - [TEST_STEP][PASSED] - setText: Text 'taffy' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_11'
+
+2018-07-18 15:06:50 - [MESSAGE][PASSED] - Text 'taffy' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_11'
+
+2018-07-18 15:06:50 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '11' are selected in object 'Object Repository/Page_/select_Select RoleSuperAdminAd'  using regular expression
+
+2018-07-18 15:06:50 - [MESSAGE][PASSED] - All options with value '11' are selected in object 'Object Repository/Page_/select_Select RoleSuperAdminAd'  using regular expression
+
+2018-07-18 15:06:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_12' is clicked on
+
+2018-07-18 15:06:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_12' is clicked on
+
+2018-07-18 15:06:50 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-18 15:06:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-18 15:06:50 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-18 15:06:53 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-18 15:06:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/input_ctl00ContentPlaceHolder1 (2)' is clicked on
+
+2018-07-18 15:06:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/input_ctl00ContentPlaceHolder1 (2)' is clicked on
+
+2018-07-18 15:06:53 - [TEST_STEP][PASSED] - setText: Text 'avishek142@mailinator.com' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_1 (2)'
+
+2018-07-18 15:06:54 - [MESSAGE][PASSED] - Text 'avishek142@mailinator.com' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_1 (2)'
+
+2018-07-18 15:06:54 - [TEST_STEP][PASSED] - setText: Text 'avishek142@mailinator.com' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_2 (2)'
+
+2018-07-18 15:06:54 - [MESSAGE][PASSED] - Text 'avishek142@mailinator.com' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_2 (2)'
+
+2018-07-18 15:06:54 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_3 (1)'
+
+2018-07-18 15:06:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_3 (1)'
+
+2018-07-18 15:06:54 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_4'
+
+2018-07-18 15:06:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_4'
+
+2018-07-18 15:06:54 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '5' are selected in object 'Object Repository/Page_/select_Select TitleMrMrsMissMs'  using regular expression
+
+2018-07-18 15:06:55 - [MESSAGE][PASSED] - All options with value '5' are selected in object 'Object Repository/Page_/select_Select TitleMrMrsMissMs'  using regular expression
+
+2018-07-18 15:06:55 - [TEST_STEP][PASSED] - setText: Text 'Avishekhundredthrteen' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_5'
+
+2018-07-18 15:06:55 - [MESSAGE][PASSED] - Text 'Avishekhundredthrteen' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_5'
+
+2018-07-18 15:06:55 - [TEST_STEP][PASSED] - setText: Text 'chak' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_6'
+
+2018-07-18 15:06:55 - [MESSAGE][PASSED] - Text 'chak' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_6'
+
+2018-07-18 15:06:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/RoleObjectCapture/Page_/input_ctl00ContentPlaceHolder1' is clicked on
+
+2018-07-18 15:06:55 - [MESSAGE][PASSED] - Object: 'Object Repository/RoleObjectCapture/Page_/input_ctl00ContentPlaceHolder1' is clicked on
+
+2018-07-18 15:06:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/RoleObjectCapture/Page_/Page_/th_July 2018' is clicked on
+
+2018-07-18 15:06:55 - [MESSAGE][PASSED] - Object: 'Object Repository/RoleObjectCapture/Page_/Page_/th_July 2018' is clicked on
+
+2018-07-18 15:06:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/th_2018' is clicked on
+
+2018-07-18 15:06:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/th_2018' is clicked on
+
+2018-07-18 15:06:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/th_' is clicked on
+
+2018-07-18 15:06:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/th_' is clicked on
+
+2018-07-18 15:06:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/th_' is clicked on
+
+2018-07-18 15:06:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/th_' is clicked on
+
+2018-07-18 15:06:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/th_' is clicked on
+
+2018-07-18 15:06:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/th_' is clicked on
+
+2018-07-18 15:06:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/span_1985' is clicked on
+
+2018-07-18 15:06:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/span_1985' is clicked on
+
+2018-07-18 15:06:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/span_Aug' is clicked on
+
+2018-07-18 15:06:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/span_Aug' is clicked on
+
+2018-07-18 15:06:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/td_16' is clicked on
+
+2018-07-18 15:06:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/td_16' is clicked on
+
+2018-07-18 15:06:56 - [TEST_STEP][PASSED] - setText: Text 'Kolkata' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_7'
+
+2018-07-18 15:06:56 - [MESSAGE][PASSED] - Text 'Kolkata' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_7'
+
+2018-07-18 15:06:56 - [TEST_STEP][PASSED] - setText: Text 'Kolkata' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_8'
+
+2018-07-18 15:06:57 - [MESSAGE][PASSED] - Text 'Kolkata' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_8'
+
+2018-07-18 15:06:57 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '156' are selected in object 'Object Repository/Page_/select_Select CountryAfghanist'  using regular expression
+
+2018-07-18 15:07:00 - [MESSAGE][PASSED] - All options with value '156' are selected in object 'Object Repository/Page_/select_Select CountryAfghanist'  using regular expression
+
+2018-07-18 15:07:00 - [TEST_STEP][PASSED] - setText: Text '5648974545' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_9'
+
+2018-07-18 15:07:00 - [MESSAGE][PASSED] - Text '5648974545' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_9'
+
+2018-07-18 15:07:00 - [TEST_STEP][PASSED] - setText: Text 'pet name' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_10'
+
+2018-07-18 15:07:00 - [MESSAGE][PASSED] - Text 'pet name' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_10'
+
+2018-07-18 15:07:00 - [TEST_STEP][PASSED] - setText: Text 'taffy' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_11'
+
+2018-07-18 15:07:00 - [MESSAGE][PASSED] - Text 'taffy' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_11'
+
+2018-07-18 15:07:00 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '12' are selected in object 'Object Repository/Page_/select_Select RoleSuperAdminAd'  using regular expression
+
+2018-07-18 15:07:01 - [MESSAGE][PASSED] - All options with value '12' are selected in object 'Object Repository/Page_/select_Select RoleSuperAdminAd'  using regular expression
+
+2018-07-18 15:07:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_12' is clicked on
+
+2018-07-18 15:07:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_12' is clicked on
+
+2018-07-18 15:07:01 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-18 15:07:01 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-18 15:07:01 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-18 15:07:04 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-18 15:07:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/span_glyphicon glyphicon-user (2)' is clicked on
+
+2018-07-18 15:07:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/span_glyphicon glyphicon-user (2)' is clicked on
+
+2018-07-18 15:07:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/button_Sign Out (2)' is clicked on
+
+2018-07-18 15:07:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Sign Out (2)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-18 15:05:07 - [TEST_SUITE][PASSED] - AddUserRoleManagement: Test Cases/CRM/AddUserRoleManagment]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

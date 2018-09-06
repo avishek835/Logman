@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LoginandLogoutWithMultipledata</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f8182f08-0c2a-4cbc-9d6a-058c3898dda9</testCaseGuid>
+   <variable>
+      <defaultValue>'avishek22@mailinator.com'</defaultValue>
+      <description></description>
+      <id>0e3ec3f3-a5da-4e3d-82c2-27b45cc4f10e</id>
+      <masked>false</masked>
+      <name>demo_usn</name>
+   </variable>
+   <variable>
+      <defaultValue>'123456'</defaultValue>
+      <description></description>
+      <id>94009fb2-a4f7-44ab-ba80-70651dbac611</id>
+      <masked>false</masked>
+      <name>demo_pass</name>
+   </variable>
+</TestCaseEntity>

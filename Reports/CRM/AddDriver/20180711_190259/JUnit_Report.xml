@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AddDriver" time="25" tests="0" failures="1" errors="0">
+   <testsuite name="AddDriver" tests="0" failures="1" errors="0" time="25" timestamp="2018-07-11 19:03:02" hostname="Avishek - DESKTOP-UNOIIMH" id="Test Suites/CRM/AddDriver">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\AddDriver\\20180711_190259"/>
+         <property name="logFiles" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\AddDriver\\20180711_190259\\execution0.log"/>
+         <property name="attachments" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\AddDriver\\20180711_190259\\1531315996434.png, E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\AddDriver\\20180711_190259\\1531316002205.png, E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\AddDriver\\20180711_190259\\1531316006324.png"/>
+         <property name="hostName" value="Avishek - DESKTOP-UNOIIMH"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="172.16.10.93"/>
+         <property name="sessionId" value="9232f6135138db9b0b99e848f2b29865"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/CRM/AddDriver" classname="Test Cases/CRM/AddDriver" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Driver/Page_/i_fa fa-eye' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;i class=&quot;fa fa-eye&quot; aria-hidden=&quot;true&quot;>&lt;/i> is not clickable at point (1049, 349). Other element would receive the click: &lt;div class=&quot;modal-backdrop fade&quot;>&lt;/div>
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-UNOIIMH', ip: '172.16.10.93', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Avishek\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 9232f6135138db9b0b99e848f2b29865)"/>
+         <system-out><![CDATA[2018-07-11 19:03:02 - [TEST_CASE][FAILED] - Test Cases/CRM/AddDriver: Test Cases/CRM/AddDriver FAILED because (of) Unable to click on object 'Object Repository/Driver/Page_/i_fa fa-eye' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <i class="fa fa-eye" aria-hidden="true"></i> is not clickable at point (1049, 349). Other element would receive the click: <div class="modal-backdrop fade"></div>
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-UNOIIMH', ip: '172.16.10.93', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Avishek\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 9232f6135138db9b0b99e848f2b29865)
+
+2018-07-11 19:03:03 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-11 19:03:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-11 19:03:07 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://portal.logmanproj.com/Login.aspx' successfully
+
+2018-07-11 19:03:13 - [MESSAGE][PASSED] - Navigate to 'http://portal.logmanproj.com/Login.aspx' successfully
+
+2018-07-11 19:03:13 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-11 19:03:14 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-11 19:03:14 - [TEST_STEP][PASSED] - setText: Text 'tom@alter.com' is set on object 'Object Repository/Driver/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-11 19:03:14 - [MESSAGE][PASSED] - Text 'tom@alter.com' is set on object 'Object Repository/Driver/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-11 19:03:14 - [TEST_STEP][PASSED] - setText: Text 'tom123' is set on object 'Object Repository/Driver/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-11 19:03:15 - [MESSAGE][PASSED] - Text 'tom123' is set on object 'Object Repository/Driver/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-11 19:03:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Driver/Page_JobyCo/input_ctl00ContentPlaceHolder1_2' is clicked on
+
+2018-07-11 19:03:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Driver/Page_JobyCo/input_ctl00ContentPlaceHolder1_2' is clicked on
+
+2018-07-11 19:03:16 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-11 19:03:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\AddDriver\\20180711_190259\\1531315996434.png]]
+
+2018-07-11 19:03:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Driver/Page_/button_toggle navigation' is clicked on
+
+2018-07-11 19:03:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Driver/Page_/button_toggle navigation' is clicked on
+
+2018-07-11 19:03:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Driver/Page_/a_Drivers' is clicked on
+
+2018-07-11 19:03:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Driver/Page_/a_Drivers' is clicked on
+
+2018-07-11 19:03:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Driver/Page_/a_Add a Driver' is clicked on
+
+2018-07-11 19:03:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Driver/Page_/a_Add a Driver' is clicked on
+
+2018-07-11 19:03:18 - [TEST_STEP][PASSED] - setText: Text 'avishek43@mailinator.com' is set on object 'Object Repository/Driver/Page_/input_ctl00ContentPlaceHolder1'
+
+2018-07-11 19:03:18 - [MESSAGE][PASSED] - Text 'avishek43@mailinator.com' is set on object 'Object Repository/Driver/Page_/input_ctl00ContentPlaceHolder1'
+
+2018-07-11 19:03:18 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/Driver/Page_/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-11 19:03:19 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Driver/Page_/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-11 19:03:19 - [TEST_STEP][PASSED] - setText: Text 'AvishekthirtyFoutythree' is set on object 'Object Repository/Driver/Page_/input_ctl00ContentPlaceHolder1_2'
+
+2018-07-11 19:03:19 - [MESSAGE][PASSED] - Text 'AvishekthirtyFoutythree' is set on object 'Object Repository/Driver/Page_/input_ctl00ContentPlaceHolder1_2'
+
+2018-07-11 19:03:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Demo/Page_ (2)/input_ctl00ContentPlaceHolder1' is clicked on
+
+2018-07-11 19:03:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo/Page_ (2)/input_ctl00ContentPlaceHolder1' is clicked on
+
+2018-07-11 19:03:19 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-11 19:03:19 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-11 19:03:19 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Driver/Page_/th_July 2018' is hovered
+
+2018-07-11 19:03:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Driver/Page_/th_July 2018' is hovered
+
+2018-07-11 19:03:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Driver/Page_/th_July 2018' is clicked on
+
+2018-07-11 19:03:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Driver/Page_/th_July 2018' is clicked on
+
+2018-07-11 19:03:19 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-11 19:03:19 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-11 19:03:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Demo/Driver_DOB/Page_/th_2018' is clicked on
+
+2018-07-11 19:03:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo/Driver_DOB/Page_/th_2018' is clicked on
+
+2018-07-11 19:03:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Demo/Driver_DOB/Page_/th_' is clicked on
+
+2018-07-11 19:03:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo/Driver_DOB/Page_/th_' is clicked on
+
+2018-07-11 19:03:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Demo/Driver_DOB/Page_/th_' is clicked on
+
+2018-07-11 19:03:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo/Driver_DOB/Page_/th_' is clicked on
+
+2018-07-11 19:03:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Demo/Driver_DOB/Page_/th_' is clicked on
+
+2018-07-11 19:03:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo/Driver_DOB/Page_/th_' is clicked on
+
+2018-07-11 19:03:20 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-11 19:03:20 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-11 19:03:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Demo/Driver_DOB/Page_/span_1985' is clicked on
+
+2018-07-11 19:03:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo/Driver_DOB/Page_/span_1985' is clicked on
+
+2018-07-11 19:03:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Demo/Driver_DOB/Page_/span_Aug' is clicked on
+
+2018-07-11 19:03:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo/Driver_DOB/Page_/span_Aug' is clicked on
+
+2018-07-11 19:03:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Demo/Driver_DOB/Page_/td_23' is clicked on
+
+2018-07-11 19:03:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo/Driver_DOB/Page_/td_23' is clicked on
+
+2018-07-11 19:03:20 - [TEST_STEP][PASSED] - setText: Text 'Kolkata' is set on object 'Object Repository/Driver/Page_/input_txtAddressLine1'
+
+2018-07-11 19:03:21 - [MESSAGE][PASSED] - Text 'Kolkata' is set on object 'Object Repository/Driver/Page_/input_txtAddressLine1'
+
+2018-07-11 19:03:21 - [TEST_STEP][PASSED] - setText: Text '700091' is set on object 'Object Repository/Driver/Page_/input_ctl00ContentPlaceHolder1_3'
+
+2018-07-11 19:03:21 - [MESSAGE][PASSED] - Text '700091' is set on object 'Object Repository/Driver/Page_/input_ctl00ContentPlaceHolder1_3'
+
+2018-07-11 19:03:21 - [TEST_STEP][PASSED] - setText: Text '1234567890' is set on object 'Object Repository/Driver/Page_/input_txtMobile'
+
+2018-07-11 19:03:21 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/Driver/Page_/input_txtMobile'
+
+2018-07-11 19:03:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Driver/Page_/input_ctl00ContentPlaceHolder1_4' is clicked on
+
+2018-07-11 19:03:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Driver/Page_/input_ctl00ContentPlaceHolder1_4' is clicked on
+
+2018-07-11 19:03:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Driver/Page_/input_ctl00ContentPlaceHolder1_5' is clicked on
+
+2018-07-11 19:03:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Driver/Page_/input_ctl00ContentPlaceHolder1_5' is clicked on
+
+2018-07-11 19:03:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Driver/Page_/input_ctl00ContentPlaceHolder1_6' is clicked on
+
+2018-07-11 19:03:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Driver/Page_/input_ctl00ContentPlaceHolder1_6' is clicked on
+
+2018-07-11 19:03:22 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Driver/Page_/button_OK' is hovered
+
+2018-07-11 19:03:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Driver/Page_/button_OK' is hovered
+
+2018-07-11 19:03:22 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-11 19:03:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\AddDriver\\20180711_190259\\1531316002205.png]]
+
+2018-07-11 19:03:22 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-11 19:03:22 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-11 19:03:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Driver/Page_/button_OK' is clicked on
+
+2018-07-11 19:03:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Driver/Page_/button_OK' is clicked on
+
+2018-07-11 19:03:23 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-11 19:03:24 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-11 19:03:24 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Driver/Page_/i_fa fa-eye' is hovered
+
+2018-07-11 19:03:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Driver/Page_/i_fa fa-eye' is hovered
+
+2018-07-11 19:03:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Driver/Page_/i_fa fa-eye' is clicked on
+
+2018-07-11 19:03:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Driver/Page_/i_fa fa-eye' is clicked on
+
+2018-07-11 19:03:24 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-11 19:03:25 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-11 19:03:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Driver/Page_/i_fa fa-file-pdf-o' is clicked on
+
+2018-07-11 19:03:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Driver/Page_/i_fa fa-file-pdf-o' is clicked on
+
+2018-07-11 19:03:25 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-11 19:03:26 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-11 19:03:26 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-11 19:03:26 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-11 19:03:26 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Driver/Page_/i_fa fa-eye' is hovered
+
+2018-07-11 19:03:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Driver/Page_/i_fa fa-eye' is hovered
+
+2018-07-11 19:03:26 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Driver/Page_/i_fa fa-eye' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <i class="fa fa-eye" aria-hidden="true"></i> is not clickable at point (1049, 349). Other element would receive the click: <div class="modal-backdrop fade"></div>
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-UNOIIMH', ip: '172.16.10.93', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Avishek\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 9232f6135138db9b0b99e848f2b29865)
+
+2018-07-11 19:03:26 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Driver/Page_/i_fa fa-eye' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <i class="fa fa-eye" aria-hidden="true"></i> is not clickable at point (1049, 349). Other element would receive the click: <div class="modal-backdrop fade"></div>
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-UNOIIMH', ip: '172.16.10.93', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Avishek\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 9232f6135138db9b0b99e848f2b29865)
+[[ATTACHMENT|E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\AddDriver\\20180711_190259\\1531316006324.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-11 19:03:02 - [TEST_CASE][FAILED] - Test Cases/CRM/AddDriver: Test Cases/CRM/AddDriver FAILED because (of) Unable to click on object 'Object Repository/Driver/Page_/i_fa fa-eye' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <i class="fa fa-eye" aria-hidden="true"></i> is not clickable at point (1049, 349). Other element would receive the click: <div class="modal-backdrop fade"></div>
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-UNOIIMH', ip: '172.16.10.93', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Avishek\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 9232f6135138db9b0b99e848f2b29865)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-11 19:03:02 - [TEST_SUITE][FAILED] - AddDriver: Test Cases/CRM/AddDriver FAILED because (of) Unable to click on object 'Object Repository/Driver/Page_/i_fa fa-eye' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <i class="fa fa-eye" aria-hidden="true"></i> is not clickable at point (1049, 349). Other element would receive the click: <div class="modal-backdrop fade"></div>
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-UNOIIMH', ip: '172.16.10.93', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Avishek\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 9232f6135138db9b0b99e848f2b29865)]]></system-out>
+      <system-err><![CDATA[2018-07-11 19:03:02 - [TEST_SUITE][FAILED] - AddDriver: Test Cases/CRM/AddDriver FAILED because (of) Unable to click on object 'Object Repository/Driver/Page_/i_fa fa-eye' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <i class="fa fa-eye" aria-hidden="true"></i> is not clickable at point (1049, 349). Other element would receive the click: <div class="modal-backdrop fade"></div>
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-UNOIIMH', ip: '172.16.10.93', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Avishek\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 9232f6135138db9b0b99e848f2b29865)]]></system-err>
+   </testsuite>
+</testsuites>

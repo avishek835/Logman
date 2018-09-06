@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User will be logged in and he fill the details in request a form and submit it.</description>
+   <name>LoginandRequestAQuoteAsNO</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f0c0f82d-7696-40dd-87ef-17f1b8d8dbd4</testCaseGuid>
+</TestCaseEntity>

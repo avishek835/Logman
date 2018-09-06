@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>MultipleSignUp</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>52042163-183f-453f-8de6-a2cbb1b7d0e2</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>Avishek avishek57%40mailinator.com 123456 1234567890</data>
+   <data>Avishek avishek58%40mailinator.com 123456 1234567890</data>
+   <data>Avishek avishek59%40mailinator.com 123456 1234567890</data>
+   <data>Avishek avishek60%40mailinator.com 123456 1234567890</data>
+   <data>Avishek avishek61%40mailinator.com 123456 1234567890</data>
+   <data>Avishek avishek62%40mailinator.com 123456 1234567890</data>
+   <data>Avishek avishek63%40mailinator.com 123456 1234567890</data>
+   <data>Avishek avishek64%40mailinator.com 123456 1234567890</data>
+   <data>Avishek avishek65%40mailinator.com 123456 1234567890</data>
+   <data>Avishek avishek66%40mailinator.com 123456 1234567890</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>demo_usn</name>
+      <size>10</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>demo_email</name>
+      <size>10</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>demo_pass</name>
+      <size>10</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>3</columnIndex>
+      <name>demo_phone</name>
+      <size>10</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

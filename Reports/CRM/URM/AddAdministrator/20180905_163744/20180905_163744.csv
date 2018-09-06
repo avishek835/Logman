@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+AddAdministrator,Firefox 61.0,,2018-09-05 16:42:05,2018-09-05 16:42:18,13.396s,FAILED
+,,,,,,
+Test Cases/CRM/URM/AddAdministrator,Firefox 61.0,,2018-09-05 16:42:06,2018-09-05 16:42:18,12.278s,FAILED
+openBrowser,Firefox 61.0,,2018-09-05 16:42:06,2018-09-05 16:42:13,6.590s,PASSED
+navigateToUrl,Firefox 61.0,,2018-09-05 16:42:13,2018-09-05 16:42:16,3.722s,PASSED
+setText,Firefox 61.0,,2018-09-05 16:42:16,2018-09-05 16:42:17,0.221s,PASSED
+setEncryptedText,Firefox 61.0,,2018-09-05 16:42:17,2018-09-05 16:42:17,0.284s,PASSED
+click,Firefox 61.0,,2018-09-05 16:42:17,2018-09-05 16:42:17,0.557s,PASSED
+waitForPageLoad,Firefox 61.0,,2018-09-05 16:42:17,2018-09-05 16:42:18,0.076s,PASSED
+waitForJQueryLoad,Firefox 61.0,,2018-09-05 16:42:18,2018-09-05 16:42:18,0.050s,PASSED
+click,Firefox 61.0,,2018-09-05 16:42:18,2018-09-05 16:42:18,0.418s,FAILED

@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="MultipleSignUp" time="367" tests="1" failures="0" errors="0">
+   <testsuite name="MultipleSignUp" tests="1" failures="0" errors="0" time="367" timestamp="2018-07-18 16:17:41" hostname="Avishek - DESKTOP-UNOIIMH" id="Test Suites/Demo/MultipleSignUp">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\Demo\\MultipleSignUp\\20180718_161738"/>
+         <property name="logFiles" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\Demo\\MultipleSignUp\\20180718_161738\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Avishek - DESKTOP-UNOIIMH"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="172.16.10.156"/>
+         <property name="sessionId" value="b68f7f8e592c97c305eb9849a40ea506"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Demo/MultipleSignUp" classname="Test Cases/Demo/MultipleSignUp" status="PASSED">
+         <system-out><![CDATA[2018-07-18 16:17:41 - [TEST_CASE][PASSED] - Test Cases/Demo/MultipleSignUp: Test Cases/Demo/MultipleSignUp
+
+2018-07-18 16:17:42 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Demo/SignUp): Test data is internal data, reading internal data
+
+2018-07-18 16:17:42 - [TEST_STEP][PASSED] - Statement - For (def index : (0..(data.getRowNumbers() - 7))): null
+
+2018-07-18 16:17:42 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-18 16:17:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-18 16:17:45 - [TEST_STEP][PASSED] - Statement - println("Opened the browser"): null
+
+2018-07-18 16:17:45 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://logmanproj.com/Login.aspx' successfully
+
+2018-07-18 16:17:59 - [MESSAGE][PASSED] - Navigate to 'http://logmanproj.com/Login.aspx' successfully
+
+2018-07-18 16:17:59 - [TEST_STEP][PASSED] - Statement - println("URL loaded into the browser"): null
+
+2018-07-18 16:17:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/a_Sign Up' is clicked on
+
+2018-07-18 16:19:08 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/a_Sign Up' is clicked on
+
+2018-07-18 16:19:08 - [TEST_STEP][PASSED] - Statement - println("Click on the sign up button"): null
+
+2018-07-18 16:19:08 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-18 16:19:09 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-18 16:19:09 - [TEST_STEP][PASSED] - Statement - println("Maximize the window"): null
+
+2018-07-18 16:19:09 - [TEST_STEP][PASSED] - setText: Text 'Avishek' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-18 16:19:09 - [MESSAGE][PASSED] - Text 'Avishek' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-18 16:19:10 - [TEST_STEP][PASSED] - Statement - println("Provide the Username"): null
+
+2018-07-18 16:19:10 - [TEST_STEP][PASSED] - setText: Text 'avishek51@mailinator.com' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-18 16:19:10 - [MESSAGE][PASSED] - Text 'avishek51@mailinator.com' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-18 16:19:10 - [TEST_STEP][PASSED] - Statement - println("Provide the User email id"): null
+
+2018-07-18 16:19:10 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_2'
+
+2018-07-18 16:19:10 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_2'
+
+2018-07-18 16:19:10 - [TEST_STEP][PASSED] - Statement - println("Provide the User password"): null
+
+2018-07-18 16:19:10 - [TEST_STEP][PASSED] - setText: Text '1234567890' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_phone'
+
+2018-07-18 16:19:10 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_phone'
+
+2018-07-18 16:19:10 - [TEST_STEP][PASSED] - Statement - println("Provide the User phone number"): null
+
+2018-07-18 16:19:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_3' is clicked on
+
+2018-07-18 16:19:10 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_3' is clicked on
+
+2018-07-18 16:19:10 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is hovered
+
+2018-07-18 16:19:11 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is hovered
+
+2018-07-18 16:19:11 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-18 16:19:12 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-18 16:19:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is clicked on
+
+2018-07-18 16:19:12 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is clicked on
+
+2018-07-18 16:19:12 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-18 16:19:13 - [MESSAGE][PASSED] - Browser is closed
+
+2018-07-18 16:19:13 - [TEST_STEP][PASSED] - Statement - println("Once signup close the browser"): null
+
+2018-07-18 16:19:13 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-18 16:19:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-18 16:19:16 - [TEST_STEP][PASSED] - Statement - println("Opened the browser"): null
+
+2018-07-18 16:19:16 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://logmanproj.com/Login.aspx' successfully
+
+2018-07-18 16:19:28 - [MESSAGE][PASSED] - Navigate to 'http://logmanproj.com/Login.aspx' successfully
+
+2018-07-18 16:19:28 - [TEST_STEP][PASSED] - Statement - println("URL loaded into the browser"): null
+
+2018-07-18 16:19:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/a_Sign Up' is clicked on
+
+2018-07-18 16:20:22 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/a_Sign Up' is clicked on
+
+2018-07-18 16:20:22 - [TEST_STEP][PASSED] - Statement - println("Click on the sign up button"): null
+
+2018-07-18 16:20:22 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-18 16:20:23 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-18 16:20:23 - [TEST_STEP][PASSED] - Statement - println("Maximize the window"): null
+
+2018-07-18 16:20:23 - [TEST_STEP][PASSED] - setText: Text 'Avishek' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-18 16:20:23 - [MESSAGE][PASSED] - Text 'Avishek' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-18 16:20:23 - [TEST_STEP][PASSED] - Statement - println("Provide the Username"): null
+
+2018-07-18 16:20:23 - [TEST_STEP][PASSED] - setText: Text 'avishek52@mailinator.com' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-18 16:20:23 - [MESSAGE][PASSED] - Text 'avishek52@mailinator.com' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-18 16:20:23 - [TEST_STEP][PASSED] - Statement - println("Provide the User email id"): null
+
+2018-07-18 16:20:23 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_2'
+
+2018-07-18 16:20:24 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_2'
+
+2018-07-18 16:20:24 - [TEST_STEP][PASSED] - Statement - println("Provide the User password"): null
+
+2018-07-18 16:20:24 - [TEST_STEP][PASSED] - setText: Text '1234567890' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_phone'
+
+2018-07-18 16:20:24 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_phone'
+
+2018-07-18 16:20:24 - [TEST_STEP][PASSED] - Statement - println("Provide the User phone number"): null
+
+2018-07-18 16:20:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_3' is clicked on
+
+2018-07-18 16:20:24 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_3' is clicked on
+
+2018-07-18 16:20:24 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is hovered
+
+2018-07-18 16:20:24 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is hovered
+
+2018-07-18 16:20:24 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-18 16:20:25 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-18 16:20:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is clicked on
+
+2018-07-18 16:20:25 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is clicked on
+
+2018-07-18 16:20:25 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-18 16:20:26 - [MESSAGE][PASSED] - Browser is closed
+
+2018-07-18 16:20:26 - [TEST_STEP][PASSED] - Statement - println("Once signup close the browser"): null
+
+2018-07-18 16:20:26 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-18 16:20:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-18 16:20:29 - [TEST_STEP][PASSED] - Statement - println("Opened the browser"): null
+
+2018-07-18 16:20:29 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://logmanproj.com/Login.aspx' successfully
+
+2018-07-18 16:20:44 - [MESSAGE][PASSED] - Navigate to 'http://logmanproj.com/Login.aspx' successfully
+
+2018-07-18 16:20:44 - [TEST_STEP][PASSED] - Statement - println("URL loaded into the browser"): null
+
+2018-07-18 16:20:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/a_Sign Up' is clicked on
+
+2018-07-18 16:21:28 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/a_Sign Up' is clicked on
+
+2018-07-18 16:21:28 - [TEST_STEP][PASSED] - Statement - println("Click on the sign up button"): null
+
+2018-07-18 16:21:28 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-18 16:21:29 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-18 16:21:29 - [TEST_STEP][PASSED] - Statement - println("Maximize the window"): null
+
+2018-07-18 16:21:29 - [TEST_STEP][PASSED] - setText: Text 'Avishek' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-18 16:21:30 - [MESSAGE][PASSED] - Text 'Avishek' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-18 16:21:30 - [TEST_STEP][PASSED] - Statement - println("Provide the Username"): null
+
+2018-07-18 16:21:30 - [TEST_STEP][PASSED] - setText: Text 'avishek53@mailinator.com' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-18 16:21:30 - [MESSAGE][PASSED] - Text 'avishek53@mailinator.com' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-18 16:21:30 - [TEST_STEP][PASSED] - Statement - println("Provide the User email id"): null
+
+2018-07-18 16:21:30 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_2'
+
+2018-07-18 16:21:30 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_2'
+
+2018-07-18 16:21:30 - [TEST_STEP][PASSED] - Statement - println("Provide the User password"): null
+
+2018-07-18 16:21:30 - [TEST_STEP][PASSED] - setText: Text '1234567890' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_phone'
+
+2018-07-18 16:21:30 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_phone'
+
+2018-07-18 16:21:30 - [TEST_STEP][PASSED] - Statement - println("Provide the User phone number"): null
+
+2018-07-18 16:21:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_3' is clicked on
+
+2018-07-18 16:21:30 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_3' is clicked on
+
+2018-07-18 16:21:30 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is hovered
+
+2018-07-18 16:21:30 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is hovered
+
+2018-07-18 16:21:30 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-18 16:21:31 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-18 16:21:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is clicked on
+
+2018-07-18 16:21:32 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is clicked on
+
+2018-07-18 16:21:32 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-18 16:21:32 - [MESSAGE][PASSED] - Browser is closed
+
+2018-07-18 16:21:32 - [TEST_STEP][PASSED] - Statement - println("Once signup close the browser"): null
+
+2018-07-18 16:21:32 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-18 16:21:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-18 16:21:35 - [TEST_STEP][PASSED] - Statement - println("Opened the browser"): null
+
+2018-07-18 16:21:35 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://logmanproj.com/Login.aspx' successfully
+
+2018-07-18 16:21:46 - [MESSAGE][PASSED] - Navigate to 'http://logmanproj.com/Login.aspx' successfully
+
+2018-07-18 16:21:46 - [TEST_STEP][PASSED] - Statement - println("URL loaded into the browser"): null
+
+2018-07-18 16:21:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/a_Sign Up' is clicked on
+
+2018-07-18 16:23:43 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/a_Sign Up' is clicked on
+
+2018-07-18 16:23:43 - [TEST_STEP][PASSED] - Statement - println("Click on the sign up button"): null
+
+2018-07-18 16:23:43 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-18 16:23:45 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-18 16:23:45 - [TEST_STEP][PASSED] - Statement - println("Maximize the window"): null
+
+2018-07-18 16:23:45 - [TEST_STEP][PASSED] - setText: Text 'Avishek' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-18 16:23:45 - [MESSAGE][PASSED] - Text 'Avishek' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-18 16:23:45 - [TEST_STEP][PASSED] - Statement - println("Provide the Username"): null
+
+2018-07-18 16:23:45 - [TEST_STEP][PASSED] - setText: Text 'avishek54@mailinator.com' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-18 16:23:45 - [MESSAGE][PASSED] - Text 'avishek54@mailinator.com' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-18 16:23:45 - [TEST_STEP][PASSED] - Statement - println("Provide the User email id"): null
+
+2018-07-18 16:23:45 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_2'
+
+2018-07-18 16:23:45 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_2'
+
+2018-07-18 16:23:45 - [TEST_STEP][PASSED] - Statement - println("Provide the User password"): null
+
+2018-07-18 16:23:45 - [TEST_STEP][PASSED] - setText: Text '1234567890' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_phone'
+
+2018-07-18 16:23:45 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_phone'
+
+2018-07-18 16:23:45 - [TEST_STEP][PASSED] - Statement - println("Provide the User phone number"): null
+
+2018-07-18 16:23:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_3' is clicked on
+
+2018-07-18 16:23:46 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_3' is clicked on
+
+2018-07-18 16:23:46 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is hovered
+
+2018-07-18 16:23:46 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is hovered
+
+2018-07-18 16:23:46 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-18 16:23:48 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-18 16:23:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is clicked on
+
+2018-07-18 16:23:48 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is clicked on
+
+2018-07-18 16:23:48 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-18 16:23:49 - [MESSAGE][PASSED] - Browser is closed
+
+2018-07-18 16:23:49 - [TEST_STEP][PASSED] - Statement - println("Once signup close the browser"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-18 16:17:41 - [TEST_SUITE][PASSED] - MultipleSignUp: Test Cases/Demo/MultipleSignUp]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

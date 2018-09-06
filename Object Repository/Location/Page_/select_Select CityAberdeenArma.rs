@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Select CityAberdeenArma</name>
+   <tag></tag>
+   <elementGuidId>82451c73-baa9-4b7c-9ce4-b86d2c298e30</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>ctl00$ContentPlaceHolder1$ddlCity</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ContentPlaceHolder1_ddlCity</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control m-b</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Please select a City from dropdown</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>getCityIdFromName();clearErrorMessage();</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select CityAberdeenArmaghBangorBathBelfastBirminghamBradfordBrighton &amp; HoveBristolCambridgeCanterburyCardiffCarlisleChelmsfordChesterChichesterCoventryDerbyDerryDundeeDurhamEdinburghElyExeterGlasgowGloucesterHerefordInvernessKingstonLancasterLeedsLeicesterLichfieldLincolnLisburnLiverpoolLondonManchesterNewcastleNewportNewryNorwichNottinghamOxfordPerthPeterboroughPlymouthPortsmouthPrestonRiponSalfordSalisburySheffieldSouthamptonSt AlbansSt AsaphSt DavidStirlingStoke-on-TrentSunderlandSwanseaTruroWakefieldWellsWestminsterWinchesterWolverhamptonWorcesterYork</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ContentPlaceHolder1_ddlCity&quot;)</value>
+   </webElementProperties>
+</WebElementEntity>

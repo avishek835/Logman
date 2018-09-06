@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AddWarehouse" time="26" tests="1" failures="0" errors="0">
+   <testsuite name="AddWarehouse" tests="1" failures="0" errors="0" time="26" timestamp="2018-07-16 19:44:09" hostname="Avishek - DESKTOP-UNOIIMH" id="Test Suites/CRM/AddWarehouse">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\AddWarehouse\\20180716_194406"/>
+         <property name="logFiles" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\AddWarehouse\\20180716_194406\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Avishek - DESKTOP-UNOIIMH"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="172.16.10.93"/>
+         <property name="sessionId" value="aaa9190422b629f0e849d132d71112ba"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/CRM/AddWarehouse" classname="Test Cases/CRM/AddWarehouse" status="PASSED">
+         <system-out><![CDATA[2018-07-16 19:44:10 - [TEST_CASE][PASSED] - Test Cases/CRM/AddWarehouse: Test Cases/CRM/AddWarehouse
+
+2018-07-16 19:44:10 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-16 19:44:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-16 19:44:15 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://portal.logmanproj.com/Login.aspx' successfully
+
+2018-07-16 19:44:20 - [MESSAGE][PASSED] - Navigate to 'http://portal.logmanproj.com/Login.aspx' successfully
+
+2018-07-16 19:44:20 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-16 19:44:21 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-16 19:44:21 - [TEST_STEP][PASSED] - setText: Text 'tom@alter.com' is set on object 'Object Repository/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-16 19:44:21 - [MESSAGE][PASSED] - Text 'tom@alter.com' is set on object 'Object Repository/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-16 19:44:21 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-16 19:44:22 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-16 19:44:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_JobyCo/input_ctl00ContentPlaceHolder1_2' is clicked on
+
+2018-07-16 19:44:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JobyCo/input_ctl00ContentPlaceHolder1_2' is clicked on
+
+2018-07-16 19:44:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/button_toggle navigation (1)' is clicked on
+
+2018-07-16 19:44:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_toggle navigation (1)' is clicked on
+
+2018-07-16 19:44:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/a_Warehouse (1)' is clicked on
+
+2018-07-16 19:44:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/a_Warehouse (1)' is clicked on
+
+2018-07-16 19:44:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/a_New Warehouse (1)' is clicked on
+
+2018-07-16 19:44:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/a_New Warehouse (1)' is clicked on
+
+2018-07-16 19:44:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/button_toggle navigation (1)' is clicked on
+
+2018-07-16 19:44:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_toggle navigation (1)' is clicked on
+
+2018-07-16 19:44:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/a_Warehouse (1)' is clicked on
+
+2018-07-16 19:44:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/a_Warehouse (1)' is clicked on
+
+2018-07-16 19:44:24 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-16 19:44:25 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-16 19:44:25 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-16 19:44:25 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-16 19:44:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/a_View all Warehouses (1)' is clicked on
+
+2018-07-16 19:44:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/a_View all Warehouses (1)' is clicked on
+
+2018-07-16 19:44:26 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-16 19:44:26 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-16 19:44:26 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-16 19:44:27 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-16 19:44:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/input_ctl00ContentPlaceHolder1 (1) (1)' is clicked on
+
+2018-07-16 19:44:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/input_ctl00ContentPlaceHolder1 (1) (1)' is clicked on
+
+2018-07-16 19:44:28 - [TEST_STEP][PASSED] - setText: Text 'centurocommx' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_1 (1)'
+
+2018-07-16 19:44:28 - [MESSAGE][PASSED] - Text 'centurocommx' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_1 (1)'
+
+2018-07-16 19:44:28 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-16 19:44:29 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-16 19:44:29 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'LOC000000004' are selected in object 'Object Repository/Page_/select_Select Warehouse Locati (1)'  using regular expression
+
+2018-07-16 19:44:30 - [MESSAGE][PASSED] - All options with value 'LOC000000004' are selected in object 'Object Repository/Page_/select_Select Warehouse Locati (1)'  using regular expression
+
+2018-07-16 19:44:30 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'ZONE000000001' are selected in object 'Object Repository/Page_/select_Select Warehouse ZoneEa'  using regular expression
+
+2018-07-16 19:44:30 - [MESSAGE][PASSED] - All options with value 'ZONE000000001' are selected in object 'Object Repository/Page_/select_Select Warehouse ZoneEa'  using regular expression
+
+2018-07-16 19:44:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_2 (1)' is clicked on
+
+2018-07-16 19:44:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_2 (1)' is clicked on
+
+2018-07-16 19:44:30 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-16 19:44:30 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-16 19:44:30 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-16 19:44:31 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-16 19:44:31 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page_/button_OK (1)' is hovered
+
+2018-07-16 19:44:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_OK (1)' is hovered
+
+2018-07-16 19:44:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/button_OK (1)' is clicked on
+
+2018-07-16 19:44:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_OK (1)' is clicked on
+
+2018-07-16 19:44:32 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-16 19:44:32 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-16 19:44:32 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-16 19:44:33 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-16 19:44:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_4 (1)' is clicked on
+
+2018-07-16 19:44:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_4 (1)' is clicked on
+
+2018-07-16 19:44:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/span_glyphicon glyphicon-user (1)' is clicked on
+
+2018-07-16 19:44:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/span_glyphicon glyphicon-user (1)' is clicked on
+
+2018-07-16 19:44:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/button_Sign Out (1)' is clicked on
+
+2018-07-16 19:44:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Sign Out (1)' is clicked on
+
+2018-07-16 19:44:34 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-16 19:44:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-16 19:44:09 - [TEST_SUITE][PASSED] - AddWarehouse: Test Cases/CRM/AddWarehouse]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

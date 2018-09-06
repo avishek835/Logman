@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AddUserRoleManagement" time="65" tests="0" failures="1" errors="0">
+   <testsuite name="AddUserRoleManagement" tests="0" failures="1" errors="0" time="65" timestamp="2018-07-18 14:58:49" hostname="Avishek - DESKTOP-UNOIIMH" id="Test Suites/CRM/AddUserRoleManagement">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\AddUserRoleManagement\\20180718_145846"/>
+         <property name="logFiles" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\AddUserRoleManagement\\20180718_145846\\execution0.log"/>
+         <property name="attachments" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\AddUserRoleManagement\\20180718_145846\\1531906193233.png"/>
+         <property name="hostName" value="Avishek - DESKTOP-UNOIIMH"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="172.16.10.156"/>
+         <property name="sessionId" value="5408344090f86541a60d3e7ddd30c7f9"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/CRM/AddUserRoleManagment" classname="Test Cases/CRM/AddUserRoleManagment" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1 (2)' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_/input_ctl00ContentPlaceHolder1 (2)' located by 'By.xpath: id(&quot;ContentPlaceHolder1_btnAddNewUser&quot;)[count(. | //input[@type = 'submit' and @name = 'ctl00$ContentPlaceHolder1$btnAddNewUser' and @value = 'Add New User' and @onclick = 'return gotoAddUserPage();' and @id = 'ContentPlaceHolder1_btnAddNewUser']) = count(//input[@type = 'submit' and @name = 'ctl00$ContentPlaceHolder1$btnAddNewUser' and @value = 'Add New User' and @onclick = 'return gotoAddUserPage();' and @id = 'ContentPlaceHolder1_btnAddNewUser'])]' not found)"/>
+         <system-out><![CDATA[2018-07-18 14:58:49 - [TEST_CASE][FAILED] - Test Cases/CRM/AddUserRoleManagment: Test Cases/CRM/AddUserRoleManagment FAILED because (of) Unable to click on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1 (2)' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_/input_ctl00ContentPlaceHolder1 (2)' located by 'By.xpath: id("ContentPlaceHolder1_btnAddNewUser")[count(. | //input[@type = 'submit' and @name = 'ctl00$ContentPlaceHolder1$btnAddNewUser' and @value = 'Add New User' and @onclick = 'return gotoAddUserPage();' and @id = 'ContentPlaceHolder1_btnAddNewUser']) = count(//input[@type = 'submit' and @name = 'ctl00$ContentPlaceHolder1$btnAddNewUser' and @value = 'Add New User' and @onclick = 'return gotoAddUserPage();' and @id = 'ContentPlaceHolder1_btnAddNewUser'])]' not found)
+
+2018-07-18 14:58:50 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-18 14:58:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-18 14:58:54 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://portal.logmanproj.com/Login.aspx' successfully
+
+2018-07-18 14:59:01 - [MESSAGE][PASSED] - Navigate to 'http://portal.logmanproj.com/Login.aspx' successfully
+
+2018-07-18 14:59:01 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-18 14:59:02 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-18 14:59:02 - [TEST_STEP][PASSED] - setText: Text 'tom@alter.com' is set on object 'Object Repository/Page_JobyCo/input_ctl00ContentPlaceHolder1 (1)'
+
+2018-07-18 14:59:03 - [MESSAGE][PASSED] - Text 'tom@alter.com' is set on object 'Object Repository/Page_JobyCo/input_ctl00ContentPlaceHolder1 (1)'
+
+2018-07-18 14:59:03 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-18 14:59:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-18 14:59:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_JobyCo/input_ctl00ContentPlaceHolder1_2' is clicked on
+
+2018-07-18 14:59:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JobyCo/input_ctl00ContentPlaceHolder1_2' is clicked on
+
+2018-07-18 14:59:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/button_toggle navigation (2)' is clicked on
+
+2018-07-18 14:59:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_toggle navigation (2)' is clicked on
+
+2018-07-18 14:59:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/a_User' is clicked on
+
+2018-07-18 14:59:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/a_User' is clicked on
+
+2018-07-18 14:59:07 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-18 14:59:07 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-18 14:59:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/a_View All Users' is clicked on
+
+2018-07-18 14:59:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/a_View All Users' is clicked on
+
+2018-07-18 14:59:09 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-18 14:59:10 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-18 14:59:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/input_ctl00ContentPlaceHolder1 (2)' is clicked on
+
+2018-07-18 14:59:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/input_ctl00ContentPlaceHolder1 (2)' is clicked on
+
+2018-07-18 14:59:11 - [TEST_STEP][PASSED] - setText: Text 'avishek131@mailinator.com' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_1 (2)'
+
+2018-07-18 14:59:12 - [MESSAGE][PASSED] - Text 'avishek131@mailinator.com' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_1 (2)'
+
+2018-07-18 14:59:12 - [TEST_STEP][PASSED] - setText: Text 'avishek131@mailinator.com' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_2 (2)'
+
+2018-07-18 14:59:12 - [MESSAGE][PASSED] - Text 'avishek131@mailinator.com' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_2 (2)'
+
+2018-07-18 14:59:12 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_3 (1)'
+
+2018-07-18 14:59:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_3 (1)'
+
+2018-07-18 14:59:12 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_4'
+
+2018-07-18 14:59:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_4'
+
+2018-07-18 14:59:13 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/Page_/select_Select TitleMrMrsMissMs'  using regular expression
+
+2018-07-18 14:59:13 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page_/select_Select TitleMrMrsMissMs'  using regular expression
+
+2018-07-18 14:59:13 - [TEST_STEP][PASSED] - setText: Text 'AvishekSixteen' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_5'
+
+2018-07-18 14:59:13 - [MESSAGE][PASSED] - Text 'AvishekSixteen' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_5'
+
+2018-07-18 14:59:13 - [TEST_STEP][PASSED] - setText: Text 'Mailinator' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_6'
+
+2018-07-18 14:59:14 - [MESSAGE][PASSED] - Text 'Mailinator' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_6'
+
+2018-07-18 14:59:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/RoleObjectCapture/Page_/input_ctl00ContentPlaceHolder1' is clicked on
+
+2018-07-18 14:59:14 - [MESSAGE][PASSED] - Object: 'Object Repository/RoleObjectCapture/Page_/input_ctl00ContentPlaceHolder1' is clicked on
+
+2018-07-18 14:59:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/RoleObjectCapture/Page_/Page_/th_July 2018' is clicked on
+
+2018-07-18 14:59:14 - [MESSAGE][PASSED] - Object: 'Object Repository/RoleObjectCapture/Page_/Page_/th_July 2018' is clicked on
+
+2018-07-18 14:59:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/RoleObjectCapture/Page_/Page_/th_2018' is clicked on
+
+2018-07-18 14:59:14 - [MESSAGE][PASSED] - Object: 'Object Repository/RoleObjectCapture/Page_/Page_/th_2018' is clicked on
+
+2018-07-18 14:59:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/th_' is clicked on
+
+2018-07-18 14:59:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/th_' is clicked on
+
+2018-07-18 14:59:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/th_' is clicked on
+
+2018-07-18 14:59:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/th_' is clicked on
+
+2018-07-18 14:59:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/th_' is clicked on
+
+2018-07-18 14:59:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/th_' is clicked on
+
+2018-07-18 14:59:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/span_1985' is clicked on
+
+2018-07-18 14:59:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/span_1985' is clicked on
+
+2018-07-18 14:59:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/span_Aug' is clicked on
+
+2018-07-18 14:59:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/span_Aug' is clicked on
+
+2018-07-18 14:59:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/td_23' is clicked on
+
+2018-07-18 14:59:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/td_23' is clicked on
+
+2018-07-18 14:59:15 - [TEST_STEP][PASSED] - setText: Text 'Kolkata' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_7'
+
+2018-07-18 14:59:15 - [MESSAGE][PASSED] - Text 'Kolkata' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_7'
+
+2018-07-18 14:59:15 - [TEST_STEP][PASSED] - setText: Text 'Kolkata' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_8'
+
+2018-07-18 14:59:16 - [MESSAGE][PASSED] - Text 'Kolkata' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_8'
+
+2018-07-18 14:59:16 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '156' are selected in object 'Object Repository/Page_/select_Select CountryAfghanist'  using regular expression
+
+2018-07-18 14:59:19 - [MESSAGE][PASSED] - All options with value '156' are selected in object 'Object Repository/Page_/select_Select CountryAfghanist'  using regular expression
+
+2018-07-18 14:59:19 - [TEST_STEP][PASSED] - setText: Text '1245789865' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_9'
+
+2018-07-18 14:59:20 - [MESSAGE][PASSED] - Text '1245789865' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_9'
+
+2018-07-18 14:59:20 - [TEST_STEP][PASSED] - setText: Text 'pet name' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_10'
+
+2018-07-18 14:59:20 - [MESSAGE][PASSED] - Text 'pet name' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_10'
+
+2018-07-18 14:59:20 - [TEST_STEP][PASSED] - setText: Text 'taffy' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_11'
+
+2018-07-18 14:59:20 - [MESSAGE][PASSED] - Text 'taffy' is set on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_11'
+
+2018-07-18 14:59:20 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '7' are selected in object 'Object Repository/Page_/select_Select RoleSuperAdminAd'  using regular expression
+
+2018-07-18 14:59:20 - [MESSAGE][PASSED] - All options with value '7' are selected in object 'Object Repository/Page_/select_Select RoleSuperAdminAd'  using regular expression
+
+2018-07-18 14:59:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_12' is clicked on
+
+2018-07-18 14:59:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/input_ctl00ContentPlaceHolder1_12' is clicked on
+
+2018-07-18 14:59:21 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-18 14:59:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-18 14:59:21 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-18 14:59:21 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-18 14:59:21 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1 (2)' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_/input_ctl00ContentPlaceHolder1 (2)' located by 'By.xpath: id("ContentPlaceHolder1_btnAddNewUser")[count(. | //input[@type = 'submit' and @name = 'ctl00$ContentPlaceHolder1$btnAddNewUser' and @value = 'Add New User' and @onclick = 'return gotoAddUserPage();' and @id = 'ContentPlaceHolder1_btnAddNewUser']) = count(//input[@type = 'submit' and @name = 'ctl00$ContentPlaceHolder1$btnAddNewUser' and @value = 'Add New User' and @onclick = 'return gotoAddUserPage();' and @id = 'ContentPlaceHolder1_btnAddNewUser'])]' not found)
+
+2018-07-18 14:59:53 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1 (2)' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_/input_ctl00ContentPlaceHolder1 (2)' located by 'By.xpath: id("ContentPlaceHolder1_btnAddNewUser")[count(. | //input[@type = 'submit' and @name = 'ctl00$ContentPlaceHolder1$btnAddNewUser' and @value = 'Add New User' and @onclick = 'return gotoAddUserPage();' and @id = 'ContentPlaceHolder1_btnAddNewUser']) = count(//input[@type = 'submit' and @name = 'ctl00$ContentPlaceHolder1$btnAddNewUser' and @value = 'Add New User' and @onclick = 'return gotoAddUserPage();' and @id = 'ContentPlaceHolder1_btnAddNewUser'])]' not found)
+[[ATTACHMENT|E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\AddUserRoleManagement\\20180718_145846\\1531906193233.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-18 14:58:49 - [TEST_CASE][FAILED] - Test Cases/CRM/AddUserRoleManagment: Test Cases/CRM/AddUserRoleManagment FAILED because (of) Unable to click on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1 (2)' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_/input_ctl00ContentPlaceHolder1 (2)' located by 'By.xpath: id("ContentPlaceHolder1_btnAddNewUser")[count(. | //input[@type = 'submit' and @name = 'ctl00$ContentPlaceHolder1$btnAddNewUser' and @value = 'Add New User' and @onclick = 'return gotoAddUserPage();' and @id = 'ContentPlaceHolder1_btnAddNewUser']) = count(//input[@type = 'submit' and @name = 'ctl00$ContentPlaceHolder1$btnAddNewUser' and @value = 'Add New User' and @onclick = 'return gotoAddUserPage();' and @id = 'ContentPlaceHolder1_btnAddNewUser'])]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-18 14:58:49 - [TEST_SUITE][FAILED] - AddUserRoleManagement: Test Cases/CRM/AddUserRoleManagment FAILED because (of) Unable to click on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1 (2)' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_/input_ctl00ContentPlaceHolder1 (2)' located by 'By.xpath: id("ContentPlaceHolder1_btnAddNewUser")[count(. | //input[@type = 'submit' and @name = 'ctl00$ContentPlaceHolder1$btnAddNewUser' and @value = 'Add New User' and @onclick = 'return gotoAddUserPage();' and @id = 'ContentPlaceHolder1_btnAddNewUser']) = count(//input[@type = 'submit' and @name = 'ctl00$ContentPlaceHolder1$btnAddNewUser' and @value = 'Add New User' and @onclick = 'return gotoAddUserPage();' and @id = 'ContentPlaceHolder1_btnAddNewUser'])]' not found)]]></system-out>
+      <system-err><![CDATA[2018-07-18 14:58:49 - [TEST_SUITE][FAILED] - AddUserRoleManagement: Test Cases/CRM/AddUserRoleManagment FAILED because (of) Unable to click on object 'Object Repository/Page_/input_ctl00ContentPlaceHolder1 (2)' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_/input_ctl00ContentPlaceHolder1 (2)' located by 'By.xpath: id("ContentPlaceHolder1_btnAddNewUser")[count(. | //input[@type = 'submit' and @name = 'ctl00$ContentPlaceHolder1$btnAddNewUser' and @value = 'Add New User' and @onclick = 'return gotoAddUserPage();' and @id = 'ContentPlaceHolder1_btnAddNewUser']) = count(//input[@type = 'submit' and @name = 'ctl00$ContentPlaceHolder1$btnAddNewUser' and @value = 'Add New User' and @onclick = 'return gotoAddUserPage();' and @id = 'ContentPlaceHolder1_btnAddNewUser'])]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

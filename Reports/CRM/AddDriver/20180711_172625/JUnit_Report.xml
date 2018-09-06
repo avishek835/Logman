@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AddDriver" time="29" tests="1" failures="0" errors="0">
+   <testsuite name="AddDriver" tests="1" failures="0" errors="0" time="29" timestamp="2018-07-11 17:26:27" hostname="Avishek - DESKTOP-UNOIIMH" id="Test Suites/CRM/AddDriver">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\AddDriver\\20180711_172625"/>
+         <property name="logFiles" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\AddDriver\\20180711_172625\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Avishek - DESKTOP-UNOIIMH"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="172.16.10.93"/>
+         <property name="sessionId" value="ac1abf6446173babad99031d3c2feaf1"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/CRM/AddDriver" classname="Test Cases/CRM/AddDriver" status="PASSED">
+         <system-out><![CDATA[2018-07-11 17:26:28 - [TEST_CASE][PASSED] - Test Cases/CRM/AddDriver: Test Cases/CRM/AddDriver
+
+2018-07-11 17:26:29 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-11 17:26:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-11 17:26:32 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://portal.logmanproj.com/Login.aspx' successfully
+
+2018-07-11 17:26:39 - [MESSAGE][PASSED] - Navigate to 'http://portal.logmanproj.com/Login.aspx' successfully
+
+2018-07-11 17:26:39 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-11 17:26:40 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-11 17:26:40 - [TEST_STEP][PASSED] - setText: Text 'tom@alter.com' is set on object 'Object Repository/Driver/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-11 17:26:40 - [MESSAGE][PASSED] - Text 'tom@alter.com' is set on object 'Object Repository/Driver/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-11 17:26:40 - [TEST_STEP][PASSED] - setText: Text 'tom123' is set on object 'Object Repository/Driver/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-11 17:26:40 - [MESSAGE][PASSED] - Text 'tom123' is set on object 'Object Repository/Driver/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-11 17:26:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Driver/Page_JobyCo/input_ctl00ContentPlaceHolder1_2' is clicked on
+
+2018-07-11 17:26:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Driver/Page_JobyCo/input_ctl00ContentPlaceHolder1_2' is clicked on
+
+2018-07-11 17:26:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Driver/Page_/button_toggle navigation' is clicked on
+
+2018-07-11 17:26:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Driver/Page_/button_toggle navigation' is clicked on
+
+2018-07-11 17:26:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Driver/Page_/a_Drivers' is clicked on
+
+2018-07-11 17:26:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Driver/Page_/a_Drivers' is clicked on
+
+2018-07-11 17:26:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Driver/Page_/a_Add a Driver' is clicked on
+
+2018-07-11 17:26:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Driver/Page_/a_Add a Driver' is clicked on
+
+2018-07-11 17:26:44 - [TEST_STEP][PASSED] - setText: Text 'avishek35@mailinator.com' is set on object 'Object Repository/Driver/Page_/input_ctl00ContentPlaceHolder1'
+
+2018-07-11 17:26:45 - [MESSAGE][PASSED] - Text 'avishek35@mailinator.com' is set on object 'Object Repository/Driver/Page_/input_ctl00ContentPlaceHolder1'
+
+2018-07-11 17:26:45 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/Driver/Page_/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-11 17:26:45 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Driver/Page_/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-11 17:26:45 - [TEST_STEP][PASSED] - setText: Text 'Avishekthirtyfive' is set on object 'Object Repository/Driver/Page_/input_ctl00ContentPlaceHolder1_2'
+
+2018-07-11 17:26:45 - [MESSAGE][PASSED] - Text 'Avishekthirtyfive' is set on object 'Object Repository/Driver/Page_/input_ctl00ContentPlaceHolder1_2'
+
+2018-07-11 17:26:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Demo/Page_ (2)/input_ctl00ContentPlaceHolder1' is clicked on
+
+2018-07-11 17:26:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo/Page_ (2)/input_ctl00ContentPlaceHolder1' is clicked on
+
+2018-07-11 17:26:45 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-11 17:26:46 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-11 17:26:46 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Driver/Page_/th_July 2018' is hovered
+
+2018-07-11 17:26:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Driver/Page_/th_July 2018' is hovered
+
+2018-07-11 17:26:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Driver/Page_/th_July 2018' is clicked on
+
+2018-07-11 17:26:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Driver/Page_/th_July 2018' is clicked on
+
+2018-07-11 17:26:46 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-11 17:26:46 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-11 17:26:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Demo/Driver_DOB/Page_/th_2018' is clicked on
+
+2018-07-11 17:26:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo/Driver_DOB/Page_/th_2018' is clicked on
+
+2018-07-11 17:26:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Demo/Driver_DOB/Page_/th_' is clicked on
+
+2018-07-11 17:26:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo/Driver_DOB/Page_/th_' is clicked on
+
+2018-07-11 17:26:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Demo/Driver_DOB/Page_/th_' is clicked on
+
+2018-07-11 17:26:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo/Driver_DOB/Page_/th_' is clicked on
+
+2018-07-11 17:26:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Demo/Driver_DOB/Page_/th_' is clicked on
+
+2018-07-11 17:26:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo/Driver_DOB/Page_/th_' is clicked on
+
+2018-07-11 17:26:47 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-11 17:26:47 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-11 17:26:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Demo/Driver_DOB/Page_/span_1985' is clicked on
+
+2018-07-11 17:26:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo/Driver_DOB/Page_/span_1985' is clicked on
+
+2018-07-11 17:26:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Demo/Driver_DOB/Page_/span_Aug' is clicked on
+
+2018-07-11 17:26:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo/Driver_DOB/Page_/span_Aug' is clicked on
+
+2018-07-11 17:26:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Demo/Driver_DOB/Page_/td_23' is clicked on
+
+2018-07-11 17:26:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo/Driver_DOB/Page_/td_23' is clicked on
+
+2018-07-11 17:26:47 - [TEST_STEP][PASSED] - setText: Text 'Kolkata' is set on object 'Object Repository/Driver/Page_/input_txtAddressLine1'
+
+2018-07-11 17:26:47 - [MESSAGE][PASSED] - Text 'Kolkata' is set on object 'Object Repository/Driver/Page_/input_txtAddressLine1'
+
+2018-07-11 17:26:47 - [TEST_STEP][PASSED] - setText: Text '700091' is set on object 'Object Repository/Driver/Page_/input_ctl00ContentPlaceHolder1_3'
+
+2018-07-11 17:26:47 - [MESSAGE][PASSED] - Text '700091' is set on object 'Object Repository/Driver/Page_/input_ctl00ContentPlaceHolder1_3'
+
+2018-07-11 17:26:47 - [TEST_STEP][PASSED] - setText: Text '1234567890' is set on object 'Object Repository/Driver/Page_/input_txtMobile'
+
+2018-07-11 17:26:48 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/Driver/Page_/input_txtMobile'
+
+2018-07-11 17:26:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Driver/Page_/input_ctl00ContentPlaceHolder1_4' is clicked on
+
+2018-07-11 17:26:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Driver/Page_/input_ctl00ContentPlaceHolder1_4' is clicked on
+
+2018-07-11 17:26:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Driver/Page_/input_ctl00ContentPlaceHolder1_5' is clicked on
+
+2018-07-11 17:26:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Driver/Page_/input_ctl00ContentPlaceHolder1_5' is clicked on
+
+2018-07-11 17:26:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Driver/Page_/input_ctl00ContentPlaceHolder1_6' is clicked on
+
+2018-07-11 17:26:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Driver/Page_/input_ctl00ContentPlaceHolder1_6' is clicked on
+
+2018-07-11 17:26:48 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Driver/Page_/button_OK' is hovered
+
+2018-07-11 17:26:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Driver/Page_/button_OK' is hovered
+
+2018-07-11 17:26:48 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-11 17:26:49 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-11 17:26:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Driver/Page_/button_OK' is clicked on
+
+2018-07-11 17:26:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Driver/Page_/button_OK' is clicked on
+
+2018-07-11 17:26:50 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-11 17:26:50 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-11 17:26:50 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Driver/Page_/i_fa fa-eye' is hovered
+
+2018-07-11 17:26:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Driver/Page_/i_fa fa-eye' is hovered
+
+2018-07-11 17:26:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Driver/Page_/i_fa fa-eye' is clicked on
+
+2018-07-11 17:26:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Driver/Page_/i_fa fa-eye' is clicked on
+
+2018-07-11 17:26:51 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-11 17:26:52 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-11 17:26:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Driver/Page_/i_fa fa-file-pdf-o' is clicked on
+
+2018-07-11 17:26:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Driver/Page_/i_fa fa-file-pdf-o' is clicked on
+
+2018-07-11 17:26:52 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-11 17:26:52 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-11 17:26:52 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Driver/Page_/i_fa fa-eye' is hovered
+
+2018-07-11 17:26:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Driver/Page_/i_fa fa-eye' is hovered
+
+2018-07-11 17:26:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Driver/Page_/i_fa fa-eye' is clicked on
+
+2018-07-11 17:26:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Driver/Page_/i_fa fa-eye' is clicked on
+
+2018-07-11 17:26:52 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-11 17:26:54 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-11 17:26:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Driver/Page_/button_' is clicked on
+
+2018-07-11 17:26:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Driver/Page_/button_' is clicked on
+
+2018-07-11 17:26:54 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-11 17:26:54 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-11 17:26:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Driver/Page_/span_glyphicon glyphicon-user' is clicked on
+
+2018-07-11 17:26:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Driver/Page_/span_glyphicon glyphicon-user' is clicked on
+
+2018-07-11 17:26:55 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-11 17:26:55 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-11 17:26:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Driver/Page_/button_Sign Out' is clicked on
+
+2018-07-11 17:26:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Driver/Page_/button_Sign Out' is clicked on
+
+2018-07-11 17:26:55 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-11 17:26:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-11 17:26:27 - [TEST_SUITE][PASSED] - AddDriver: Test Cases/CRM/AddDriver]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

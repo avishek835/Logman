@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+MultipleSignUp,Chrome 67.0.3396.99,,2018-07-18 16:37:59,2018-07-18 16:39:51,1m - 52.144s,PASSED
+,,,,,,
+Test Cases/Demo/MultipleSignUp,Chrome 67.0.3396.99,,2018-07-18 16:37:59,2018-07-18 16:39:51,1m - 51.568s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Demo/SignUp),Chrome 67.0.3396.99,,2018-07-18 16:38:00,2018-07-18 16:38:00,0.026s,PASSED
+Statement - For (def index : (0..(data.getRowNumbers() - 9))),Chrome 67.0.3396.99,,2018-07-18 16:38:00,2018-07-18 16:39:51,1m - 50.940s,PASSED

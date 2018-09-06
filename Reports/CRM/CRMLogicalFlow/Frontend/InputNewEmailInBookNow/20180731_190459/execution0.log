@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-07-31T19:05:02</date>
+  <millis>1533044102740</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/CRM/CRMLogicalFlow/Frontend/InputNewEmailInBookNow</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">InputNewEmailInBookNow</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/CRM/CRMLogicalFlow/Frontend/InputNewEmailInBookNow</property>
+</record>
+<record>
+  <date>2018-07-31T19:05:02</date>
+  <millis>1533044102814</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostName&amp;apos; with value &amp;apos;Avishek - DESKTOP-UNOIIMH&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">Avishek - DESKTOP-UNOIIMH</property>
+</record>
+<record>
+  <date>2018-07-31T19:05:02</date>
+  <millis>1533044102817</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;os&amp;apos; with value &amp;apos;Windows 10 64bit&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2018-07-31T19:05:02</date>
+  <millis>1533044102820</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostAddress&amp;apos; with value &amp;apos;172.16.10.89&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">172.16.10.89</property>
+</record>
+<record>
+  <date>2018-07-31T19:05:02</date>
+  <millis>1533044102822</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;katalonVersion&amp;apos; with value &amp;apos;5.5.0.1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.5.0.1</property>
+</record>
+<record>
+  <date>2018-07-31T19:05:03</date>
+  <millis>1533044103521</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/CRMLogicalFlow/Frontend/InputNewEmailInBookNow</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/CRMLogicalFlow/Frontend/InputNewEmailInBookNow</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/CRMLogicalFlow/Frontend/InputNewEmailInBookNow</property>
+  <property name="source">E:\\Avishek\\LOGMANPROJECT\\Test Cases\\CRMLogicalFlow\\Frontend\\InputNewEmailInBookNow.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2018-07-31T19:05:03</date>
+  <millis>1533044103550</millis>
+  <sequence>6</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Evaluating variables for test case</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:03</date>
+  <millis>1533044103559</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : sampleBeforeTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:03</date>
+  <millis>1533044103561</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting invoke &amp;apos;com.kms.katalon.core.annotation.BeforeTestCase&amp;apos; method: &amp;apos;Browser.sampleBeforeTestCase(...)&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:03</date>
+  <millis>1533044103604</millis>
+  <sequence>9</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">32</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-07-31T19:05:04</date>
+  <millis>1533044104034</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Opening browser</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:04</date>
+  <millis>1533044104046</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:04</date>
+  <millis>1533044104089</millis>
+  <sequence>12</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 seconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:06</date>
+  <millis>1533044106886</millis>
+  <sequence>14</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;sessionId&amp;apos; with value &amp;apos;5e45b88282cd017551c219f986341aa5&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">5e45b88282cd017551c219f986341aa5</property>
+</record>
+<record>
+  <date>2018-07-31T19:05:06</date>
+  <millis>1533044106952</millis>
+  <sequence>15</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;browser&amp;apos; with value &amp;apos;Chrome 67.0.3396.99&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 67.0.3396.99</property>
+</record>
+<record>
+  <date>2018-07-31T19:05:06</date>
+  <millis>1533044106953</millis>
+  <sequence>16</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;platform&amp;apos; with value &amp;apos;Windows 10&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2018-07-31T19:05:06</date>
+  <millis>1533044106957</millis>
+  <sequence>17</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;seleniumVersion&amp;apos; with value &amp;apos;3.7.1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2018-07-31T19:05:06</date>
+  <millis>1533044106959</millis>
+  <sequence>18</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;proxyInformation&amp;apos; with value &amp;apos;ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2018-07-31T19:05:06</date>
+  <millis>1533044106960</millis>
+  <sequence>19</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:06</date>
+  <millis>1533044106961</millis>
+  <sequence>20</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Invoke &amp;apos;com.kms.katalon.core.annotation.BeforeTestCase&amp;apos; method: &amp;apos;Browser.sampleBeforeTestCase(...)&amp;apos; completed.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:06</date>
+  <millis>1533044106961</millis>
+  <sequence>21</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:06</date>
+  <millis>1533044106962</millis>
+  <sequence>22</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : sampleBeforeTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:07</date>
+  <millis>1533044107241</millis>
+  <sequence>23</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-07-31T19:05:07</date>
+  <millis>1533044107275</millis>
+  <sequence>24</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking url</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:07</date>
+  <millis>1533044107277</millis>
+  <sequence>25</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigating to &amp;apos;http://172.16.20.5:94/Landing.aspx&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:09</date>
+  <millis>1533044109596</millis>
+  <sequence>26</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;http://172.16.20.5:94/Landing.aspx&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:09</date>
+  <millis>1533044109598</millis>
+  <sequence>27</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:09</date>
+  <millis>1533044109599</millis>
+  <sequence>28</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2018-07-31T19:05:09</date>
+  <millis>1533044109606</millis>
+  <sequence>29</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/InputNewEmail/Page_JobyCo/a_Home&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:09</date>
+  <millis>1533044109662</millis>
+  <sequence>30</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:09</date>
+  <millis>1533044109663</millis>
+  <sequence>31</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:09</date>
+  <millis>1533044109681</millis>
+  <sequence>32</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/InputNewEmail/Page_JobyCo/a_Home&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;navbar\&amp;quot;)/ul[@class=\&amp;quot;nav navbar-nav navbar-right\&amp;quot;]/li[1]/a[1][count(. | //a[@href = &amp;apos;/Landing.aspx&amp;apos; and (text() = &amp;apos;Home&amp;apos; or . = &amp;apos;Home&amp;apos;)]) = count(//a[@href = &amp;apos;/Landing.aspx&amp;apos; and (text() = &amp;apos;Home&amp;apos; or . = &amp;apos;Home&amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:09</date>
+  <millis>1533044109726</millis>
+  <sequence>33</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/InputNewEmail/Page_JobyCo/a_Home&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;navbar\&amp;quot;)/ul[@class=\&amp;quot;nav navbar-nav navbar-right\&amp;quot;]/li[1]/a[1][count(. | //a[@href = &amp;apos;/Landing.aspx&amp;apos; and (text() = &amp;apos;Home&amp;apos; or . = &amp;apos;Home&amp;apos;)]) = count(//a[@href = &amp;apos;/Landing.aspx&amp;apos; and (text() = &amp;apos;Home&amp;apos; or . = &amp;apos;Home&amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:09</date>
+  <millis>1533044109729</millis>
+  <sequence>34</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/InputNewEmail/Page_JobyCo/a_Home&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:10</date>
+  <millis>1533044110224</millis>
+  <sequence>35</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/InputNewEmail/Page_JobyCo/a_Home&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:10</date>
+  <millis>1533044110225</millis>
+  <sequence>36</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:10</date>
+  <millis>1533044110226</millis>
+  <sequence>37</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2018-07-31T19:05:10</date>
+  <millis>1533044110227</millis>
+  <sequence>38</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/InputNewEmail/Page_JobyCo/input_ctl00ContentPlaceHolder1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:10</date>
+  <millis>1533044110257</millis>
+  <sequence>39</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:10</date>
+  <millis>1533044110258</millis>
+  <sequence>40</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking text</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:10</date>
+  <millis>1533044110258</millis>
+  <sequence>41</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:10</date>
+  <millis>1533044110260</millis>
+  <sequence>42</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/InputNewEmail/Page_JobyCo/input_ctl00ContentPlaceHolder1&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;ContentPlaceHolder1_txtEmailID\&amp;quot;)[count(. | //input[@name = &amp;apos;ctl00$ContentPlaceHolder1$txtEmailID&amp;apos; and @type = &amp;apos;text&amp;apos; and @id = &amp;apos;ContentPlaceHolder1_txtEmailID&amp;apos; and @placeholder = &amp;apos;Please enter your Email&amp;apos; and @title = &amp;apos;Please enter your Email&amp;apos;]) = count(//input[@name = &amp;apos;ctl00$ContentPlaceHolder1$txtEmailID&amp;apos; and @type = &amp;apos;text&amp;apos; and @id = &amp;apos;ContentPlaceHolder1_txtEmailID&amp;apos; and @placeholder = &amp;apos;Please enter your Email&amp;apos; and @title = &amp;apos;Please enter your Email&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:10</date>
+  <millis>1533044110309</millis>
+  <sequence>43</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/InputNewEmail/Page_JobyCo/input_ctl00ContentPlaceHolder1&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;ContentPlaceHolder1_txtEmailID\&amp;quot;)[count(. | //input[@name = &amp;apos;ctl00$ContentPlaceHolder1$txtEmailID&amp;apos; and @type = &amp;apos;text&amp;apos; and @id = &amp;apos;ContentPlaceHolder1_txtEmailID&amp;apos; and @placeholder = &amp;apos;Please enter your Email&amp;apos; and @title = &amp;apos;Please enter your Email&amp;apos;]) = count(//input[@name = &amp;apos;ctl00$ContentPlaceHolder1$txtEmailID&amp;apos; and @type = &amp;apos;text&amp;apos; and @id = &amp;apos;ContentPlaceHolder1_txtEmailID&amp;apos; and @placeholder = &amp;apos;Please enter your Email&amp;apos; and @title = &amp;apos;Please enter your Email&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:10</date>
+  <millis>1533044110310</millis>
+  <sequence>44</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clearing text of object &amp;apos;Object Repository/InputNewEmail/Page_JobyCo/input_ctl00ContentPlaceHolder1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:10</date>
+  <millis>1533044110356</millis>
+  <sequence>45</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:10</date>
+  <millis>1533044110357</millis>
+  <sequence>46</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/InputNewEmail/Page_JobyCo/input_ctl00ContentPlaceHolder1&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;ContentPlaceHolder1_txtEmailID\&amp;quot;)[count(. | //input[@name = &amp;apos;ctl00$ContentPlaceHolder1$txtEmailID&amp;apos; and @type = &amp;apos;text&amp;apos; and @id = &amp;apos;ContentPlaceHolder1_txtEmailID&amp;apos; and @placeholder = &amp;apos;Please enter your Email&amp;apos; and @title = &amp;apos;Please enter your Email&amp;apos;]) = count(//input[@name = &amp;apos;ctl00$ContentPlaceHolder1$txtEmailID&amp;apos; and @type = &amp;apos;text&amp;apos; and @id = &amp;apos;ContentPlaceHolder1_txtEmailID&amp;apos; and @placeholder = &amp;apos;Please enter your Email&amp;apos; and @title = &amp;apos;Please enter your Email&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:10</date>
+  <millis>1533044110374</millis>
+  <sequence>47</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/InputNewEmail/Page_JobyCo/input_ctl00ContentPlaceHolder1&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;ContentPlaceHolder1_txtEmailID\&amp;quot;)[count(. | //input[@name = &amp;apos;ctl00$ContentPlaceHolder1$txtEmailID&amp;apos; and @type = &amp;apos;text&amp;apos; and @id = &amp;apos;ContentPlaceHolder1_txtEmailID&amp;apos; and @placeholder = &amp;apos;Please enter your Email&amp;apos; and @title = &amp;apos;Please enter your Email&amp;apos;]) = count(//input[@name = &amp;apos;ctl00$ContentPlaceHolder1$txtEmailID&amp;apos; and @type = &amp;apos;text&amp;apos; and @id = &amp;apos;ContentPlaceHolder1_txtEmailID&amp;apos; and @placeholder = &amp;apos;Please enter your Email&amp;apos; and @title = &amp;apos;Please enter your Email&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:10</date>
+  <millis>1533044110385</millis>
+  <sequence>48</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Setting text of object &amp;apos;Object Repository/InputNewEmail/Page_JobyCo/input_ctl00ContentPlaceHolder1&amp;apos; to value &amp;apos;avishek2@mailinator.com&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:10</date>
+  <millis>1533044110804</millis>
+  <sequence>49</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;avishek2@mailinator.com&amp;apos; is set on object &amp;apos;Object Repository/InputNewEmail/Page_JobyCo/input_ctl00ContentPlaceHolder1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:10</date>
+  <millis>1533044110805</millis>
+  <sequence>50</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:10</date>
+  <millis>1533044110805</millis>
+  <sequence>51</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2018-07-31T19:05:10</date>
+  <millis>1533044110806</millis>
+  <sequence>52</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/InputNewEmail/Page_JobyCo/button_Book Now&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:10</date>
+  <millis>1533044110811</millis>
+  <sequence>53</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:10</date>
+  <millis>1533044110812</millis>
+  <sequence>54</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:10</date>
+  <millis>1533044110813</millis>
+  <sequence>55</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/InputNewEmail/Page_JobyCo/button_Book Now&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;btnFreeSignUp\&amp;quot;)[count(. | //button[@id = &amp;apos;btnFreeSignUp&amp;apos; and (text() = &amp;apos;Book Now&amp;apos; or . = &amp;apos;Book Now&amp;apos;)]) = count(//button[@id = &amp;apos;btnFreeSignUp&amp;apos; and (text() = &amp;apos;Book Now&amp;apos; or . = &amp;apos;Book Now&amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:10</date>
+  <millis>1533044110848</millis>
+  <sequence>56</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/InputNewEmail/Page_JobyCo/button_Book Now&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;btnFreeSignUp\&amp;quot;)[count(. | //button[@id = &amp;apos;btnFreeSignUp&amp;apos; and (text() = &amp;apos;Book Now&amp;apos; or . = &amp;apos;Book Now&amp;apos;)]) = count(//button[@id = &amp;apos;btnFreeSignUp&amp;apos; and (text() = &amp;apos;Book Now&amp;apos; or . = &amp;apos;Book Now&amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:10</date>
+  <millis>1533044110850</millis>
+  <sequence>57</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/InputNewEmail/Page_JobyCo/button_Book Now&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:11</date>
+  <millis>1533044111020</millis>
+  <sequence>58</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/InputNewEmail/Page_JobyCo/button_Book Now&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:11</date>
+  <millis>1533044111021</millis>
+  <sequence>59</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:11</date>
+  <millis>1533044111022</millis>
+  <sequence>60</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/CRMLogicalFlow/Frontend/InputNewEmailInBookNow</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:11</date>
+  <millis>1533044111023</millis>
+  <sequence>61</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : sampleAfterTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:11</date>
+  <millis>1533044111023</millis>
+  <sequence>62</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting invoke &amp;apos;com.kms.katalon.core.annotation.AfterTestCase&amp;apos; method: &amp;apos;Browser.sampleAfterTestCase(...)&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:11</date>
+  <millis>1533044111024</millis>
+  <sequence>63</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : closeBrowser</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">41</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-07-31T19:05:11</date>
+  <millis>1533044111044</millis>
+  <sequence>64</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Closing browser</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:11</date>
+  <millis>1533044111777</millis>
+  <sequence>65</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:11</date>
+  <millis>1533044111778</millis>
+  <sequence>66</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Invoke &amp;apos;com.kms.katalon.core.annotation.AfterTestCase&amp;apos; method: &amp;apos;Browser.sampleAfterTestCase(...)&amp;apos; completed.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:11</date>
+  <millis>1533044111779</millis>
+  <sequence>67</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : closeBrowser</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:11</date>
+  <millis>1533044111780</millis>
+  <sequence>68</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : sampleAfterTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:11</date>
+  <millis>1533044111781</millis>
+  <sequence>69</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/CRMLogicalFlow/Frontend/InputNewEmailInBookNow</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-07-31T19:05:11</date>
+  <millis>1533044111837</millis>
+  <sequence>70</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/CRM/CRMLogicalFlow/Frontend/InputNewEmailInBookNow</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

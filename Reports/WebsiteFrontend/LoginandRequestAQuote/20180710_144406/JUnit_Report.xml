@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LoginandRequestAQuote" time="21" tests="0" failures="1" errors="0">
+   <testsuite name="LoginandRequestAQuote" tests="0" failures="1" errors="0" time="21" timestamp="2018-07-10 14:47:13" hostname="Avishek - DESKTOP-UNOIIMH" id="Test Suites/WebsiteFrontend/LoginandRequestAQuote">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\WebsiteFrontend\\LoginandRequestAQuote\\20180710_144406"/>
+         <property name="logFiles" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\WebsiteFrontend\\LoginandRequestAQuote\\20180710_144406\\execution0.log"/>
+         <property name="attachments" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\WebsiteFrontend\\LoginandRequestAQuote\\20180710_144406\\1531214242385.png, E:\\Avishek\\LOGMANPROJECT\\Reports\\WebsiteFrontend\\LoginandRequestAQuote\\20180710_144406\\1531214244743.png, E:\\Avishek\\LOGMANPROJECT\\Reports\\WebsiteFrontend\\LoginandRequestAQuote\\20180710_144406\\1531214253905.png"/>
+         <property name="hostName" value="Avishek - DESKTOP-UNOIIMH"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="172.16.10.93"/>
+         <property name="sessionId" value="a8d24d27d352385e28193411955439e3"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/WebsitesFrontend/LoginandMakeABookingAsNO" classname="Test Cases/WebsitesFrontend/LoginandMakeABookingAsNO" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_11' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-UNOIIMH', ip: '172.16.10.93', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Avishek\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: a8d24d27d352385e28193411955439e3)"/>
+         <system-out><![CDATA[2018-07-10 14:47:13 - [TEST_CASE][FAILED] - Test Cases/WebsitesFrontend/LoginandMakeABookingAsNO: Test Cases/WebsitesFrontend/LoginandMakeABookingAsNO FAILED because (of) Unable to click on object 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_11' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-UNOIIMH', ip: '172.16.10.93', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Avishek\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: a8d24d27d352385e28193411955439e3)
+
+2018-07-10 14:47:14 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-10 14:47:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-10 14:47:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://logmanproj.com/Login.aspx' successfully
+
+2018-07-10 14:47:21 - [MESSAGE][PASSED] - Navigate to 'http://logmanproj.com/Login.aspx' successfully
+
+2018-07-10 14:47:21 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-10 14:47:22 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-10 14:47:22 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-10 14:47:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\Avishek\\LOGMANPROJECT\\Reports\\WebsiteFrontend\\LoginandRequestAQuote\\20180710_144406\\1531214242385.png]]
+
+2018-07-10 14:47:22 - [TEST_STEP][PASSED] - setText: Text 'avishek20@mailinator.com' is set on object 'Object Repository/Bookings/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-10 14:47:23 - [MESSAGE][PASSED] - Text 'avishek20@mailinator.com' is set on object 'Object Repository/Bookings/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-10 14:47:23 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/Bookings/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-10 14:47:23 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Bookings/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-10 14:47:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Bookings/Page_JobyCo/input_ctl00ContentPlaceHolder1_2' is clicked on
+
+2018-07-10 14:47:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Bookings/Page_JobyCo/input_ctl00ContentPlaceHolder1_2' is clicked on
+
+2018-07-10 14:47:24 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-10 14:47:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\Avishek\\LOGMANPROJECT\\Reports\\WebsiteFrontend\\LoginandRequestAQuote\\20180710_144406\\1531214244743.png]]
+
+2018-07-10 14:47:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CaptureObject/Page_ (3)/label_Make a Booking' is clicked on
+
+2018-07-10 14:47:26 - [MESSAGE][PASSED] - Object: 'Object Repository/CaptureObject/Page_ (3)/label_Make a Booking' is clicked on
+
+2018-07-10 14:47:26 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '0' are selected in object 'Object Repository/Bookings/Page_/select_Please SelectYesNo'  using regular expression
+
+2018-07-10 14:47:26 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Bookings/Page_/select_Please SelectYesNo'  using regular expression
+
+2018-07-10 14:47:26 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/Bookings/Page_/select_Please SelectYesNoI am'  using regular expression
+
+2018-07-10 14:47:26 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Bookings/Page_/select_Please SelectYesNoI am'  using regular expression
+
+2018-07-10 14:47:26 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '52' are selected in object 'Object Repository/Bookings/Page_/select_Pickup Category'  using regular expression
+
+2018-07-10 14:47:27 - [MESSAGE][PASSED] - All options with value '52' are selected in object 'Object Repository/Bookings/Page_/select_Pickup Category'  using regular expression
+
+2018-07-10 14:47:27 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/Bookings/Page_/select_Pickup ItemSuitCaseGhan'  using regular expression
+
+2018-07-10 14:47:28 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Bookings/Page_/select_Pickup ItemSuitCaseGhan'  using regular expression
+
+2018-07-10 14:47:28 - [TEST_STEP][PASSED] - setText: Text '45' is set on object 'Object Repository/Bookings/Page_/input_estimatedValue'
+
+2018-07-10 14:47:28 - [MESSAGE][PASSED] - Text '45' is set on object 'Object Repository/Bookings/Page_/input_estimatedValue'
+
+2018-07-10 14:47:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Bookings/Page_/button_Add Row' is clicked on
+
+2018-07-10 14:47:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Bookings/Page_/button_Add Row' is clicked on
+
+2018-07-10 14:47:28 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '53' are selected in object 'Object Repository/Bookings/Page_/select_Pickup CategoryAir Cond'  using regular expression
+
+2018-07-10 14:47:29 - [MESSAGE][PASSED] - All options with value '53' are selected in object 'Object Repository/Bookings/Page_/select_Pickup CategoryAir Cond'  using regular expression
+
+2018-07-10 14:47:29 - [TEST_STEP][PASSED] - setText: Text '115' is set on object 'Object Repository/Bookings/Page_/input_estimatedValue_1'
+
+2018-07-10 14:47:29 - [MESSAGE][PASSED] - Text '115' is set on object 'Object Repository/Bookings/Page_/input_estimatedValue_1'
+
+2018-07-10 14:47:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/input_ctl00ContentPlaceHolder1' is clicked on
+
+2018-07-10 14:47:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/input_ctl00ContentPlaceHolder1' is clicked on
+
+2018-07-10 14:47:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CaptureObject/Page_/Page_/table_July 2018SuMoTuWeThFrSa2' is clicked on
+
+2018-07-10 14:47:29 - [MESSAGE][PASSED] - Object: 'Object Repository/CaptureObject/Page_/Page_/table_July 2018SuMoTuWeThFrSa2' is clicked on
+
+2018-07-10 14:47:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1' is clicked on
+
+2018-07-10 14:47:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1' is clicked on
+
+2018-07-10 14:47:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Bookings/Page_/input_next' is clicked on
+
+2018-07-10 14:47:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Bookings/Page_/input_next' is clicked on
+
+2018-07-10 14:47:30 - [TEST_STEP][PASSED] - setText: Text 'Avishek' is set on object 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-10 14:47:30 - [MESSAGE][PASSED] - Text 'Avishek' is set on object 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-10 14:47:30 - [TEST_STEP][PASSED] - setText: Text 'Kolkata' is set on object 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_2'
+
+2018-07-10 14:47:31 - [MESSAGE][PASSED] - Text 'Kolkata' is set on object 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_2'
+
+2018-07-10 14:47:31 - [TEST_STEP][PASSED] - setText: Text '2563' is set on object 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_3'
+
+2018-07-10 14:47:31 - [MESSAGE][PASSED] - Text '2563' is set on object 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_3'
+
+2018-07-10 14:47:31 - [TEST_STEP][PASSED] - setText: Text '1234567890' is set on object 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_4'
+
+2018-07-10 14:47:31 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_4'
+
+2018-07-10 14:47:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Bookings/Page_/div_Pickup Email Address' is clicked on
+
+2018-07-10 14:47:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Bookings/Page_/div_Pickup Email Address' is clicked on
+
+2018-07-10 14:47:31 - [TEST_STEP][PASSED] - setText: Text 'avishek5@mailinator.com' is set on object 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_5'
+
+2018-07-10 14:47:32 - [MESSAGE][PASSED] - Text 'avishek5@mailinator.com' is set on object 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_5'
+
+2018-07-10 14:47:32 - [TEST_STEP][PASSED] - setText: Text 'Avi' is set on object 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_6'
+
+2018-07-10 14:47:32 - [MESSAGE][PASSED] - Text 'Avi' is set on object 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_6'
+
+2018-07-10 14:47:32 - [TEST_STEP][PASSED] - setText: Text 'Kolkata' is set on object 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_7'
+
+2018-07-10 14:47:32 - [MESSAGE][PASSED] - Text 'Kolkata' is set on object 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_7'
+
+2018-07-10 14:47:32 - [TEST_STEP][PASSED] - setText: Text '4578' is set on object 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_8'
+
+2018-07-10 14:47:32 - [MESSAGE][PASSED] - Text '4578' is set on object 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_8'
+
+2018-07-10 14:47:32 - [TEST_STEP][PASSED] - setText: Text '1234567890' is set on object 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_9'
+
+2018-07-10 14:47:32 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_9'
+
+2018-07-10 14:47:32 - [TEST_STEP][PASSED] - setText: Text 'avisshek@mailinator.com' is set on object 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_10'
+
+2018-07-10 14:47:33 - [MESSAGE][PASSED] - Text 'avisshek@mailinator.com' is set on object 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_10'
+
+2018-07-10 14:47:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Bookings/Page_ (1)/input_next' is clicked on
+
+2018-07-10 14:47:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Bookings/Page_ (1)/input_next' is clicked on
+
+2018-07-10 14:47:33 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-10 14:47:33 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-10 14:47:33 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_11' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-UNOIIMH', ip: '172.16.10.93', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Avishek\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: a8d24d27d352385e28193411955439e3)
+
+2018-07-10 14:47:34 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_11' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-UNOIIMH', ip: '172.16.10.93', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Avishek\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: a8d24d27d352385e28193411955439e3)
+[[ATTACHMENT|E:\\Avishek\\LOGMANPROJECT\\Reports\\WebsiteFrontend\\LoginandRequestAQuote\\20180710_144406\\1531214253905.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-10 14:47:13 - [TEST_CASE][FAILED] - Test Cases/WebsitesFrontend/LoginandMakeABookingAsNO: Test Cases/WebsitesFrontend/LoginandMakeABookingAsNO FAILED because (of) Unable to click on object 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_11' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-UNOIIMH', ip: '172.16.10.93', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Avishek\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: a8d24d27d352385e28193411955439e3)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-10 14:47:13 - [TEST_SUITE][FAILED] - LoginandRequestAQuote: Test Cases/WebsitesFrontend/LoginandMakeABookingAsNO FAILED because (of) Unable to click on object 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_11' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-UNOIIMH', ip: '172.16.10.93', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Avishek\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: a8d24d27d352385e28193411955439e3)]]></system-out>
+      <system-err><![CDATA[2018-07-10 14:47:13 - [TEST_SUITE][FAILED] - LoginandRequestAQuote: Test Cases/WebsitesFrontend/LoginandMakeABookingAsNO FAILED because (of) Unable to click on object 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_11' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-UNOIIMH', ip: '172.16.10.93', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Avishek\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: a8d24d27d352385e28193411955439e3)]]></system-err>
+   </testsuite>
+</testsuites>

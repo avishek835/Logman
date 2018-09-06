@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AddWarehouse" time="23" tests="0" failures="1" errors="0">
+   <testsuite name="AddWarehouse" tests="0" failures="1" errors="0" time="23" timestamp="2018-07-16 18:42:09" hostname="Avishek - DESKTOP-UNOIIMH" id="Test Suites/CRM/AddWarehouse">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\AddWarehouse\\20180716_184206"/>
+         <property name="logFiles" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\AddWarehouse\\20180716_184206\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Avishek - DESKTOP-UNOIIMH"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="172.16.10.93"/>
+         <property name="sessionId" value="1a35edf43d180fd283f30f595544fc85"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/CRM/AddWarehouse" classname="Test Cases/CRM/AddWarehouse" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'centurocommx' of object 'Object Repository/Warehouse/Page_/input_ctl00ContentPlaceHolder1_1 (1)' (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Unable to Bind View All Warehouses}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-UNOIIMH', ip: '172.16.10.93', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Avishek\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 1a35edf43d180fd283f30f595544fc85
+*** Element info: {Using=xpath, value=id(&quot;ContentPlaceHolder1_txtWarehouseName&quot;)[count(. | //input[@name = 'ctl00$ContentPlaceHolder1$txtWarehouseName' and @type = 'text' and @maxlength = '50' and @id = 'ContentPlaceHolder1_txtWarehouseName' and @class = 'form-control m-b' and @placeholder = 'e.g. Centrumix.com.mx' and @title = 'Please enter Warehouse Name' and @onkeypress = 'AlphaNumericOnly(event);clearErrorMessage();']) = count(//input[@name = 'ctl00$ContentPlaceHolder1$txtWarehouseName' and @type = 'text' and @maxlength = '50' and @id = 'ContentPlaceHolder1_txtWarehouseName' and @class = 'form-control m-b' and @placeholder = 'e.g. Centrumix.com.mx' and @title = 'Please enter Warehouse Name' and @onkeypress = 'AlphaNumericOnly(event);clearErrorMessage();'])]})"/>
+         <system-out><![CDATA[2018-07-16 18:42:10 - [TEST_CASE][FAILED] - Test Cases/CRM/AddWarehouse: Test Cases/CRM/AddWarehouse FAILED because (of) Unable to set text 'centurocommx' of object 'Object Repository/Warehouse/Page_/input_ctl00ContentPlaceHolder1_1 (1)' (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Unable to Bind View All Warehouses}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-UNOIIMH', ip: '172.16.10.93', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Avishek\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 1a35edf43d180fd283f30f595544fc85
+*** Element info: {Using=xpath, value=id("ContentPlaceHolder1_txtWarehouseName")[count(. | //input[@name = 'ctl00$ContentPlaceHolder1$txtWarehouseName' and @type = 'text' and @maxlength = '50' and @id = 'ContentPlaceHolder1_txtWarehouseName' and @class = 'form-control m-b' and @placeholder = 'e.g. Centrumix.com.mx' and @title = 'Please enter Warehouse Name' and @onkeypress = 'AlphaNumericOnly(event);clearErrorMessage();']) = count(//input[@name = 'ctl00$ContentPlaceHolder1$txtWarehouseName' and @type = 'text' and @maxlength = '50' and @id = 'ContentPlaceHolder1_txtWarehouseName' and @class = 'form-control m-b' and @placeholder = 'e.g. Centrumix.com.mx' and @title = 'Please enter Warehouse Name' and @onkeypress = 'AlphaNumericOnly(event);clearErrorMessage();'])]})
+
+2018-07-16 18:42:11 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-16 18:42:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-16 18:42:14 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://portal.logmanproj.com/Login.aspx' successfully
+
+2018-07-16 18:42:24 - [MESSAGE][PASSED] - Navigate to 'http://portal.logmanproj.com/Login.aspx' successfully
+
+2018-07-16 18:42:24 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-16 18:42:25 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-16 18:42:25 - [TEST_STEP][PASSED] - setText: Text 'tom@alter.com' is set on object 'Object Repository/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-16 18:42:25 - [MESSAGE][PASSED] - Text 'tom@alter.com' is set on object 'Object Repository/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-16 18:42:25 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-16 18:42:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-16 18:42:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_JobyCo/input_ctl00ContentPlaceHolder1_2' is clicked on
+
+2018-07-16 18:42:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JobyCo/input_ctl00ContentPlaceHolder1_2' is clicked on
+
+2018-07-16 18:42:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Warehouse/Page_/button_toggle navigation (1)' is clicked on
+
+2018-07-16 18:42:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Warehouse/Page_/button_toggle navigation (1)' is clicked on
+
+2018-07-16 18:42:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Warehouse/Page_/a_Warehouse (1)' is clicked on
+
+2018-07-16 18:42:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Warehouse/Page_/a_Warehouse (1)' is clicked on
+
+2018-07-16 18:42:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Warehouse/Page_/a_New Warehouse (1)' is clicked on
+
+2018-07-16 18:42:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Warehouse/Page_/a_New Warehouse (1)' is clicked on
+
+2018-07-16 18:42:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Warehouse/Page_/button_toggle navigation (1)' is clicked on
+
+2018-07-16 18:42:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Warehouse/Page_/button_toggle navigation (1)' is clicked on
+
+2018-07-16 18:42:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Warehouse/Page_/a_Warehouse (1)' is clicked on
+
+2018-07-16 18:42:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Warehouse/Page_/a_Warehouse (1)' is clicked on
+
+2018-07-16 18:42:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Warehouse/Page_/a_View all Warehouses (1)' is clicked on
+
+2018-07-16 18:42:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Warehouse/Page_/a_View all Warehouses (1)' is clicked on
+
+2018-07-16 18:42:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Warehouse/Page_/input_ctl00ContentPlaceHolder1 (1)' is clicked on
+
+2018-07-16 18:42:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Warehouse/Page_/input_ctl00ContentPlaceHolder1 (1)' is clicked on
+
+2018-07-16 18:42:32 - [TEST_STEP][FAILED] - setText: Unable to set text 'centurocommx' of object 'Object Repository/Warehouse/Page_/input_ctl00ContentPlaceHolder1_1 (1)' (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Unable to Bind View All Warehouses}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-UNOIIMH', ip: '172.16.10.93', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Avishek\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 1a35edf43d180fd283f30f595544fc85
+*** Element info: {Using=xpath, value=id("ContentPlaceHolder1_txtWarehouseName")[count(. | //input[@name = 'ctl00$ContentPlaceHolder1$txtWarehouseName' and @type = 'text' and @maxlength = '50' and @id = 'ContentPlaceHolder1_txtWarehouseName' and @class = 'form-control m-b' and @placeholder = 'e.g. Centrumix.com.mx' and @title = 'Please enter Warehouse Name' and @onkeypress = 'AlphaNumericOnly(event);clearErrorMessage();']) = count(//input[@name = 'ctl00$ContentPlaceHolder1$txtWarehouseName' and @type = 'text' and @maxlength = '50' and @id = 'ContentPlaceHolder1_txtWarehouseName' and @class = 'form-control m-b' and @placeholder = 'e.g. Centrumix.com.mx' and @title = 'Please enter Warehouse Name' and @onkeypress = 'AlphaNumericOnly(event);clearErrorMessage();'])]})
+
+2018-07-16 18:42:32 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-16 18:42:32 - [MESSAGE][FAILED] - Unable to set text 'centurocommx' of object 'Object Repository/Warehouse/Page_/input_ctl00ContentPlaceHolder1_1 (1)' (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Unable to Bind View All Warehouses}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-UNOIIMH', ip: '172.16.10.93', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Avishek\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 1a35edf43d180fd283f30f595544fc85
+*** Element info: {Using=xpath, value=id("ContentPlaceHolder1_txtWarehouseName")[count(. | //input[@name = 'ctl00$ContentPlaceHolder1$txtWarehouseName' and @type = 'text' and @maxlength = '50' and @id = 'ContentPlaceHolder1_txtWarehouseName' and @class = 'form-control m-b' and @placeholder = 'e.g. Centrumix.com.mx' and @title = 'Please enter Warehouse Name' and @onkeypress = 'AlphaNumericOnly(event);clearErrorMessage();']) = count(//input[@name = 'ctl00$ContentPlaceHolder1$txtWarehouseName' and @type = 'text' and @maxlength = '50' and @id = 'ContentPlaceHolder1_txtWarehouseName' and @class = 'form-control m-b' and @placeholder = 'e.g. Centrumix.com.mx' and @title = 'Please enter Warehouse Name' and @onkeypress = 'AlphaNumericOnly(event);clearErrorMessage();'])]})]]></system-out>
+         <system-err><![CDATA[2018-07-16 18:42:10 - [TEST_CASE][FAILED] - Test Cases/CRM/AddWarehouse: Test Cases/CRM/AddWarehouse FAILED because (of) Unable to set text 'centurocommx' of object 'Object Repository/Warehouse/Page_/input_ctl00ContentPlaceHolder1_1 (1)' (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Unable to Bind View All Warehouses}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-UNOIIMH', ip: '172.16.10.93', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Avishek\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 1a35edf43d180fd283f30f595544fc85
+*** Element info: {Using=xpath, value=id("ContentPlaceHolder1_txtWarehouseName")[count(. | //input[@name = 'ctl00$ContentPlaceHolder1$txtWarehouseName' and @type = 'text' and @maxlength = '50' and @id = 'ContentPlaceHolder1_txtWarehouseName' and @class = 'form-control m-b' and @placeholder = 'e.g. Centrumix.com.mx' and @title = 'Please enter Warehouse Name' and @onkeypress = 'AlphaNumericOnly(event);clearErrorMessage();']) = count(//input[@name = 'ctl00$ContentPlaceHolder1$txtWarehouseName' and @type = 'text' and @maxlength = '50' and @id = 'ContentPlaceHolder1_txtWarehouseName' and @class = 'form-control m-b' and @placeholder = 'e.g. Centrumix.com.mx' and @title = 'Please enter Warehouse Name' and @onkeypress = 'AlphaNumericOnly(event);clearErrorMessage();'])]})]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-16 18:42:09 - [TEST_SUITE][FAILED] - AddWarehouse: Test Cases/CRM/AddWarehouse FAILED because (of) Unable to set text 'centurocommx' of object 'Object Repository/Warehouse/Page_/input_ctl00ContentPlaceHolder1_1 (1)' (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Unable to Bind View All Warehouses}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-UNOIIMH', ip: '172.16.10.93', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Avishek\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 1a35edf43d180fd283f30f595544fc85
+*** Element info: {Using=xpath, value=id("ContentPlaceHolder1_txtWarehouseName")[count(. | //input[@name = 'ctl00$ContentPlaceHolder1$txtWarehouseName' and @type = 'text' and @maxlength = '50' and @id = 'ContentPlaceHolder1_txtWarehouseName' and @class = 'form-control m-b' and @placeholder = 'e.g. Centrumix.com.mx' and @title = 'Please enter Warehouse Name' and @onkeypress = 'AlphaNumericOnly(event);clearErrorMessage();']) = count(//input[@name = 'ctl00$ContentPlaceHolder1$txtWarehouseName' and @type = 'text' and @maxlength = '50' and @id = 'ContentPlaceHolder1_txtWarehouseName' and @class = 'form-control m-b' and @placeholder = 'e.g. Centrumix.com.mx' and @title = 'Please enter Warehouse Name' and @onkeypress = 'AlphaNumericOnly(event);clearErrorMessage();'])]})]]></system-out>
+      <system-err><![CDATA[2018-07-16 18:42:09 - [TEST_SUITE][FAILED] - AddWarehouse: Test Cases/CRM/AddWarehouse FAILED because (of) Unable to set text 'centurocommx' of object 'Object Repository/Warehouse/Page_/input_ctl00ContentPlaceHolder1_1 (1)' (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Unable to Bind View All Warehouses}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-UNOIIMH', ip: '172.16.10.93', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Avishek\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 1a35edf43d180fd283f30f595544fc85
+*** Element info: {Using=xpath, value=id("ContentPlaceHolder1_txtWarehouseName")[count(. | //input[@name = 'ctl00$ContentPlaceHolder1$txtWarehouseName' and @type = 'text' and @maxlength = '50' and @id = 'ContentPlaceHolder1_txtWarehouseName' and @class = 'form-control m-b' and @placeholder = 'e.g. Centrumix.com.mx' and @title = 'Please enter Warehouse Name' and @onkeypress = 'AlphaNumericOnly(event);clearErrorMessage();']) = count(//input[@name = 'ctl00$ContentPlaceHolder1$txtWarehouseName' and @type = 'text' and @maxlength = '50' and @id = 'ContentPlaceHolder1_txtWarehouseName' and @class = 'form-control m-b' and @placeholder = 'e.g. Centrumix.com.mx' and @title = 'Please enter Warehouse Name' and @onkeypress = 'AlphaNumericOnly(event);clearErrorMessage();'])]})]]></system-err>
+   </testsuite>
+</testsuites>

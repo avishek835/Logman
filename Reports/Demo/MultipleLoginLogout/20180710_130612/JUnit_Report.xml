@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="MultipleLoginLogout" time="1" tests="0" failures="0" errors="1">
+   <testsuite name="MultipleLoginLogout" tests="0" failures="0" errors="1" time="1" timestamp="2018-07-10 13:07:44" hostname="Avishek - DESKTOP-UNOIIMH" id="Test Suites/Demo/MultipleLoginLogout">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\Demo\\MultipleLoginLogout\\20180710_130612"/>
+         <property name="logFiles" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\Demo\\MultipleLoginLogout\\20180710_130612\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Avishek - DESKTOP-UNOIIMH"/>
+         <property name="hostAddress" value="172.16.10.93"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+      </properties>
+      <testcase name="Test Cases/Demo/LoginandLogoutWithMultipledata" classname="Test Cases/Demo/LoginandLogoutWithMultipledata" status="ERROR">
+         <error type="ERROR" message="Test Cases/Demo/LoginandLogoutWithMultipledata FAILED because (of) java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/New Test Data' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/New Test Data' does not exist'"/>
+         <system-out><![CDATA[2018-07-10 13:07:45 - [TEST_CASE][ERROR] - Test Cases/Demo/LoginandLogoutWithMultipledata: Test Cases/Demo/LoginandLogoutWithMultipledata FAILED because (of) java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/New Test Data' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/New Test Data' does not exist'
+
+2018-07-10 13:07:46 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(New Test Data): Finding test data with id 'Data Files/New Test Data']]></system-out>
+         <system-err><![CDATA[2018-07-10 13:07:45 - [TEST_CASE][ERROR] - Test Cases/Demo/LoginandLogoutWithMultipledata: Test Cases/Demo/LoginandLogoutWithMultipledata FAILED because (of) java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/New Test Data' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/New Test Data' does not exist']]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-10 13:07:44 - [TEST_SUITE][ERROR] - MultipleLoginLogout: Test Cases/Demo/LoginandLogoutWithMultipledata FAILED because (of) java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/New Test Data' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/New Test Data' does not exist']]></system-out>
+      <system-err><![CDATA[2018-07-10 13:07:44 - [TEST_SUITE][ERROR] - MultipleLoginLogout: Test Cases/Demo/LoginandLogoutWithMultipledata FAILED because (of) java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/New Test Data' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/New Test Data' does not exist']]></system-err>
+   </testsuite>
+</testsuites>

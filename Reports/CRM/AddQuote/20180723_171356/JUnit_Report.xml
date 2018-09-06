@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AddQuote" time="48" tests="1" failures="0" errors="0">
+   <testsuite name="AddQuote" tests="1" failures="0" errors="0" time="48" timestamp="2018-07-23 17:13:59" hostname="Avishek - DESKTOP-UNOIIMH" id="Test Suites/CRM/AddQuote">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\AddQuote\\20180723_171356"/>
+         <property name="logFiles" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\AddQuote\\20180723_171356\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Avishek - DESKTOP-UNOIIMH"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="172.16.10.89"/>
+         <property name="sessionId" value="0294902c010b181aed5b400ec86467a5"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/CRM/AddQuote" classname="Test Cases/CRM/AddQuote" status="PASSED">
+         <system-out><![CDATA[2018-07-23 17:14:00 - [TEST_CASE][PASSED] - Test Cases/CRM/AddQuote: Test Cases/CRM/AddQuote
+
+2018-07-23 17:14:01 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-23 17:14:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-23 17:14:05 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://172.16.20.5:93/' successfully
+
+2018-07-23 17:14:07 - [MESSAGE][PASSED] - Navigate to 'http://172.16.20.5:93/' successfully
+
+2018-07-23 17:14:07 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-23 17:14:08 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-23 17:14:08 - [TEST_STEP][PASSED] - setText: Text 'avishek101@mailinator.com' is set on object 'Object Repository/AddQuote/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-23 17:14:09 - [MESSAGE][PASSED] - Text 'avishek101@mailinator.com' is set on object 'Object Repository/AddQuote/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-23 17:14:09 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/AddQuote/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-23 17:14:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/AddQuote/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-23 17:14:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddQuote/Page_JobyCo/input_ctl00ContentPlaceHolder1_2' is clicked on
+
+2018-07-23 17:14:10 - [MESSAGE][PASSED] - Object: 'Object Repository/AddQuote/Page_JobyCo/input_ctl00ContentPlaceHolder1_2' is clicked on
+
+2018-07-23 17:14:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddQuote/Page_/button_toggle navigation' is clicked on
+
+2018-07-23 17:14:10 - [MESSAGE][PASSED] - Object: 'Object Repository/AddQuote/Page_/button_toggle navigation' is clicked on
+
+2018-07-23 17:14:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddQuote/Page_/a_Booking' is clicked on
+
+2018-07-23 17:14:10 - [MESSAGE][PASSED] - Object: 'Object Repository/AddQuote/Page_/a_Booking' is clicked on
+
+2018-07-23 17:14:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddQuote/Page_/a_Request A Quote' is clicked on
+
+2018-07-23 17:14:11 - [MESSAGE][PASSED] - Object: 'Object Repository/AddQuote/Page_/a_Request A Quote' is clicked on
+
+2018-07-23 17:14:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddQuote/Page_/span_Select Customer' is clicked on
+
+2018-07-23 17:14:12 - [MESSAGE][PASSED] - Object: 'Object Repository/AddQuote/Page_/span_Select Customer' is clicked on
+
+2018-07-23 17:14:12 - [TEST_STEP][PASSED] - setText: Text 'Avi' is set on object 'Object Repository/AddQuote/Page_/input'
+
+2018-07-23 17:14:12 - [MESSAGE][PASSED] - Text 'Avi' is set on object 'Object Repository/AddQuote/Page_/input'
+
+2018-07-23 17:14:12 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/AddQuote/Page_/input'
+
+2018-07-23 17:14:12 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/AddQuote/Page_/input'
+
+2018-07-23 17:14:12 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '0' are selected in object 'Object Repository/AddQuote/Page_/select_Please SelectYesNo'  using regular expression
+
+2018-07-23 17:14:12 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/AddQuote/Page_/select_Please SelectYesNo'  using regular expression
+
+2018-07-23 17:14:12 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/AddQuote/Page_/select_Please SelectYesNoI am'  using regular expression
+
+2018-07-23 17:14:13 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/AddQuote/Page_/select_Please SelectYesNoI am'  using regular expression
+
+2018-07-23 17:14:13 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '52' are selected in object 'Object Repository/AddQuote/Page_/select_Pickup Category'  using regular expression
+
+2018-07-23 17:14:13 - [MESSAGE][PASSED] - All options with value '52' are selected in object 'Object Repository/AddQuote/Page_/select_Pickup Category'  using regular expression
+
+2018-07-23 17:14:13 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/AddQuote/Page_/select_Pickup ItemSuitCaseGhan'  using regular expression
+
+2018-07-23 17:14:14 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/AddQuote/Page_/select_Pickup ItemSuitCaseGhan'  using regular expression
+
+2018-07-23 17:14:14 - [TEST_STEP][PASSED] - setText: Text '45' is set on object 'Object Repository/AddQuote/Page_/input_estimatedValue'
+
+2018-07-23 17:14:14 - [MESSAGE][PASSED] - Text '45' is set on object 'Object Repository/AddQuote/Page_/input_estimatedValue'
+
+2018-07-23 17:14:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ObjectAddQuote/Page_/input_ctl00ContentPlaceHolder1' is clicked on
+
+2018-07-23 17:14:14 - [MESSAGE][PASSED] - Object: 'Object Repository/ObjectAddQuote/Page_/input_ctl00ContentPlaceHolder1' is clicked on
+
+2018-07-23 17:14:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddQuote/Page_/td_31' is clicked on
+
+2018-07-23 17:14:15 - [MESSAGE][PASSED] - Object: 'Object Repository/AddQuote/Page_/td_31' is clicked on
+
+2018-07-23 17:14:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1' is clicked on
+
+2018-07-23 17:14:15 - [MESSAGE][PASSED] - Object: 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1' is clicked on
+
+2018-07-23 17:14:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddQuote/Page_/input_next' is clicked on
+
+2018-07-23 17:14:15 - [MESSAGE][PASSED] - Object: 'Object Repository/AddQuote/Page_/input_next' is clicked on
+
+2018-07-23 17:14:15 - [TEST_STEP][PASSED] - setText: Text 'Tom' is set on object 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-23 17:14:16 - [MESSAGE][PASSED] - Text 'Tom' is set on object 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-23 17:14:16 - [TEST_STEP][PASSED] - setText: Text 'London' is set on object 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_2'
+
+2018-07-23 17:14:17 - [MESSAGE][PASSED] - Text 'London' is set on object 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_2'
+
+2018-07-23 17:14:17 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-23 17:14:17 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-23 17:14:17 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_2'
+
+2018-07-23 17:14:17 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_2'
+
+2018-07-23 17:14:17 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-23 17:14:17 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-23 17:14:17 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/AddQuote/Page_/button_OK' is hovered
+
+2018-07-23 17:14:17 - [MESSAGE][PASSED] - Object: 'Object Repository/AddQuote/Page_/button_OK' is hovered
+
+2018-07-23 17:14:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddQuote/Page_/button_OK' is clicked on
+
+2018-07-23 17:14:17 - [MESSAGE][PASSED] - Object: 'Object Repository/AddQuote/Page_/button_OK' is clicked on
+
+2018-07-23 17:14:17 - [TEST_STEP][PASSED] - setText: Text '1234' is set on object 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_3'
+
+2018-07-23 17:14:18 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_3'
+
+2018-07-23 17:14:18 - [TEST_STEP][PASSED] - setText: Text '1234567890' is set on object 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_4'
+
+2018-07-23 17:14:18 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_4'
+
+2018-07-23 17:14:18 - [TEST_STEP][PASSED] - setText: Text 'tom@mailinator.com' is set on object 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_5'
+
+2018-07-23 17:14:19 - [MESSAGE][PASSED] - Text 'tom@mailinator.com' is set on object 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_5'
+
+2018-07-23 17:14:19 - [TEST_STEP][PASSED] - setText: Text 'Tom' is set on object 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_6'
+
+2018-07-23 17:14:19 - [MESSAGE][PASSED] - Text 'Tom' is set on object 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_6'
+
+2018-07-23 17:14:19 - [TEST_STEP][PASSED] - setText: Text 'London' is set on object 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_7'
+
+2018-07-23 17:14:20 - [MESSAGE][PASSED] - Text 'London' is set on object 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_7'
+
+2018-07-23 17:14:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddQuote/Page_/div' is clicked on
+
+2018-07-23 17:14:20 - [MESSAGE][PASSED] - Object: 'Object Repository/AddQuote/Page_/div' is clicked on
+
+2018-07-23 17:14:20 - [TEST_STEP][PASSED] - setText: Text '3210' is set on object 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_8'
+
+2018-07-23 17:14:20 - [MESSAGE][PASSED] - Text '3210' is set on object 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_8'
+
+2018-07-23 17:14:20 - [TEST_STEP][PASSED] - setText: Text '9876543210' is set on object 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_9'
+
+2018-07-23 17:14:21 - [MESSAGE][PASSED] - Text '9876543210' is set on object 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_9'
+
+2018-07-23 17:14:21 - [TEST_STEP][PASSED] - setText: Text 'tom1@mailinator.com' is set on object 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_10'
+
+2018-07-23 17:14:21 - [MESSAGE][PASSED] - Text 'tom1@mailinator.com' is set on object 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_10'
+
+2018-07-23 17:14:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddQuote/Page_/input_next_1' is clicked on
+
+2018-07-23 17:14:22 - [MESSAGE][PASSED] - Object: 'Object Repository/AddQuote/Page_/input_next_1' is clicked on
+
+2018-07-23 17:14:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_11' is clicked on
+
+2018-07-23 17:14:22 - [MESSAGE][PASSED] - Object: 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_11' is clicked on
+
+2018-07-23 17:14:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_12' is clicked on
+
+2018-07-23 17:14:22 - [MESSAGE][PASSED] - Object: 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_12' is clicked on
+
+2018-07-23 17:14:22 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-23 17:14:28 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-23 17:14:28 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/AddQuote/Page_/a_Back to Dashboard' is hovered
+
+2018-07-23 17:14:28 - [MESSAGE][PASSED] - Object: 'Object Repository/AddQuote/Page_/a_Back to Dashboard' is hovered
+
+2018-07-23 17:14:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddQuote/Page_/a_Back to Dashboard' is clicked on
+
+2018-07-23 17:14:28 - [MESSAGE][PASSED] - Object: 'Object Repository/AddQuote/Page_/a_Back to Dashboard' is clicked on
+
+2018-07-23 17:14:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddQuote/Page_/button_toggle navigation' is clicked on
+
+2018-07-23 17:14:28 - [MESSAGE][PASSED] - Object: 'Object Repository/AddQuote/Page_/button_toggle navigation' is clicked on
+
+2018-07-23 17:14:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddQuote/Page_/a_Booking' is clicked on
+
+2018-07-23 17:14:28 - [MESSAGE][PASSED] - Object: 'Object Repository/AddQuote/Page_/a_Booking' is clicked on
+
+2018-07-23 17:14:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddQuote/Page_/a_Request A Quote' is clicked on
+
+2018-07-23 17:14:29 - [MESSAGE][PASSED] - Object: 'Object Repository/AddQuote/Page_/a_Request A Quote' is clicked on
+
+2018-07-23 17:14:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddQuote/Page_/span_Select Customer' is clicked on
+
+2018-07-23 17:14:29 - [MESSAGE][PASSED] - Object: 'Object Repository/AddQuote/Page_/span_Select Customer' is clicked on
+
+2018-07-23 17:14:29 - [TEST_STEP][PASSED] - setText: Text 'tom' is set on object 'Object Repository/AddQuote/Page_/input'
+
+2018-07-23 17:14:30 - [MESSAGE][PASSED] - Text 'tom' is set on object 'Object Repository/AddQuote/Page_/input'
+
+2018-07-23 17:14:30 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-23 17:14:30 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-23 17:14:30 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/AddQuote/Page_/input'
+
+2018-07-23 17:14:30 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/AddQuote/Page_/input'
+
+2018-07-23 17:14:30 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/AddQuote/Page_/select_Please SelectYesNo'  using regular expression
+
+2018-07-23 17:14:30 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/AddQuote/Page_/select_Please SelectYesNo'  using regular expression
+
+2018-07-23 17:14:30 - [TEST_STEP][PASSED] - setText: Text 'tree Ltd' is set on object 'Object Repository/ObjectAddQuote/Page_/Page_/input_ctl00ContentPlaceHolder1'
+
+2018-07-23 17:14:31 - [MESSAGE][PASSED] - Text 'tree Ltd' is set on object 'Object Repository/ObjectAddQuote/Page_/Page_/input_ctl00ContentPlaceHolder1'
+
+2018-07-23 17:14:31 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/ObjectAddQuote/Page_/Page_/Page_/select_Please SelectYesNo'  using regular expression
+
+2018-07-23 17:14:31 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/ObjectAddQuote/Page_/Page_/Page_/select_Please SelectYesNo'  using regular expression
+
+2018-07-23 17:14:31 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/AddQuote/Page_/select_Please SelectYesNoI am'  using regular expression
+
+2018-07-23 17:14:31 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/AddQuote/Page_/select_Please SelectYesNoI am'  using regular expression
+
+2018-07-23 17:14:31 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '52' are selected in object 'Object Repository/AddQuote/Page_/select_Pickup Category'  using regular expression
+
+2018-07-23 17:14:32 - [MESSAGE][PASSED] - All options with value '52' are selected in object 'Object Repository/AddQuote/Page_/select_Pickup Category'  using regular expression
+
+2018-07-23 17:14:32 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/AddQuote/Page_/select_Pickup ItemSuitCaseGhan'  using regular expression
+
+2018-07-23 17:14:32 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/AddQuote/Page_/select_Pickup ItemSuitCaseGhan'  using regular expression
+
+2018-07-23 17:14:32 - [TEST_STEP][PASSED] - setText: Text '12' is set on object 'Object Repository/AddQuote/Page_/input_estimatedValue'
+
+2018-07-23 17:14:32 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/AddQuote/Page_/input_estimatedValue'
+
+2018-07-23 17:14:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddQuote/Page_/button_Add Row' is clicked on
+
+2018-07-23 17:14:33 - [MESSAGE][PASSED] - Object: 'Object Repository/AddQuote/Page_/button_Add Row' is clicked on
+
+2018-07-23 17:14:33 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '51' are selected in object 'Object Repository/AddQuote/Page_/select_Pickup CategoryAir Cond'  using regular expression
+
+2018-07-23 17:14:33 - [MESSAGE][PASSED] - All options with value '51' are selected in object 'Object Repository/AddQuote/Page_/select_Pickup CategoryAir Cond'  using regular expression
+
+2018-07-23 17:14:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddQuote/Page_/label_FRAGILE' is clicked on
+
+2018-07-23 17:14:33 - [MESSAGE][PASSED] - Object: 'Object Repository/AddQuote/Page_/label_FRAGILE' is clicked on
+
+2018-07-23 17:14:33 - [TEST_STEP][PASSED] - setText: Text '78' is set on object 'Object Repository/AddQuote/Page_/input_estimatedValue_1'
+
+2018-07-23 17:14:34 - [MESSAGE][PASSED] - Text '78' is set on object 'Object Repository/AddQuote/Page_/input_estimatedValue_1'
+
+2018-07-23 17:14:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ObjectAddQuote/Page_/input_ctl00ContentPlaceHolder1' is clicked on
+
+2018-07-23 17:14:34 - [MESSAGE][PASSED] - Object: 'Object Repository/ObjectAddQuote/Page_/input_ctl00ContentPlaceHolder1' is clicked on
+
+2018-07-23 17:14:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddQuote/Page_/td_31' is clicked on
+
+2018-07-23 17:14:34 - [MESSAGE][PASSED] - Object: 'Object Repository/AddQuote/Page_/td_31' is clicked on
+
+2018-07-23 17:14:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1' is clicked on
+
+2018-07-23 17:14:34 - [MESSAGE][PASSED] - Object: 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1' is clicked on
+
+2018-07-23 17:14:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddQuote/Page_/input_next' is clicked on
+
+2018-07-23 17:14:34 - [MESSAGE][PASSED] - Object: 'Object Repository/AddQuote/Page_/input_next' is clicked on
+
+2018-07-23 17:14:34 - [TEST_STEP][PASSED] - setText: Text 'Tom Alter' is set on object 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-23 17:14:36 - [MESSAGE][PASSED] - Text 'Tom Alter' is set on object 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-23 17:14:36 - [TEST_STEP][PASSED] - setText: Text 'London' is set on object 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_2'
+
+2018-07-23 17:14:36 - [MESSAGE][PASSED] - Text 'London' is set on object 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_2'
+
+2018-07-23 17:14:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddQuote/Page_/div_1' is clicked on
+
+2018-07-23 17:14:36 - [MESSAGE][PASSED] - Object: 'Object Repository/AddQuote/Page_/div_1' is clicked on
+
+2018-07-23 17:14:36 - [TEST_STEP][PASSED] - setText: Text '1230' is set on object 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_3'
+
+2018-07-23 17:14:36 - [MESSAGE][PASSED] - Text '1230' is set on object 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_3'
+
+2018-07-23 17:14:36 - [TEST_STEP][PASSED] - setText: Text '568974250' is set on object 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_4'
+
+2018-07-23 17:14:37 - [MESSAGE][PASSED] - Text '568974250' is set on object 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_4'
+
+2018-07-23 17:14:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddQuote/Page_/div_col-md-9 col-xs-12' is clicked on
+
+2018-07-23 17:14:37 - [MESSAGE][PASSED] - Object: 'Object Repository/AddQuote/Page_/div_col-md-9 col-xs-12' is clicked on
+
+2018-07-23 17:14:37 - [TEST_STEP][PASSED] - setText: Text 'tom2@mailinator.com' is set on object 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_5'
+
+2018-07-23 17:14:38 - [MESSAGE][PASSED] - Text 'tom2@mailinator.com' is set on object 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_5'
+
+2018-07-23 17:14:38 - [TEST_STEP][PASSED] - setText: Text 'Darek Nation' is set on object 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_6'
+
+2018-07-23 17:14:38 - [MESSAGE][PASSED] - Text 'Darek Nation' is set on object 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_6'
+
+2018-07-23 17:14:38 - [TEST_STEP][PASSED] - setText: Text 'London' is set on object 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_7'
+
+2018-07-23 17:14:39 - [MESSAGE][PASSED] - Text 'London' is set on object 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_7'
+
+2018-07-23 17:14:39 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-23 17:14:39 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-23 17:14:39 - [TEST_STEP][PASSED] - setText: Text '5980' is set on object 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_8'
+
+2018-07-23 17:14:39 - [MESSAGE][PASSED] - Text '5980' is set on object 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_8'
+
+2018-07-23 17:14:39 - [TEST_STEP][PASSED] - setText: Text '7898654512' is set on object 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_9'
+
+2018-07-23 17:14:40 - [MESSAGE][PASSED] - Text '7898654512' is set on object 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_9'
+
+2018-07-23 17:14:40 - [TEST_STEP][PASSED] - setText: Text 'tom3@mailinator.com' is set on object 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_10'
+
+2018-07-23 17:14:40 - [MESSAGE][PASSED] - Text 'tom3@mailinator.com' is set on object 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_10'
+
+2018-07-23 17:14:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddQuote/Page_/input_next_1' is clicked on
+
+2018-07-23 17:14:40 - [MESSAGE][PASSED] - Object: 'Object Repository/AddQuote/Page_/input_next_1' is clicked on
+
+2018-07-23 17:14:40 - [TEST_STEP][PASSED] - setText: Text '5689742501' is set on object 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_4'
+
+2018-07-23 17:14:41 - [MESSAGE][PASSED] - Text '5689742501' is set on object 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_4'
+
+2018-07-23 17:14:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddQuote/Page_/input_next_1' is clicked on
+
+2018-07-23 17:14:41 - [MESSAGE][PASSED] - Object: 'Object Repository/AddQuote/Page_/input_next_1' is clicked on
+
+2018-07-23 17:14:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_11' is clicked on
+
+2018-07-23 17:14:41 - [MESSAGE][PASSED] - Object: 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_11' is clicked on
+
+2018-07-23 17:14:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_12' is clicked on
+
+2018-07-23 17:14:42 - [MESSAGE][PASSED] - Object: 'Object Repository/AddQuote/Page_/input_ctl00ContentPlaceHolder1_12' is clicked on
+
+2018-07-23 17:14:42 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-23 17:14:46 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-23 17:14:46 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/AddQuote/Page_/a_Back to Dashboard' is hovered
+
+2018-07-23 17:14:46 - [MESSAGE][PASSED] - Object: 'Object Repository/AddQuote/Page_/a_Back to Dashboard' is hovered
+
+2018-07-23 17:14:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddQuote/Page_/a_Back to Dashboard' is clicked on
+
+2018-07-23 17:14:46 - [MESSAGE][PASSED] - Object: 'Object Repository/AddQuote/Page_/a_Back to Dashboard' is clicked on
+
+2018-07-23 17:14:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddQuote/Page_/span_glyphicon glyphicon-user' is clicked on
+
+2018-07-23 17:14:46 - [MESSAGE][PASSED] - Object: 'Object Repository/AddQuote/Page_/span_glyphicon glyphicon-user' is clicked on
+
+2018-07-23 17:14:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddQuote/Page_/button_Sign Out' is clicked on
+
+2018-07-23 17:14:46 - [MESSAGE][PASSED] - Object: 'Object Repository/AddQuote/Page_/button_Sign Out' is clicked on
+
+2018-07-23 17:14:46 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-23 17:14:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-23 17:13:59 - [TEST_SUITE][PASSED] - AddQuote: Test Cases/CRM/AddQuote]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>MultipleLoginLogout</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-07-18T15:24:45</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>9005d34e-e8b9-4c1e-aae5-88012de9dc0d</testSuiteGuid>
+   <testCaseLink>
+      <guid>377d6cac-913d-4d57-a517-00b0849e4b54</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FrontendDDF/LoginandLogoutWithMultipledata</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0e3ec3f3-a5da-4e3d-82c2-27b45cc4f10e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>94009fb2-a4f7-44ab-ba80-70651dbac611</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

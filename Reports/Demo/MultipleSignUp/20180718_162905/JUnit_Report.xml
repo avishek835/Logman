@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="MultipleSignUp" time="140" tests="0" failures="0" errors="1">
+   <testsuite name="MultipleSignUp" tests="0" failures="0" errors="1" time="140" timestamp="2018-07-18 16:29:09" hostname="Avishek - DESKTOP-UNOIIMH" id="Test Suites/Demo/MultipleSignUp">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\Demo\\MultipleSignUp\\20180718_162905"/>
+         <property name="logFiles" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\Demo\\MultipleSignUp\\20180718_162905\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Avishek - DESKTOP-UNOIIMH"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="172.16.10.156"/>
+         <property name="sessionId" value="652ec899929e21238e78467593ade0a6"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Demo/MultipleSignUp" classname="Test Cases/Demo/MultipleSignUp" status="ERROR">
+         <error type="ERROR" message="Test Cases/Demo/MultipleSignUp FAILED because (of) java.lang.ArrayIndexOutOfBoundsException: -1"/>
+         <system-out><![CDATA[2018-07-18 16:29:09 - [TEST_CASE][ERROR] - Test Cases/Demo/MultipleSignUp: Test Cases/Demo/MultipleSignUp FAILED because (of) java.lang.ArrayIndexOutOfBoundsException: -1
+
+2018-07-18 16:29:10 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Demo/SignUp): Test data is internal data, reading internal data
+
+2018-07-18 16:29:10 - [TEST_STEP][PASSED] - Statement - For (def index : (0..(data.getRowNumbers() - 9))): Finding Test Object with id 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-18 16:29:10 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-18 16:29:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-18 16:29:14 - [TEST_STEP][PASSED] - Statement - println("Opened the browser"): null
+
+2018-07-18 16:29:14 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://logmanproj.com/Login.aspx' successfully
+
+2018-07-18 16:29:23 - [MESSAGE][PASSED] - Navigate to 'http://logmanproj.com/Login.aspx' successfully
+
+2018-07-18 16:29:23 - [TEST_STEP][PASSED] - Statement - println("URL loaded into the browser"): null
+
+2018-07-18 16:29:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/a_Sign Up' is clicked on
+
+2018-07-18 16:30:23 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/a_Sign Up' is clicked on
+
+2018-07-18 16:30:23 - [TEST_STEP][PASSED] - Statement - println("Click on the sign up button"): null
+
+2018-07-18 16:30:23 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-18 16:30:24 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-18 16:30:24 - [TEST_STEP][PASSED] - Statement - println("Maximize the window"): null
+
+2018-07-18 16:30:24 - [TEST_STEP][PASSED] - setText: Text 'Avishek' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-18 16:30:24 - [MESSAGE][PASSED] - Text 'Avishek' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-18 16:30:24 - [TEST_STEP][PASSED] - Statement - println("Provide the Username"): null
+
+2018-07-18 16:30:24 - [TEST_STEP][PASSED] - setText: Text 'avishek55@mailinator.com' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-18 16:30:25 - [MESSAGE][PASSED] - Text 'avishek55@mailinator.com' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-18 16:30:25 - [TEST_STEP][PASSED] - Statement - println("Provide the User email id"): null
+
+2018-07-18 16:30:25 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_2'
+
+2018-07-18 16:30:25 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_2'
+
+2018-07-18 16:30:25 - [TEST_STEP][PASSED] - Statement - println("Provide the User password"): null
+
+2018-07-18 16:30:25 - [TEST_STEP][PASSED] - setText: Text '1234567890' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_phone'
+
+2018-07-18 16:30:25 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/MultipleSignUp/Page_JobyCo/input_phone'
+
+2018-07-18 16:30:25 - [TEST_STEP][PASSED] - Statement - println("Provide the User phone number"): null
+
+2018-07-18 16:30:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_3' is clicked on
+
+2018-07-18 16:30:25 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_3' is clicked on
+
+2018-07-18 16:30:25 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is hovered
+
+2018-07-18 16:30:25 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is hovered
+
+2018-07-18 16:30:25 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-18 16:30:26 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-18 16:30:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is clicked on
+
+2018-07-18 16:30:26 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/button_OK' is clicked on
+
+2018-07-18 16:30:26 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-18 16:30:27 - [MESSAGE][PASSED] - Browser is closed
+
+2018-07-18 16:30:27 - [TEST_STEP][PASSED] - Statement - println("Once signup close the browser"): null
+
+2018-07-18 16:30:27 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-18 16:30:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-18 16:30:30 - [TEST_STEP][PASSED] - Statement - println("Opened the browser"): null
+
+2018-07-18 16:30:30 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://logmanproj.com/Login.aspx' successfully
+
+2018-07-18 16:30:38 - [MESSAGE][PASSED] - Navigate to 'http://logmanproj.com/Login.aspx' successfully
+
+2018-07-18 16:30:38 - [TEST_STEP][PASSED] - Statement - println("URL loaded into the browser"): null
+
+2018-07-18 16:30:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MultipleSignUp/Page_JobyCo/a_Sign Up' is clicked on
+
+2018-07-18 16:31:28 - [MESSAGE][PASSED] - Object: 'Object Repository/MultipleSignUp/Page_JobyCo/a_Sign Up' is clicked on
+
+2018-07-18 16:31:28 - [TEST_STEP][PASSED] - Statement - println("Click on the sign up button"): null
+
+2018-07-18 16:31:28 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-18 16:31:29 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-18 16:31:29 - [TEST_STEP][PASSED] - Statement - println("Maximize the window"): null
+
+2018-07-18 16:31:29 - [TEST_STEP][PASSED] - setText: Finding Test Object with id 'Object Repository/MultipleSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1']]></system-out>
+         <system-err><![CDATA[2018-07-18 16:29:09 - [TEST_CASE][ERROR] - Test Cases/Demo/MultipleSignUp: Test Cases/Demo/MultipleSignUp FAILED because (of) java.lang.ArrayIndexOutOfBoundsException: -1]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-18 16:29:09 - [TEST_SUITE][ERROR] - MultipleSignUp: Test Cases/Demo/MultipleSignUp FAILED because (of) java.lang.ArrayIndexOutOfBoundsException: -1]]></system-out>
+      <system-err><![CDATA[2018-07-18 16:29:09 - [TEST_SUITE][ERROR] - MultipleSignUp: Test Cases/Demo/MultipleSignUp FAILED because (of) java.lang.ArrayIndexOutOfBoundsException: -1]]></system-err>
+   </testsuite>
+</testsuites>

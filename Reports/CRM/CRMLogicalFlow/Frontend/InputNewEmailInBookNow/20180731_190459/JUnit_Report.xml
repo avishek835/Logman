@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="InputNewEmailInBookNow" time="9" tests="1" failures="0" errors="0">
+   <testsuite name="InputNewEmailInBookNow" tests="1" failures="0" errors="0" time="9" timestamp="2018-07-31 19:05:02" hostname="Avishek - DESKTOP-UNOIIMH" id="Test Suites/CRM/CRMLogicalFlow/Frontend/InputNewEmailInBookNow">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\CRMLogicalFlow\\Frontend\\InputNewEmailInBookNow\\20180731_190459"/>
+         <property name="logFiles" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\CRMLogicalFlow\\Frontend\\InputNewEmailInBookNow\\20180731_190459\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Avishek - DESKTOP-UNOIIMH"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="172.16.10.89"/>
+         <property name="sessionId" value="5e45b88282cd017551c219f986341aa5"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/CRMLogicalFlow/Frontend/InputNewEmailInBookNow" classname="Test Cases/CRMLogicalFlow/Frontend/InputNewEmailInBookNow" status="PASSED">
+         <system-out><![CDATA[2018-07-31 19:05:03 - [TEST_CASE][PASSED] - Test Cases/CRMLogicalFlow/Frontend/InputNewEmailInBookNow: Test Cases/CRMLogicalFlow/Frontend/InputNewEmailInBookNow
+
+2018-07-31 19:05:03 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Browser is opened with url: ''
+
+2018-07-31 19:05:03 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-31 19:05:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-31 19:05:07 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://172.16.20.5:94/Landing.aspx' successfully
+
+2018-07-31 19:05:09 - [MESSAGE][PASSED] - Navigate to 'http://172.16.20.5:94/Landing.aspx' successfully
+
+2018-07-31 19:05:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/InputNewEmail/Page_JobyCo/a_Home' is clicked on
+
+2018-07-31 19:05:10 - [MESSAGE][PASSED] - Object: 'Object Repository/InputNewEmail/Page_JobyCo/a_Home' is clicked on
+
+2018-07-31 19:05:10 - [TEST_STEP][PASSED] - setText: Text 'avishek2@mailinator.com' is set on object 'Object Repository/InputNewEmail/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-31 19:05:10 - [MESSAGE][PASSED] - Text 'avishek2@mailinator.com' is set on object 'Object Repository/InputNewEmail/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-31 19:05:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/InputNewEmail/Page_JobyCo/button_Book Now' is clicked on
+
+2018-07-31 19:05:11 - [MESSAGE][PASSED] - Object: 'Object Repository/InputNewEmail/Page_JobyCo/button_Book Now' is clicked on
+
+2018-07-31 19:05:11 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2018-07-31 19:05:11 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-31 19:05:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-31 19:05:02 - [TEST_SUITE][PASSED] - InputNewEmailInBookNow: Test Cases/CRMLogicalFlow/Frontend/InputNewEmailInBookNow]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

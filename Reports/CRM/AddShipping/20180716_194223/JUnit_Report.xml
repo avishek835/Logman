@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AddShipping" time="36" tests="1" failures="0" errors="0">
+   <testsuite name="AddShipping" tests="1" failures="0" errors="0" time="36" timestamp="2018-07-16 19:42:25" hostname="Avishek - DESKTOP-UNOIIMH" id="Test Suites/CRM/AddShipping">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\AddShipping\\20180716_194223"/>
+         <property name="logFiles" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\AddShipping\\20180716_194223\\execution0.log"/>
+         <property name="attachments" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\AddShipping\\20180716_194223\\1531750368748.png, E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\AddShipping\\20180716_194223\\1531750374955.png, E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\AddShipping\\20180716_194223\\1531750380080.png"/>
+         <property name="hostName" value="Avishek - DESKTOP-UNOIIMH"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="172.16.10.93"/>
+         <property name="sessionId" value="dddde5c5c4c6e15b392267214b4f2260"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/CRM/AddShipping" classname="Test Cases/CRM/AddShipping" status="PASSED">
+         <system-out><![CDATA[2018-07-16 19:42:26 - [TEST_CASE][PASSED] - Test Cases/CRM/AddShipping: Test Cases/CRM/AddShipping
+
+2018-07-16 19:42:26 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-16 19:42:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-16 19:42:30 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://portal.logmanproj.com/Login.aspx' successfully
+
+2018-07-16 19:42:34 - [MESSAGE][PASSED] - Navigate to 'http://portal.logmanproj.com/Login.aspx' successfully
+
+2018-07-16 19:42:34 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-16 19:42:36 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-16 19:42:36 - [TEST_STEP][PASSED] - setText: Text 'tom@alter.com' is set on object 'Object Repository/CRM_ObjectRepositoryShipping/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-16 19:42:36 - [MESSAGE][PASSED] - Text 'tom@alter.com' is set on object 'Object Repository/CRM_ObjectRepositoryShipping/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-16 19:42:36 - [TEST_STEP][PASSED] - setText: Text 'tom123' is set on object 'Object Repository/CRM_ObjectRepositoryShipping/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-16 19:42:36 - [MESSAGE][PASSED] - Text 'tom123' is set on object 'Object Repository/CRM_ObjectRepositoryShipping/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-16 19:42:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CRM_ObjectRepositoryShipping/Page_JobyCo/input_ctl00ContentPlaceHolder1_2' is clicked on
+
+2018-07-16 19:42:38 - [MESSAGE][PASSED] - Object: 'Object Repository/CRM_ObjectRepositoryShipping/Page_JobyCo/input_ctl00ContentPlaceHolder1_2' is clicked on
+
+2018-07-16 19:42:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CRM_ObjectRepositoryShipping/Page_/button_toggle navigation' is clicked on
+
+2018-07-16 19:42:38 - [MESSAGE][PASSED] - Object: 'Object Repository/CRM_ObjectRepositoryShipping/Page_/button_toggle navigation' is clicked on
+
+2018-07-16 19:42:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CRM_ObjectRepositoryShipping/Page_/a_Shipping' is clicked on
+
+2018-07-16 19:42:38 - [MESSAGE][PASSED] - Object: 'Object Repository/CRM_ObjectRepositoryShipping/Page_/a_Shipping' is clicked on
+
+2018-07-16 19:42:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CRM_ObjectRepositoryShipping/Page_/a_Add Shipping' is clicked on
+
+2018-07-16 19:42:39 - [MESSAGE][PASSED] - Object: 'Object Repository/CRM_ObjectRepositoryShipping/Page_/a_Add Shipping' is clicked on
+
+2018-07-16 19:42:39 - [TEST_STEP][PASSED] - setText: Text 'CVF6789' is set on object 'Object Repository/CRM_ObjectRepositoryShipping/Page_/input_ctl00ContentPlaceHolder1'
+
+2018-07-16 19:42:40 - [MESSAGE][PASSED] - Text 'CVF6789' is set on object 'Object Repository/CRM_ObjectRepositoryShipping/Page_/input_ctl00ContentPlaceHolder1'
+
+2018-07-16 19:42:40 - [TEST_STEP][PASSED] - setText: Text '89255896' is set on object 'Object Repository/CRM_ObjectRepositoryShipping/Page_/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-16 19:42:40 - [MESSAGE][PASSED] - Text '89255896' is set on object 'Object Repository/CRM_ObjectRepositoryShipping/Page_/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-16 19:42:40 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'JBCO000000001' are selected in object 'Object Repository/CRM_ObjectRepositoryShipping/Page_ (8)/select_Select Booking NumberJB'  using regular expression
+
+2018-07-16 19:42:42 - [MESSAGE][PASSED] - All options with value 'JBCO000000001' are selected in object 'Object Repository/CRM_ObjectRepositoryShipping/Page_ (8)/select_Select Booking NumberJB'  using regular expression
+
+2018-07-16 19:42:42 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '285' are selected in object 'Object Repository/CRM_ObjectRepositoryShipping/Page_/select_Select Shipping FromAbe'  using regular expression
+
+2018-07-16 19:42:43 - [MESSAGE][PASSED] - All options with value '285' are selected in object 'Object Repository/CRM_ObjectRepositoryShipping/Page_/select_Select Shipping FromAbe'  using regular expression
+
+2018-07-16 19:42:43 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '286' are selected in object 'Object Repository/CRM_ObjectRepositoryShipping/Page_/select_Select Shipping ToAberd'  using regular expression
+
+2018-07-16 19:42:45 - [MESSAGE][PASSED] - All options with value '286' are selected in object 'Object Repository/CRM_ObjectRepositoryShipping/Page_/select_Select Shipping ToAberd'  using regular expression
+
+2018-07-16 19:42:45 - [TEST_STEP][PASSED] - setText: Text 'Ferryport' is set on object 'Object Repository/CRM_ObjectRepositoryShipping/Page_/input_ctl00ContentPlaceHolder1_2'
+
+2018-07-16 19:42:45 - [MESSAGE][PASSED] - Text 'Ferryport' is set on object 'Object Repository/CRM_ObjectRepositoryShipping/Page_/input_ctl00ContentPlaceHolder1_2'
+
+2018-07-16 19:42:45 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Freight' are selected in object 'Object Repository/CRM_ObjectRepositoryShipping/Page_/select_Select Freight TypeFrei'  using regular expression
+
+2018-07-16 19:42:45 - [MESSAGE][PASSED] - All options with value 'Freight' are selected in object 'Object Repository/CRM_ObjectRepositoryShipping/Page_/select_Select Freight TypeFrei'  using regular expression
+
+2018-07-16 19:42:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CRM_ObjectRepositoryShipping/Page_ (3)/input_ctl00ContentPlaceHolder1' is clicked on
+
+2018-07-16 19:42:46 - [MESSAGE][PASSED] - Object: 'Object Repository/CRM_ObjectRepositoryShipping/Page_ (3)/input_ctl00ContentPlaceHolder1' is clicked on
+
+2018-07-16 19:42:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CRM_ObjectRepositoryShipping/Page_ (4)/div_July 2018SuMoTuWeThFrSa242' is clicked on
+
+2018-07-16 19:42:46 - [MESSAGE][PASSED] - Object: 'Object Repository/CRM_ObjectRepositoryShipping/Page_ (4)/div_July 2018SuMoTuWeThFrSa242' is clicked on
+
+2018-07-16 19:42:46 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-16 19:42:46 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-16 19:42:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CRM_ObjectRepositoryShipping/Page_ (6)/input_ctl00ContentPlaceHolder1 (1)' is clicked on
+
+2018-07-16 19:42:46 - [MESSAGE][PASSED] - Object: 'Object Repository/CRM_ObjectRepositoryShipping/Page_ (6)/input_ctl00ContentPlaceHolder1 (1)' is clicked on
+
+2018-07-16 19:42:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CRM_ObjectRepositoryShipping/Page_ (6)/div_July 2018SuMoTuWeThFrSa242 (1)' is clicked on
+
+2018-07-16 19:42:46 - [MESSAGE][PASSED] - Object: 'Object Repository/CRM_ObjectRepositoryShipping/Page_ (6)/div_July 2018SuMoTuWeThFrSa242 (1)' is clicked on
+
+2018-07-16 19:42:46 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-16 19:42:46 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-16 19:42:46 - [TEST_STEP][PASSED] - setText: Text '7896' is set on object 'Object Repository/CRM_ObjectRepositoryShipping/Page_/input_ctl00ContentPlaceHolder1_3'
+
+2018-07-16 19:42:47 - [MESSAGE][PASSED] - Text '7896' is set on object 'Object Repository/CRM_ObjectRepositoryShipping/Page_/input_ctl00ContentPlaceHolder1_3'
+
+2018-07-16 19:42:47 - [TEST_STEP][PASSED] - setText: Text '100' is set on object 'Object Repository/CRM_ObjectRepositoryShipping/Page_/input_ctl00ContentPlaceHolder1_4'
+
+2018-07-16 19:42:47 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/CRM_ObjectRepositoryShipping/Page_/input_ctl00ContentPlaceHolder1_4'
+
+2018-07-16 19:42:47 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/CRM_ObjectRepositoryShipping/Page_/input_ctl00ContentPlaceHolder1_5'
+
+2018-07-16 19:42:47 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/CRM_ObjectRepositoryShipping/Page_/input_ctl00ContentPlaceHolder1_5'
+
+2018-07-16 19:42:47 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/CRM_ObjectRepositoryShipping/Page_/textarea_ctl00ContentPlaceHold'
+
+2018-07-16 19:42:47 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/CRM_ObjectRepositoryShipping/Page_/textarea_ctl00ContentPlaceHold'
+
+2018-07-16 19:42:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CRM_ObjectRepositoryShipping/Page_/input_ctl00ContentPlaceHolder1_6' is clicked on
+
+2018-07-16 19:42:48 - [MESSAGE][PASSED] - Object: 'Object Repository/CRM_ObjectRepositoryShipping/Page_/input_ctl00ContentPlaceHolder1_6' is clicked on
+
+2018-07-16 19:42:48 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/CRM_ObjectRepositoryShipping/Page_/button_OK' is hovered
+
+2018-07-16 19:42:48 - [MESSAGE][PASSED] - Object: 'Object Repository/CRM_ObjectRepositoryShipping/Page_/button_OK' is hovered
+
+2018-07-16 19:42:48 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-16 19:42:48 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-16 19:42:48 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-16 19:42:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\AddShipping\\20180716_194223\\1531750368748.png]]
+
+2018-07-16 19:42:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CRM_ObjectRepositoryShipping/Page_/button_OK' is clicked on
+
+2018-07-16 19:42:50 - [MESSAGE][PASSED] - Object: 'Object Repository/CRM_ObjectRepositoryShipping/Page_/button_OK' is clicked on
+
+2018-07-16 19:42:50 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-16 19:42:51 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-16 19:42:51 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/CRM_ObjectRepositoryShipping/Page_/a_SHIP000000005' is hovered
+
+2018-07-16 19:42:52 - [MESSAGE][PASSED] - Object: 'Object Repository/CRM_ObjectRepositoryShipping/Page_/a_SHIP000000005' is hovered
+
+2018-07-16 19:42:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CRM_ObjectRepositoryShipping/Page_/a_SHIP000000005' is clicked on
+
+2018-07-16 19:42:52 - [MESSAGE][PASSED] - Object: 'Object Repository/CRM_ObjectRepositoryShipping/Page_/a_SHIP000000005' is clicked on
+
+2018-07-16 19:42:52 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-16 19:42:54 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-16 19:42:54 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/CRM_ObjectRepositoryShipping/Page_/i_fa fa-file-pdf-o' is hovered
+
+2018-07-16 19:42:54 - [MESSAGE][PASSED] - Object: 'Object Repository/CRM_ObjectRepositoryShipping/Page_/i_fa fa-file-pdf-o' is hovered
+
+2018-07-16 19:42:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CRM_ObjectRepositoryShipping/Page_/i_fa fa-file-pdf-o' is clicked on
+
+2018-07-16 19:42:54 - [MESSAGE][PASSED] - Object: 'Object Repository/CRM_ObjectRepositoryShipping/Page_/i_fa fa-file-pdf-o' is clicked on
+
+2018-07-16 19:42:54 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-16 19:42:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\AddShipping\\20180716_194223\\1531750374955.png]]
+
+2018-07-16 19:42:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CRM_ObjectRepositoryShipping/Page_ (7)/span_glyphicon glyphicon-user' is clicked on
+
+2018-07-16 19:42:58 - [MESSAGE][PASSED] - Object: 'Object Repository/CRM_ObjectRepositoryShipping/Page_ (7)/span_glyphicon glyphicon-user' is clicked on
+
+2018-07-16 19:42:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CRM_ObjectRepositoryShipping/Page_ (7)/button_Sign Out' is clicked on
+
+2018-07-16 19:43:00 - [MESSAGE][PASSED] - Object: 'Object Repository/CRM_ObjectRepositoryShipping/Page_ (7)/button_Sign Out' is clicked on
+
+2018-07-16 19:43:00 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-16 19:43:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\AddShipping\\20180716_194223\\1531750380080.png]]
+
+2018-07-16 19:43:00 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-16 19:43:00 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-16 19:43:00 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-16 19:43:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-16 19:42:25 - [TEST_SUITE][PASSED] - AddShipping: Test Cases/CRM/AddShipping]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

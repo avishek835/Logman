@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="MultipleLoginLogout" time="131" tests="1" failures="0" errors="0">
+   <testsuite name="MultipleLoginLogout" tests="1" failures="0" errors="0" time="131" timestamp="2018-07-18 15:24:48" hostname="Avishek - DESKTOP-UNOIIMH" id="Test Suites/Demo/MultipleLoginLogout">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\Demo\\MultipleLoginLogout\\20180718_152445"/>
+         <property name="logFiles" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\Demo\\MultipleLoginLogout\\20180718_152445\\execution0.log"/>
+         <property name="attachments" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\Demo\\MultipleLoginLogout\\20180718_152445\\1531907736903.png, E:\\Avishek\\LOGMANPROJECT\\Reports\\Demo\\MultipleLoginLogout\\20180718_152445\\1531907745320.png, E:\\Avishek\\LOGMANPROJECT\\Reports\\Demo\\MultipleLoginLogout\\20180718_152445\\1531907774159.png, E:\\Avishek\\LOGMANPROJECT\\Reports\\Demo\\MultipleLoginLogout\\20180718_152445\\1531907780079.png, E:\\Avishek\\LOGMANPROJECT\\Reports\\Demo\\MultipleLoginLogout\\20180718_152445\\1531907814110.png, E:\\Avishek\\LOGMANPROJECT\\Reports\\Demo\\MultipleLoginLogout\\20180718_152445\\1531907819061.png"/>
+         <property name="hostName" value="Avishek - DESKTOP-UNOIIMH"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="172.16.10.156"/>
+         <property name="sessionId" value="5a88c4c0bf1896babab6d5f6b9779802"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Demo/LoginandLogoutWithMultipledata" classname="Test Cases/Demo/LoginandLogoutWithMultipledata" status="PASSED">
+         <system-out><![CDATA[2018-07-18 15:24:49 - [TEST_CASE][PASSED] - Test Cases/Demo/LoginandLogoutWithMultipledata: Test Cases/Demo/LoginandLogoutWithMultipledata
+
+2018-07-18 15:24:49 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Demo/New Test Data): Test data is internal data, reading internal data
+
+2018-07-18 15:24:50 - [TEST_STEP][PASSED] - Statement - For (def index : (0..(data.getRowNumbers() - 1))): Browser is closed
+
+2018-07-18 15:24:50 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-18 15:24:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-18 15:24:54 - [TEST_STEP][PASSED] - Statement - println("Browser Opened"): null
+
+2018-07-18 15:24:54 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://logmanproj.com/Login.aspx' successfully
+
+2018-07-18 15:25:29 - [MESSAGE][PASSED] - Navigate to 'http://logmanproj.com/Login.aspx' successfully
+
+2018-07-18 15:25:29 - [TEST_STEP][PASSED] - Statement - println("URL Loaded in the Browser"): null
+
+2018-07-18 15:25:29 - [TEST_STEP][PASSED] - setText: Text 'avishek20@mailinator.com' is set on object 'Object Repository/Demo/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-18 15:25:30 - [MESSAGE][PASSED] - Text 'avishek20@mailinator.com' is set on object 'Object Repository/Demo/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-18 15:25:30 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/Demo/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-18 15:25:30 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Demo/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-18 15:25:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Demo/Page_JobyCo/input_ctl00ContentPlaceHolder1_2' is clicked on
+
+2018-07-18 15:25:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo/Page_JobyCo/input_ctl00ContentPlaceHolder1_2' is clicked on
+
+2018-07-18 15:25:36 - [TEST_STEP][PASSED] - Statement - println("Logged in and Logged out"): null
+
+2018-07-18 15:25:36 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-18 15:25:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\Avishek\\LOGMANPROJECT\\Reports\\Demo\\MultipleLoginLogout\\20180718_152445\\1531907736903.png]]
+
+2018-07-18 15:25:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Demo/Page_/span_glyphicon glyphicon-user' is clicked on
+
+2018-07-18 15:25:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo/Page_/span_glyphicon glyphicon-user' is clicked on
+
+2018-07-18 15:25:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Demo/Page_/button_Sign Out' is clicked on
+
+2018-07-18 15:25:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo/Page_/button_Sign Out' is clicked on
+
+2018-07-18 15:25:45 - [TEST_STEP][PASSED] - Statement - println("SignOut from the Logman site"): null
+
+2018-07-18 15:25:45 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-18 15:25:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\Avishek\\LOGMANPROJECT\\Reports\\Demo\\MultipleLoginLogout\\20180718_152445\\1531907745320.png]]
+
+2018-07-18 15:25:45 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-18 15:25:46 - [MESSAGE][PASSED] - Browser is closed
+
+2018-07-18 15:25:46 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-18 15:25:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-18 15:25:49 - [TEST_STEP][PASSED] - Statement - println("Browser Opened"): null
+
+2018-07-18 15:25:49 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://logmanproj.com/Login.aspx' successfully
+
+2018-07-18 15:26:10 - [MESSAGE][PASSED] - Navigate to 'http://logmanproj.com/Login.aspx' successfully
+
+2018-07-18 15:26:10 - [TEST_STEP][PASSED] - Statement - println("URL Loaded in the Browser"): null
+
+2018-07-18 15:26:10 - [TEST_STEP][PASSED] - setText: Text 'avishek21@mailinator.com' is set on object 'Object Repository/Demo/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-18 15:26:10 - [MESSAGE][PASSED] - Text 'avishek21@mailinator.com' is set on object 'Object Repository/Demo/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-18 15:26:10 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/Demo/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-18 15:26:11 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Demo/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-18 15:26:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Demo/Page_JobyCo/input_ctl00ContentPlaceHolder1_2' is clicked on
+
+2018-07-18 15:26:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo/Page_JobyCo/input_ctl00ContentPlaceHolder1_2' is clicked on
+
+2018-07-18 15:26:14 - [TEST_STEP][PASSED] - Statement - println("Logged in and Logged out"): null
+
+2018-07-18 15:26:14 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-18 15:26:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\Avishek\\LOGMANPROJECT\\Reports\\Demo\\MultipleLoginLogout\\20180718_152445\\1531907774159.png]]
+
+2018-07-18 15:26:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Demo/Page_/span_glyphicon glyphicon-user' is clicked on
+
+2018-07-18 15:26:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo/Page_/span_glyphicon glyphicon-user' is clicked on
+
+2018-07-18 15:26:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Demo/Page_/button_Sign Out' is clicked on
+
+2018-07-18 15:26:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo/Page_/button_Sign Out' is clicked on
+
+2018-07-18 15:26:20 - [TEST_STEP][PASSED] - Statement - println("SignOut from the Logman site"): null
+
+2018-07-18 15:26:20 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-18 15:26:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\Avishek\\LOGMANPROJECT\\Reports\\Demo\\MultipleLoginLogout\\20180718_152445\\1531907780079.png]]
+
+2018-07-18 15:26:20 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-18 15:26:21 - [MESSAGE][PASSED] - Browser is closed
+
+2018-07-18 15:26:21 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-18 15:26:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-18 15:26:23 - [TEST_STEP][PASSED] - Statement - println("Browser Opened"): null
+
+2018-07-18 15:26:23 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://logmanproj.com/Login.aspx' successfully
+
+2018-07-18 15:26:50 - [MESSAGE][PASSED] - Navigate to 'http://logmanproj.com/Login.aspx' successfully
+
+2018-07-18 15:26:50 - [TEST_STEP][PASSED] - Statement - println("URL Loaded in the Browser"): null
+
+2018-07-18 15:26:50 - [TEST_STEP][PASSED] - setText: Text 'avishek22@mailinator.com' is set on object 'Object Repository/Demo/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-18 15:26:50 - [MESSAGE][PASSED] - Text 'avishek22@mailinator.com' is set on object 'Object Repository/Demo/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-18 15:26:50 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/Demo/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-18 15:26:51 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Demo/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-18 15:26:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Demo/Page_JobyCo/input_ctl00ContentPlaceHolder1_2' is clicked on
+
+2018-07-18 15:26:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo/Page_JobyCo/input_ctl00ContentPlaceHolder1_2' is clicked on
+
+2018-07-18 15:26:54 - [TEST_STEP][PASSED] - Statement - println("Logged in and Logged out"): null
+
+2018-07-18 15:26:54 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-18 15:26:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\Avishek\\LOGMANPROJECT\\Reports\\Demo\\MultipleLoginLogout\\20180718_152445\\1531907814110.png]]
+
+2018-07-18 15:26:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Demo/Page_/span_glyphicon glyphicon-user' is clicked on
+
+2018-07-18 15:26:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo/Page_/span_glyphicon glyphicon-user' is clicked on
+
+2018-07-18 15:26:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Demo/Page_/button_Sign Out' is clicked on
+
+2018-07-18 15:26:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo/Page_/button_Sign Out' is clicked on
+
+2018-07-18 15:26:59 - [TEST_STEP][PASSED] - Statement - println("SignOut from the Logman site"): null
+
+2018-07-18 15:26:59 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-18 15:26:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\Avishek\\LOGMANPROJECT\\Reports\\Demo\\MultipleLoginLogout\\20180718_152445\\1531907819061.png]]
+
+2018-07-18 15:26:59 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-18 15:27:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-18 15:24:48 - [TEST_SUITE][PASSED] - MultipleLoginLogout: Test Cases/Demo/LoginandLogoutWithMultipledata]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

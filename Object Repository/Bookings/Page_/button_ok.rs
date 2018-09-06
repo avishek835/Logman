@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_ok</name>
+   <tag></tag>
+   <elementGuidId>1d2b02f5-756e-41d4-a6d8-d27c4705a820</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-default</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ok</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;drawer drawer--left drawer-close darkBG&quot;]/div[@class=&quot;jconfirm jconfirm-light jconfirm-open&quot;]/div[@class=&quot;jconfirm-scrollpane&quot;]/div[@class=&quot;jconfirm-row&quot;]/div[@class=&quot;jconfirm-cell&quot;]/div[@class=&quot;jconfirm-holder&quot;]/div[@class=&quot;jc-bs3-container container&quot;]/div[@class=&quot;jc-bs3-row row justify-content-md-center justify-content-sm-center justify-content-xs-center justify-content-lg-center&quot;]/div[@class=&quot;jconfirm-box-container jconfirm-animated col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1 jconfirm-no-transition&quot;]/div[@class=&quot;jconfirm-box jconfirm-hilight-shake jconfirm-type-default jconfirm-type-animated&quot;]/div[@class=&quot;jconfirm-buttons&quot;]/button[@class=&quot;btn btn-default&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

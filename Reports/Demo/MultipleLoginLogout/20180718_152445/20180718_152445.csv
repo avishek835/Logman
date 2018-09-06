@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+MultipleLoginLogout,Chrome 67.0.3396.99,,2018-07-18 15:24:48,2018-07-18 15:27:00,2m - 11.954s,PASSED
+,,,,,,
+Test Cases/Demo/LoginandLogoutWithMultipledata,Chrome 67.0.3396.99,,2018-07-18 15:24:49,2018-07-18 15:27:00,2m - 11.300s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Demo/New Test Data),Chrome 67.0.3396.99,,2018-07-18 15:24:49,2018-07-18 15:24:50,0.092s,PASSED
+Statement - For (def index : (0..(data.getRowNumbers() - 1))),Chrome 67.0.3396.99,,2018-07-18 15:24:50,2018-07-18 15:27:00,2m - 10.527s,PASSED

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AdminLogin" time="11" tests="1" failures="0" errors="0">
+   <testsuite name="AdminLogin" tests="1" failures="0" errors="0" time="11" timestamp="2018-09-05 17:18:09" hostname="Avishek - DESKTOP-UNOIIMH" id="Test Suites/CRM/URM/AdminLogin">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\URM\\AdminLogin\\20180905_171806"/>
+         <property name="logFiles" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\URM\\AdminLogin\\20180905_171806\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Avishek - DESKTOP-UNOIIMH"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.3.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="172.16.10.89"/>
+         <property name="sessionId" value="dd16be28ac0d0a237de4ef55cbb0b9c2"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/CRM/URM/AdminLogin" classname="Test Cases/CRM/URM/AdminLogin" status="PASSED">
+         <system-out><![CDATA[2018-09-05 17:18:10 - [TEST_CASE][PASSED] - Test Cases/CRM/URM/AdminLogin: Test Cases/CRM/URM/AdminLogin
+
+2018-09-05 17:18:11 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-05 17:18:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-05 17:18:14 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://172.16.20.5:93/' successfully
+
+2018-09-05 17:18:17 - [MESSAGE][PASSED] - Navigate to 'http://172.16.20.5:93/' successfully
+
+2018-09-05 17:18:17 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-05 17:18:18 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-05 17:18:18 - [TEST_STEP][PASSED] - setText: Text 'aviadmin@mailinator.com' is set on object 'Object Repository/adminlogin/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-09-05 17:18:18 - [MESSAGE][PASSED] - Text 'aviadmin@mailinator.com' is set on object 'Object Repository/adminlogin/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-09-05 17:18:18 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/adminlogin/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-09-05 17:18:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/adminlogin/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-09-05 17:18:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/adminlogin/Page_JobyCo/input_ctl00ContentPlaceHolder1_2' is clicked on
+
+2018-09-05 17:18:19 - [MESSAGE][PASSED] - Object: 'Object Repository/adminlogin/Page_JobyCo/input_ctl00ContentPlaceHolder1_2' is clicked on
+
+2018-09-05 17:18:19 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-09-05 17:18:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-09-05 17:18:19 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-09-05 17:18:19 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-09-05 17:18:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/adminlogin/Page_/button_toggle navigation' is clicked on
+
+2018-09-05 17:18:20 - [MESSAGE][PASSED] - Object: 'Object Repository/adminlogin/Page_/button_toggle navigation' is clicked on
+
+2018-09-05 17:18:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/adminlogin/Page_/Page_/button_toggle navigation' is clicked on
+
+2018-09-05 17:18:20 - [MESSAGE][PASSED] - Object: 'Object Repository/adminlogin/Page_/Page_/button_toggle navigation' is clicked on
+
+2018-09-05 17:18:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/adminlogin/Page_/span_glyphicon glyphicon-user' is clicked on
+
+2018-09-05 17:18:20 - [MESSAGE][PASSED] - Object: 'Object Repository/adminlogin/Page_/span_glyphicon glyphicon-user' is clicked on
+
+2018-09-05 17:18:20 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-09-05 17:18:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-09-05 17:18:20 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-09-05 17:18:20 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-09-05 17:18:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/adminlogin/Page_/button_Sign Out' is clicked on
+
+2018-09-05 17:18:20 - [MESSAGE][PASSED] - Object: 'Object Repository/adminlogin/Page_/button_Sign Out' is clicked on
+
+2018-09-05 17:18:20 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-05 17:18:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-05 17:18:09 - [TEST_SUITE][PASSED] - AdminLogin: Test Cases/CRM/URM/AdminLogin]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

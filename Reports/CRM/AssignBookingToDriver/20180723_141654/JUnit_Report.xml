@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AssignBookingToDriver" time="61" tests="1" failures="0" errors="0">
+   <testsuite name="AssignBookingToDriver" tests="1" failures="0" errors="0" time="61" timestamp="2018-07-23 14:16:57" hostname="Avishek - DESKTOP-UNOIIMH" id="Test Suites/CRM/AssignBookingToDriver">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\AssignBookingToDriver\\20180723_141654"/>
+         <property name="logFiles" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\AssignBookingToDriver\\20180723_141654\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Avishek - DESKTOP-UNOIIMH"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="172.16.10.89"/>
+         <property name="sessionId" value="f2e6be556d12a77b7dcc7133acd13bdc"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/CRM/AssignBookingToDriver" classname="Test Cases/CRM/AssignBookingToDriver" status="PASSED">
+         <system-out><![CDATA[2018-07-23 14:16:58 - [TEST_CASE][PASSED] - Test Cases/CRM/AssignBookingToDriver: Test Cases/CRM/AssignBookingToDriver
+
+2018-07-23 14:16:58 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-23 14:17:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-23 14:17:04 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://172.16.20.5:93/' successfully
+
+2018-07-23 14:17:07 - [MESSAGE][PASSED] - Navigate to 'http://172.16.20.5:93/' successfully
+
+2018-07-23 14:17:07 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-23 14:17:09 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-23 14:17:09 - [TEST_STEP][PASSED] - setText: Text 'avishek101@mailinator.com' is set on object 'Object Repository/AssignBookingToDriver/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-23 14:17:13 - [MESSAGE][PASSED] - Text 'avishek101@mailinator.com' is set on object 'Object Repository/AssignBookingToDriver/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-23 14:17:13 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/AssignBookingToDriver/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-23 14:17:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/AssignBookingToDriver/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-23 14:17:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AssignBookingToDriver/Page_JobyCo/input_ctl00ContentPlaceHolder1_2' is clicked on
+
+2018-07-23 14:17:19 - [MESSAGE][PASSED] - Object: 'Object Repository/AssignBookingToDriver/Page_JobyCo/input_ctl00ContentPlaceHolder1_2' is clicked on
+
+2018-07-23 14:17:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AssignBookingToDriver/Page_/button_toggle navigation' is clicked on
+
+2018-07-23 14:17:21 - [MESSAGE][PASSED] - Object: 'Object Repository/AssignBookingToDriver/Page_/button_toggle navigation' is clicked on
+
+2018-07-23 14:17:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AssignBookingToDriver/Page_/a_Booking' is clicked on
+
+2018-07-23 14:17:23 - [MESSAGE][PASSED] - Object: 'Object Repository/AssignBookingToDriver/Page_/a_Booking' is clicked on
+
+2018-07-23 14:17:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AssignBookingToDriver/Page_/a_Assign Booking To Driver' is clicked on
+
+2018-07-23 14:17:26 - [MESSAGE][PASSED] - Object: 'Object Repository/AssignBookingToDriver/Page_/a_Assign Booking To Driver' is clicked on
+
+2018-07-23 14:17:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AssignBookingToDriver/Page_/input_ctl00ContentPlaceHolder1' is clicked on
+
+2018-07-23 14:17:28 - [MESSAGE][PASSED] - Object: 'Object Repository/AssignBookingToDriver/Page_/input_ctl00ContentPlaceHolder1' is clicked on
+
+2018-07-23 14:17:28 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/AssignBookingToDriver/Page_/button_OK' is hovered
+
+2018-07-23 14:17:31 - [MESSAGE][PASSED] - Object: 'Object Repository/AssignBookingToDriver/Page_/button_OK' is hovered
+
+2018-07-23 14:17:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AssignBookingToDriver/Page_/button_OK' is clicked on
+
+2018-07-23 14:17:33 - [MESSAGE][PASSED] - Object: 'Object Repository/AssignBookingToDriver/Page_/button_OK' is clicked on
+
+2018-07-23 14:17:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AssignBookingToDriver/Page_/input_SelectCheckBox' is clicked on
+
+2018-07-23 14:17:36 - [MESSAGE][PASSED] - Object: 'Object Repository/AssignBookingToDriver/Page_/input_SelectCheckBox' is clicked on
+
+2018-07-23 14:17:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AssignBookingToDriver/Page_/input_ctl00ContentPlaceHolder1' is clicked on
+
+2018-07-23 14:17:38 - [MESSAGE][PASSED] - Object: 'Object Repository/AssignBookingToDriver/Page_/input_ctl00ContentPlaceHolder1' is clicked on
+
+2018-07-23 14:17:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AssignBookingToDriver/Page_/span_Select Driver' is clicked on
+
+2018-07-23 14:17:40 - [MESSAGE][PASSED] - Object: 'Object Repository/AssignBookingToDriver/Page_/span_Select Driver' is clicked on
+
+2018-07-23 14:17:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AssignBookingToDriver/Page_/Page_/ul_Select Driver  Avishekthirt' is clicked on
+
+2018-07-23 14:17:42 - [MESSAGE][PASSED] - Object: 'Object Repository/AssignBookingToDriver/Page_/Page_/ul_Select Driver  Avishekthirt' is clicked on
+
+2018-07-23 14:17:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AssignBookingToDriver/Page_/input_ctl00ContentPlaceHolder1_1' is clicked on
+
+2018-07-23 14:17:44 - [MESSAGE][PASSED] - Object: 'Object Repository/AssignBookingToDriver/Page_/input_ctl00ContentPlaceHolder1_1' is clicked on
+
+2018-07-23 14:17:44 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/AssignBookingToDriver/Page_/button_OK_1' is hovered
+
+2018-07-23 14:17:47 - [MESSAGE][PASSED] - Object: 'Object Repository/AssignBookingToDriver/Page_/button_OK_1' is hovered
+
+2018-07-23 14:17:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AssignBookingToDriver/Page_/button_OK_1' is clicked on
+
+2018-07-23 14:17:50 - [MESSAGE][PASSED] - Object: 'Object Repository/AssignBookingToDriver/Page_/button_OK_1' is clicked on
+
+2018-07-23 14:17:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AssignBookingToDriver/Page_/input_ctl00ContentPlaceHolder1_2' is clicked on
+
+2018-07-23 14:17:52 - [MESSAGE][PASSED] - Object: 'Object Repository/AssignBookingToDriver/Page_/input_ctl00ContentPlaceHolder1_2' is clicked on
+
+2018-07-23 14:17:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AssignBookingToDriver/Page_/span_glyphicon glyphicon-user' is clicked on
+
+2018-07-23 14:17:54 - [MESSAGE][PASSED] - Object: 'Object Repository/AssignBookingToDriver/Page_/span_glyphicon glyphicon-user' is clicked on
+
+2018-07-23 14:17:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AssignBookingToDriver/Page_/button_Sign Out' is clicked on
+
+2018-07-23 14:17:57 - [MESSAGE][PASSED] - Object: 'Object Repository/AssignBookingToDriver/Page_/button_Sign Out' is clicked on
+
+2018-07-23 14:17:57 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-23 14:17:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-23 14:16:57 - [TEST_SUITE][PASSED] - AssignBookingToDriver: Test Cases/CRM/AssignBookingToDriver]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

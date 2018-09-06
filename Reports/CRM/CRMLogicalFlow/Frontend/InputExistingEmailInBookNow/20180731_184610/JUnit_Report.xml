@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="InputExistingEmailInBookNow" time="13" tests="1" failures="0" errors="0">
+   <testsuite name="InputExistingEmailInBookNow" tests="1" failures="0" errors="0" time="13" timestamp="2018-07-31 18:46:13" hostname="Avishek - DESKTOP-UNOIIMH" id="Test Suites/CRM/CRMLogicalFlow/Frontend/InputExistingEmailInBookNow">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\CRMLogicalFlow\\Frontend\\InputExistingEmailInBookNow\\20180731_184610"/>
+         <property name="logFiles" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\CRMLogicalFlow\\Frontend\\InputExistingEmailInBookNow\\20180731_184610\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Avishek - DESKTOP-UNOIIMH"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="172.16.10.89"/>
+         <property name="sessionId" value="eec3ff49b58f855c4fae1833fee825e4"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/CRMLogicalFlow/Frontend/InputExistingEmailInBookNow" classname="Test Cases/CRMLogicalFlow/Frontend/InputExistingEmailInBookNow" status="PASSED">
+         <system-out><![CDATA[2018-07-31 18:46:13 - [TEST_CASE][PASSED] - Test Cases/CRMLogicalFlow/Frontend/InputExistingEmailInBookNow: Test Cases/CRMLogicalFlow/Frontend/InputExistingEmailInBookNow
+
+2018-07-31 18:46:13 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Browser is opened with url: ''
+
+2018-07-31 18:46:13 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-31 18:46:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-31 18:46:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://172.16.20.5:94/Landing.aspx' successfully
+
+2018-07-31 18:46:19 - [MESSAGE][PASSED] - Navigate to 'http://172.16.20.5:94/Landing.aspx' successfully
+
+2018-07-31 18:46:19 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-31 18:46:21 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-31 18:46:21 - [TEST_STEP][PASSED] - setText: Text 'avishek20@mailinator.com' is set on object 'Object Repository/FrontendInputExistingEmail/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-31 18:46:21 - [MESSAGE][PASSED] - Text 'avishek20@mailinator.com' is set on object 'Object Repository/FrontendInputExistingEmail/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-31 18:46:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FrontendInputExistingEmail/Page_JobyCo/button_Book Now' is clicked on
+
+2018-07-31 18:46:21 - [MESSAGE][PASSED] - Object: 'Object Repository/FrontendInputExistingEmail/Page_JobyCo/button_Book Now' is clicked on
+
+2018-07-31 18:46:21 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-31 18:46:22 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-31 18:46:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FrontendInputExistingEmail/Page_JobyCo/button_OK' is clicked on
+
+2018-07-31 18:46:23 - [MESSAGE][PASSED] - Object: 'Object Repository/FrontendInputExistingEmail/Page_JobyCo/button_OK' is clicked on
+
+2018-07-31 18:46:23 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-31 18:46:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-31 18:46:23 - [TEST_STEP][PASSED] - setText: Text 'avishek20@mailinator.com' is set on object 'Object Repository/Demo/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-31 18:46:23 - [MESSAGE][PASSED] - Text 'avishek20@mailinator.com' is set on object 'Object Repository/Demo/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-31 18:46:23 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/FrontendInputExistingEmail/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-31 18:46:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/FrontendInputExistingEmail/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-31 18:46:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FrontendInputExistingEmail/Page_JobyCo/input_ctl00ContentPlaceHolder1_2' is clicked on
+
+2018-07-31 18:46:24 - [MESSAGE][PASSED] - Object: 'Object Repository/FrontendInputExistingEmail/Page_JobyCo/input_ctl00ContentPlaceHolder1_2' is clicked on
+
+2018-07-31 18:46:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FrontendInputExistingEmail/Page_/span_glyphicon glyphicon-user' is clicked on
+
+2018-07-31 18:46:24 - [MESSAGE][PASSED] - Object: 'Object Repository/FrontendInputExistingEmail/Page_/span_glyphicon glyphicon-user' is clicked on
+
+2018-07-31 18:46:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FrontendInputExistingEmail/Page_/button_Sign Out' is clicked on
+
+2018-07-31 18:46:25 - [MESSAGE][PASSED] - Object: 'Object Repository/FrontendInputExistingEmail/Page_/button_Sign Out' is clicked on
+
+2018-07-31 18:46:25 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2018-07-31 18:46:25 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-31 18:46:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-31 18:46:13 - [TEST_SUITE][PASSED] - InputExistingEmailInBookNow: Test Cases/CRMLogicalFlow/Frontend/InputExistingEmailInBookNow]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

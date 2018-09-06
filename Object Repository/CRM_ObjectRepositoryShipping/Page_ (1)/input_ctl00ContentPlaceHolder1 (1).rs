@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_ctl00ContentPlaceHolder1 (1)</name>
+   <tag></tag>
+   <elementGuidId>bad7a55d-0969-4762-b075-02e8d111be15</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;ContentPlaceHolder1_txtArrivalDate&quot;)[count(. | //input[@name = 'ctl00$ContentPlaceHolder1$txtArrivalDate' and @type = 'text' and @readonly = 'readonly' and @id = 'ContentPlaceHolder1_txtArrivalDate' and @class = 'clrBLK form-control' and @onchange = 'clearErrorMessage();checkShippingAndArrivalDate()']) = count(//input[@name = 'ctl00$ContentPlaceHolder1$txtArrivalDate' and @type = 'text' and @readonly = 'readonly' and @id = 'ContentPlaceHolder1_txtArrivalDate' and @class = 'clrBLK form-control' and @onchange = 'clearErrorMessage();checkShippingAndArrivalDate()'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>ctl00$ContentPlaceHolder1$txtArrivalDate</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>readonly</name>
+      <type>Main</type>
+      <value>readonly</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ContentPlaceHolder1_txtArrivalDate</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>clrBLK form-control</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>clearErrorMessage();checkShippingAndArrivalDate()</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ContentPlaceHolder1_txtArrivalDate&quot;)</value>
+   </webElementProperties>
+</WebElementEntity>

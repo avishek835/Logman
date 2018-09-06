@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="WebsiteVerifyLinksAndSignUp" time="36" tests="2" failures="0" errors="0">
+   <testsuite name="WebsiteVerifyLinksAndSignUp" tests="2" failures="0" errors="0" time="36" timestamp="2018-07-10 13:11:13" hostname="Avishek - DESKTOP-UNOIIMH" id="Test Suites/WebsiteFrontend/WebsiteVerifyLinksAndSignUp">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\WebsiteFrontend\\WebsiteVerifyLinksAndSignUp\\20180710_130613"/>
+         <property name="logFiles" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\WebsiteFrontend\\WebsiteVerifyLinksAndSignUp\\20180710_130613\\execution0.log"/>
+         <property name="attachments" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\WebsiteFrontend\\WebsiteVerifyLinksAndSignUp\\20180710_130613\\1531208481459.png, E:\\Avishek\\LOGMANPROJECT\\Reports\\WebsiteFrontend\\WebsiteVerifyLinksAndSignUp\\20180710_130613\\1531208482782.png, E:\\Avishek\\LOGMANPROJECT\\Reports\\WebsiteFrontend\\WebsiteVerifyLinksAndSignUp\\20180710_130613\\1531208483942.png, E:\\Avishek\\LOGMANPROJECT\\Reports\\WebsiteFrontend\\WebsiteVerifyLinksAndSignUp\\20180710_130613\\1531208485838.png, E:\\Avishek\\LOGMANPROJECT\\Reports\\WebsiteFrontend\\WebsiteVerifyLinksAndSignUp\\20180710_130613\\1531208486887.png, E:\\Avishek\\LOGMANPROJECT\\Reports\\WebsiteFrontend\\WebsiteVerifyLinksAndSignUp\\20180710_130613\\1531208487953.png, E:\\Avishek\\LOGMANPROJECT\\Reports\\WebsiteFrontend\\WebsiteVerifyLinksAndSignUp\\20180710_130613\\1531208491278.png, E:\\Avishek\\LOGMANPROJECT\\Reports\\WebsiteFrontend\\WebsiteVerifyLinksAndSignUp\\20180710_130613\\1531208492472.png, E:\\Avishek\\LOGMANPROJECT\\Reports\\WebsiteFrontend\\WebsiteVerifyLinksAndSignUp\\20180710_130613\\1531208493595.png, E:\\Avishek\\LOGMANPROJECT\\Reports\\WebsiteFrontend\\WebsiteVerifyLinksAndSignUp\\20180710_130613\\1531208508186.png, E:\\Avishek\\LOGMANPROJECT\\Reports\\WebsiteFrontend\\WebsiteVerifyLinksAndSignUp\\20180710_130613\\1531208508839.png"/>
+         <property name="hostName" value="Avishek - DESKTOP-UNOIIMH"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="172.16.10.93"/>
+         <property name="sessionId" value="a5b1a0ca99d0a58275dc156d2cdd991f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/WebsitesFrontend/VerifyLinksinWebsites" classname="Test Cases/WebsitesFrontend/VerifyLinksinWebsites" status="PASSED">
+         <system-out><![CDATA[2018-07-10 13:11:14 - [TEST_CASE][PASSED] - Test Cases/WebsitesFrontend/VerifyLinksinWebsites: Test Cases/WebsitesFrontend/VerifyLinksinWebsites
+
+2018-07-10 13:11:14 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-10 13:11:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-10 13:11:18 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://logmanproj.com/' successfully
+
+2018-07-10 13:11:21 - [MESSAGE][PASSED] - Navigate to 'http://logmanproj.com/' successfully
+
+2018-07-10 13:11:21 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-10 13:11:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\Avishek\\LOGMANPROJECT\\Reports\\WebsiteFrontend\\WebsiteVerifyLinksAndSignUp\\20180710_130613\\1531208481459.png]]
+
+2018-07-10 13:11:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VerifyLinksinWebsites/Page_JobyCo/a_About' is clicked on
+
+2018-07-10 13:11:22 - [MESSAGE][PASSED] - Object: 'Object Repository/VerifyLinksinWebsites/Page_JobyCo/a_About' is clicked on
+
+2018-07-10 13:11:22 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-10 13:11:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\Avishek\\LOGMANPROJECT\\Reports\\WebsiteFrontend\\WebsiteVerifyLinksAndSignUp\\20180710_130613\\1531208482782.png]]
+
+2018-07-10 13:11:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VerifyLinksinWebsites/Page_Jobyco (1)/a_Quote' is clicked on
+
+2018-07-10 13:11:23 - [MESSAGE][PASSED] - Object: 'Object Repository/VerifyLinksinWebsites/Page_Jobyco (1)/a_Quote' is clicked on
+
+2018-07-10 13:11:23 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-10 13:11:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\Avishek\\LOGMANPROJECT\\Reports\\WebsiteFrontend\\WebsiteVerifyLinksAndSignUp\\20180710_130613\\1531208483942.png]]
+
+2018-07-10 13:11:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VerifyLinksinWebsites/Page_JobyCo/a_Contact' is clicked on
+
+2018-07-10 13:11:25 - [MESSAGE][PASSED] - Object: 'Object Repository/VerifyLinksinWebsites/Page_JobyCo/a_Contact' is clicked on
+
+2018-07-10 13:11:25 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-10 13:11:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\Avishek\\LOGMANPROJECT\\Reports\\WebsiteFrontend\\WebsiteVerifyLinksAndSignUp\\20180710_130613\\1531208485838.png]]
+
+2018-07-10 13:11:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VerifyLinksinWebsites/Page_Jobyco (1)/a_Careers' is clicked on
+
+2018-07-10 13:11:26 - [MESSAGE][PASSED] - Object: 'Object Repository/VerifyLinksinWebsites/Page_Jobyco (1)/a_Careers' is clicked on
+
+2018-07-10 13:11:26 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-10 13:11:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\Avishek\\LOGMANPROJECT\\Reports\\WebsiteFrontend\\WebsiteVerifyLinksAndSignUp\\20180710_130613\\1531208486887.png]]
+
+2018-07-10 13:11:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VerifyLinksinWebsites/Page_Jobyco (1)/a_Help' is clicked on
+
+2018-07-10 13:11:27 - [MESSAGE][PASSED] - Object: 'Object Repository/VerifyLinksinWebsites/Page_Jobyco (1)/a_Help' is clicked on
+
+2018-07-10 13:11:27 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-10 13:11:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\Avishek\\LOGMANPROJECT\\Reports\\WebsiteFrontend\\WebsiteVerifyLinksAndSignUp\\20180710_130613\\1531208487953.png]]
+
+2018-07-10 13:11:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VerifyLinksinWebsites/Page_Jobyco (1)/a_How do I book a collection D' is clicked on
+
+2018-07-10 13:11:28 - [MESSAGE][PASSED] - Object: 'Object Repository/VerifyLinksinWebsites/Page_Jobyco (1)/a_How do I book a collection D' is clicked on
+
+2018-07-10 13:11:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VerifyLinksinWebsites/Page_Jobyco (1)/a_What types of services does' is clicked on
+
+2018-07-10 13:11:28 - [MESSAGE][PASSED] - Object: 'Object Repository/VerifyLinksinWebsites/Page_Jobyco (1)/a_What types of services does' is clicked on
+
+2018-07-10 13:11:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VerifyLinksinWebsites/Page_Jobyco (1)/a_Where can I find your prices' is clicked on
+
+2018-07-10 13:11:28 - [MESSAGE][PASSED] - Object: 'Object Repository/VerifyLinksinWebsites/Page_Jobyco (1)/a_Where can I find your prices' is clicked on
+
+2018-07-10 13:11:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VerifyLinksinWebsites/Page_Jobyco (1)/a_Do you provide packaging' is clicked on
+
+2018-07-10 13:11:28 - [MESSAGE][PASSED] - Object: 'Object Repository/VerifyLinksinWebsites/Page_Jobyco (1)/a_Do you provide packaging' is clicked on
+
+2018-07-10 13:11:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VerifyLinksinWebsites/Page_Jobyco (1)/a_Can I use my own packaging' is clicked on
+
+2018-07-10 13:11:29 - [MESSAGE][PASSED] - Object: 'Object Repository/VerifyLinksinWebsites/Page_Jobyco (1)/a_Can I use my own packaging' is clicked on
+
+2018-07-10 13:11:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VerifyLinksinWebsites/Page_Jobyco (1)/a_How do I change or cancel a' is clicked on
+
+2018-07-10 13:11:29 - [MESSAGE][PASSED] - Object: 'Object Repository/VerifyLinksinWebsites/Page_Jobyco (1)/a_How do I change or cancel a' is clicked on
+
+2018-07-10 13:11:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VerifyLinksinWebsites/Page_Jobyco (1)/a_Are there maximum weight and' is clicked on
+
+2018-07-10 13:11:29 - [MESSAGE][PASSED] - Object: 'Object Repository/VerifyLinksinWebsites/Page_Jobyco (1)/a_Are there maximum weight and' is clicked on
+
+2018-07-10 13:11:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VerifyLinksinWebsites/Page_Jobyco (1)/a_Are there any prohibited ite' is clicked on
+
+2018-07-10 13:11:29 - [MESSAGE][PASSED] - Object: 'Object Repository/VerifyLinksinWebsites/Page_Jobyco (1)/a_Are there any prohibited ite' is clicked on
+
+2018-07-10 13:11:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VerifyLinksinWebsites/Page_Jobyco (1)/a_Does my recipient need to pa' is clicked on
+
+2018-07-10 13:11:29 - [MESSAGE][PASSED] - Object: 'Object Repository/VerifyLinksinWebsites/Page_Jobyco (1)/a_Does my recipient need to pa' is clicked on
+
+2018-07-10 13:11:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VerifyLinksinWebsites/Page_Jobyco (1)/a_Does my recipient need to pa_1' is clicked on
+
+2018-07-10 13:11:29 - [MESSAGE][PASSED] - Object: 'Object Repository/VerifyLinksinWebsites/Page_Jobyco (1)/a_Does my recipient need to pa_1' is clicked on
+
+2018-07-10 13:11:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VerifyLinksinWebsites/Page_Jobyco (1)/a_Will my parcel be opened for' is clicked on
+
+2018-07-10 13:11:29 - [MESSAGE][PASSED] - Object: 'Object Repository/VerifyLinksinWebsites/Page_Jobyco (1)/a_Will my parcel be opened for' is clicked on
+
+2018-07-10 13:11:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VerifyLinksinWebsites/Page_Jobyco (1)/a_Is my consignment covered by' is clicked on
+
+2018-07-10 13:11:29 - [MESSAGE][PASSED] - Object: 'Object Repository/VerifyLinksinWebsites/Page_Jobyco (1)/a_Is my consignment covered by' is clicked on
+
+2018-07-10 13:11:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VerifyLinksinWebsites/Page_Jobyco (1)/a_Can I track the status and l' is clicked on
+
+2018-07-10 13:11:30 - [MESSAGE][PASSED] - Object: 'Object Repository/VerifyLinksinWebsites/Page_Jobyco (1)/a_Can I track the status and l' is clicked on
+
+2018-07-10 13:11:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VerifyLinksinWebsites/Page_Jobyco (1)/a_What should I do if my consi' is clicked on
+
+2018-07-10 13:11:30 - [MESSAGE][PASSED] - Object: 'Object Repository/VerifyLinksinWebsites/Page_Jobyco (1)/a_What should I do if my consi' is clicked on
+
+2018-07-10 13:11:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VerifyLinksinWebsites/Page_Jobyco (1)/a_Within what time frame do I' is clicked on
+
+2018-07-10 13:11:30 - [MESSAGE][PASSED] - Object: 'Object Repository/VerifyLinksinWebsites/Page_Jobyco (1)/a_Within what time frame do I' is clicked on
+
+2018-07-10 13:11:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VerifyLinksinWebsites/Page_Jobyco (1)/a_How long does it take for my' is clicked on
+
+2018-07-10 13:11:30 - [MESSAGE][PASSED] - Object: 'Object Repository/VerifyLinksinWebsites/Page_Jobyco (1)/a_How long does it take for my' is clicked on
+
+2018-07-10 13:11:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VerifyLinksinWebsites/Page_Jobyco (1)/a_How do we pack our things so' is clicked on
+
+2018-07-10 13:11:30 - [MESSAGE][PASSED] - Object: 'Object Repository/VerifyLinksinWebsites/Page_Jobyco (1)/a_How do we pack our things so' is clicked on
+
+2018-07-10 13:11:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VerifyLinksinWebsites/Page_Jobyco (1)/a_Home' is clicked on
+
+2018-07-10 13:11:31 - [MESSAGE][PASSED] - Object: 'Object Repository/VerifyLinksinWebsites/Page_Jobyco (1)/a_Home' is clicked on
+
+2018-07-10 13:11:31 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-10 13:11:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\Avishek\\LOGMANPROJECT\\Reports\\WebsiteFrontend\\WebsiteVerifyLinksAndSignUp\\20180710_130613\\1531208491278.png]]
+
+2018-07-10 13:11:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VerifyLinksinWebsites/Page_JobyCo/a_About' is clicked on
+
+2018-07-10 13:11:32 - [MESSAGE][PASSED] - Object: 'Object Repository/VerifyLinksinWebsites/Page_JobyCo/a_About' is clicked on
+
+2018-07-10 13:11:32 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-10 13:11:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\Avishek\\LOGMANPROJECT\\Reports\\WebsiteFrontend\\WebsiteVerifyLinksAndSignUp\\20180710_130613\\1531208492472.png]]
+
+2018-07-10 13:11:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VerifyLinksinWebsites/Page_Jobyco (1)/img_img-responsive' is clicked on
+
+2018-07-10 13:11:33 - [MESSAGE][PASSED] - Object: 'Object Repository/VerifyLinksinWebsites/Page_Jobyco (1)/img_img-responsive' is clicked on
+
+2018-07-10 13:11:33 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-10 13:11:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\Avishek\\LOGMANPROJECT\\Reports\\WebsiteFrontend\\WebsiteVerifyLinksAndSignUp\\20180710_130613\\1531208493595.png]]
+
+2018-07-10 13:11:34 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-10 13:11:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WebsitesFrontend/VerifyCustomerPortalSignUp" classname="Test Cases/WebsitesFrontend/VerifyCustomerPortalSignUp" status="PASSED">
+         <system-out><![CDATA[2018-07-10 13:11:35 - [TEST_CASE][PASSED] - Test Cases/WebsitesFrontend/VerifyCustomerPortalSignUp: Test Cases/WebsitesFrontend/VerifyCustomerPortalSignUp
+
+2018-07-10 13:11:35 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-10 13:11:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-10 13:11:37 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://logmanproj.com/' successfully
+
+2018-07-10 13:11:42 - [MESSAGE][PASSED] - Navigate to 'http://logmanproj.com/' successfully
+
+2018-07-10 13:11:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VerifyCustomerPortalSignUp/Page_JobyCo/a_Customer Portal' is clicked on
+
+2018-07-10 13:11:43 - [MESSAGE][PASSED] - Object: 'Object Repository/VerifyCustomerPortalSignUp/Page_JobyCo/a_Customer Portal' is clicked on
+
+2018-07-10 13:11:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VerifyCustomerPortalSignUp/Page_JobyCo/a_Sign Up' is clicked on
+
+2018-07-10 13:11:47 - [MESSAGE][PASSED] - Object: 'Object Repository/VerifyCustomerPortalSignUp/Page_JobyCo/a_Sign Up' is clicked on
+
+2018-07-10 13:11:47 - [TEST_STEP][PASSED] - setText: Text 'Avishek' is set on object 'Object Repository/VerifyCustomerPortalSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-10 13:11:47 - [MESSAGE][PASSED] - Text 'Avishek' is set on object 'Object Repository/VerifyCustomerPortalSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-10 13:11:47 - [TEST_STEP][PASSED] - setText: Text 'avishek22@mailinator.com' is set on object 'Object Repository/VerifyCustomerPortalSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-10 13:11:47 - [MESSAGE][PASSED] - Text 'avishek22@mailinator.com' is set on object 'Object Repository/VerifyCustomerPortalSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-10 13:11:47 - [TEST_STEP][PASSED] - setText: Text 'password123456!@#$%^' is set on object 'Object Repository/VerifyCustomerPortalSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_2'
+
+2018-07-10 13:11:47 - [MESSAGE][PASSED] - Text 'password123456!@#$%^' is set on object 'Object Repository/VerifyCustomerPortalSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_2'
+
+2018-07-10 13:11:47 - [TEST_STEP][PASSED] - setText: Text '1234567898' is set on object 'Object Repository/VerifyCustomerPortalSignUp/Page_JobyCo/input_phone'
+
+2018-07-10 13:11:47 - [MESSAGE][PASSED] - Text '1234567898' is set on object 'Object Repository/VerifyCustomerPortalSignUp/Page_JobyCo/input_phone'
+
+2018-07-10 13:11:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VerifyCustomerPortalSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_3' is clicked on
+
+2018-07-10 13:11:48 - [MESSAGE][PASSED] - Object: 'Object Repository/VerifyCustomerPortalSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_3' is clicked on
+
+2018-07-10 13:11:48 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/VerifyCustomerPortalSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_2'
+
+2018-07-10 13:11:48 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/VerifyCustomerPortalSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_2'
+
+2018-07-10 13:11:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VerifyCustomerPortalSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_3' is clicked on
+
+2018-07-10 13:11:48 - [MESSAGE][PASSED] - Object: 'Object Repository/VerifyCustomerPortalSignUp/Page_JobyCo/input_ctl00ContentPlaceHolder1_3' is clicked on
+
+2018-07-10 13:11:48 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-10 13:11:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\Avishek\\LOGMANPROJECT\\Reports\\WebsiteFrontend\\WebsiteVerifyLinksAndSignUp\\20180710_130613\\1531208508186.png]]
+
+2018-07-10 13:11:48 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/VerifyCustomerPortalSignUp/Popoverbutton/Page_JobyCo/button_OK' is hovered
+
+2018-07-10 13:11:48 - [MESSAGE][PASSED] - Object: 'Object Repository/VerifyCustomerPortalSignUp/Popoverbutton/Page_JobyCo/button_OK' is hovered
+
+2018-07-10 13:11:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VerifyCustomerPortalSignUp/Popoverbutton/Page_JobyCo/button_OK' is clicked on
+
+2018-07-10 13:11:48 - [MESSAGE][PASSED] - Object: 'Object Repository/VerifyCustomerPortalSignUp/Popoverbutton/Page_JobyCo/button_OK' is clicked on
+
+2018-07-10 13:11:48 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-10 13:11:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\Avishek\\LOGMANPROJECT\\Reports\\WebsiteFrontend\\WebsiteVerifyLinksAndSignUp\\20180710_130613\\1531208508839.png]]
+
+2018-07-10 13:11:49 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-10 13:11:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-10 13:11:13 - [TEST_SUITE][PASSED] - WebsiteVerifyLinksAndSignUp: Test Cases/WebsitesFrontend/VerifyCustomerPortalSignUp]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

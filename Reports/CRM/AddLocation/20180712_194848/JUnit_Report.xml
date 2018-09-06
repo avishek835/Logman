@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AddLocation" time="84" tests="1" failures="0" errors="0">
+   <testsuite name="AddLocation" tests="1" failures="0" errors="0" time="84" timestamp="2018-07-12 19:48:51" hostname="Avishek - DESKTOP-UNOIIMH" id="Test Suites/CRM/AddLocation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\AddLocation\\20180712_194848"/>
+         <property name="logFiles" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\CRM\\AddLocation\\20180712_194848\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Avishek - DESKTOP-UNOIIMH"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="172.16.10.93"/>
+         <property name="sessionId" value="6a91e71a9b95aef31190b45d80341fe6"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/CRM/AddLocation" classname="Test Cases/CRM/AddLocation" status="PASSED">
+         <system-out><![CDATA[2018-07-12 19:48:51 - [TEST_CASE][PASSED] - Test Cases/CRM/AddLocation: Test Cases/CRM/AddLocation
+
+2018-07-12 19:48:52 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-12 19:48:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-12 19:48:56 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://portal.logmanproj.com/Login.aspx' successfully
+
+2018-07-12 19:49:37 - [MESSAGE][PASSED] - Navigate to 'http://portal.logmanproj.com/Login.aspx' successfully
+
+2018-07-12 19:49:37 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-12 19:49:38 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-12 19:49:38 - [TEST_STEP][PASSED] - setText: Text 'tom@alter.com' is set on object 'Object Repository/Location/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-12 19:49:38 - [MESSAGE][PASSED] - Text 'tom@alter.com' is set on object 'Object Repository/Location/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-12 19:49:38 - [TEST_STEP][PASSED] - setText: Text 'tom123' is set on object 'Object Repository/Location/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-12 19:49:38 - [MESSAGE][PASSED] - Text 'tom123' is set on object 'Object Repository/Location/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-12 19:49:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Location/Page_JobyCo/input_ctl00ContentPlaceHolder1_2' is clicked on
+
+2018-07-12 19:49:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Location/Page_JobyCo/input_ctl00ContentPlaceHolder1_2' is clicked on
+
+2018-07-12 19:49:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Location/Page_/span_drawer-hamburger-icon' is clicked on
+
+2018-07-12 19:49:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Location/Page_/span_drawer-hamburger-icon' is clicked on
+
+2018-07-12 19:49:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Location/Page_/a_Location' is clicked on
+
+2018-07-12 19:49:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Location/Page_/a_Location' is clicked on
+
+2018-07-12 19:49:44 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-12 19:49:44 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-12 19:49:44 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-12 19:49:44 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-12 19:49:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Location/Page_/a_View All Locations' is clicked on
+
+2018-07-12 19:49:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Location/Page_/a_View All Locations' is clicked on
+
+2018-07-12 19:49:47 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-12 19:49:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-12 19:49:47 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-12 19:49:48 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-12 19:49:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Location/Page_/input_ctl00ContentPlaceHolder1' is clicked on
+
+2018-07-12 19:49:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Location/Page_/input_ctl00ContentPlaceHolder1' is clicked on
+
+2018-07-12 19:49:48 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '271' are selected in object 'Object Repository/Location/Page_/select_Select CountryAfghanist'  using regular expression
+
+2018-07-12 19:49:54 - [MESSAGE][PASSED] - All options with value '271' are selected in object 'Object Repository/Location/Page_/select_Select CountryAfghanist'  using regular expression
+
+2018-07-12 19:49:54 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '38' are selected in object 'Object Repository/Location/Page_/select_Select CityAberdeenArma'  using regular expression
+
+2018-07-12 19:49:57 - [MESSAGE][PASSED] - All options with value '38' are selected in object 'Object Repository/Location/Page_/select_Select CityAberdeenArma'  using regular expression
+
+2018-07-12 19:49:57 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '37' are selected in object 'Object Repository/Location/Page_/select_Select CityAberdeenArma'  using regular expression
+
+2018-07-12 19:49:58 - [MESSAGE][PASSED] - All options with value '37' are selected in object 'Object Repository/Location/Page_/select_Select CityAberdeenArma'  using regular expression
+
+2018-07-12 19:49:58 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2' are selected in object 'Object Repository/Location/Page_/select_Select LocationBarking'  using regular expression
+
+2018-07-12 19:49:59 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Location/Page_/select_Select LocationBarking'  using regular expression
+
+2018-07-12 19:49:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Location/Page_/input_ctl00ContentPlaceHolder1_2' is clicked on
+
+2018-07-12 19:49:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Location/Page_/input_ctl00ContentPlaceHolder1_2' is clicked on
+
+2018-07-12 19:49:59 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-12 19:49:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-12 19:49:59 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-12 19:50:02 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-12 19:50:02 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Location/Page_/button_OK' is hovered
+
+2018-07-12 19:50:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Location/Page_/button_OK' is hovered
+
+2018-07-12 19:50:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Location/Page_/button_OK' is clicked on
+
+2018-07-12 19:50:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Location/Page_/button_OK' is clicked on
+
+2018-07-12 19:50:02 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-12 19:50:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-12 19:50:02 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-12 19:50:04 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-12 19:50:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Location/Page_/input_ctl00ContentPlaceHolder1' is clicked on
+
+2018-07-12 19:50:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Location/Page_/input_ctl00ContentPlaceHolder1' is clicked on
+
+2018-07-12 19:50:04 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-12 19:50:04 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-12 19:50:04 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-12 19:50:05 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-12 19:50:05 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '271' are selected in object 'Object Repository/Location/Page_/select_Select CountryAfghanist'  using regular expression
+
+2018-07-12 19:50:09 - [MESSAGE][PASSED] - All options with value '271' are selected in object 'Object Repository/Location/Page_/select_Select CountryAfghanist'  using regular expression
+
+2018-07-12 19:50:09 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-12 19:50:09 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-12 19:50:09 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-12 19:50:09 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-12 19:50:09 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '37' are selected in object 'Object Repository/Location/Page_/select_Select CityAberdeenArma'  using regular expression
+
+2018-07-12 19:50:11 - [MESSAGE][PASSED] - All options with value '37' are selected in object 'Object Repository/Location/Page_/select_Select CityAberdeenArma'  using regular expression
+
+2018-07-12 19:50:11 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-12 19:50:11 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-12 19:50:11 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-12 19:50:11 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-12 19:50:11 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '23' are selected in object 'Object Repository/Location/Page_/select_Select LocationBarking'  using regular expression
+
+2018-07-12 19:50:12 - [MESSAGE][PASSED] - All options with value '23' are selected in object 'Object Repository/Location/Page_/select_Select LocationBarking'  using regular expression
+
+2018-07-12 19:50:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Location/Page_/input_ctl00ContentPlaceHolder1_2' is clicked on
+
+2018-07-12 19:50:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Location/Page_/input_ctl00ContentPlaceHolder1_2' is clicked on
+
+2018-07-12 19:50:12 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-12 19:50:12 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-12 19:50:12 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-12 19:50:12 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-12 19:50:12 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Location/Page_/button_OK' is hovered
+
+2018-07-12 19:50:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Location/Page_/button_OK' is hovered
+
+2018-07-12 19:50:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Location/Page_/button_OK' is clicked on
+
+2018-07-12 19:50:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Location/Page_/button_OK' is clicked on
+
+2018-07-12 19:50:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Location/Page_/i_fa fa-pencil' is clicked on
+
+2018-07-12 19:50:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Location/Page_/i_fa fa-pencil' is clicked on
+
+2018-07-12 19:50:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Location/Page_/span_glyphicon glyphicon-user' is clicked on
+
+2018-07-12 19:50:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Location/Page_/span_glyphicon glyphicon-user' is clicked on
+
+2018-07-12 19:50:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Location/Page_/button_Sign Out' is clicked on
+
+2018-07-12 19:50:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Location/Page_/button_Sign Out' is clicked on
+
+2018-07-12 19:50:15 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-12 19:50:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-12 19:48:51 - [TEST_SUITE][PASSED] - AddLocation: Test Cases/CRM/AddLocation]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

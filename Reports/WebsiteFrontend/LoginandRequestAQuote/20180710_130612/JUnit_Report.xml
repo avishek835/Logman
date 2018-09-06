@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LoginandRequestAQuote" time="36" tests="1" failures="0" errors="0">
+   <testsuite name="LoginandRequestAQuote" tests="1" failures="0" errors="0" time="36" timestamp="2018-07-10 13:08:11" hostname="Avishek - DESKTOP-UNOIIMH" id="Test Suites/WebsiteFrontend/LoginandRequestAQuote">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\WebsiteFrontend\\LoginandRequestAQuote\\20180710_130612"/>
+         <property name="logFiles" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\WebsiteFrontend\\LoginandRequestAQuote\\20180710_130612\\execution0.log"/>
+         <property name="attachments" value="E:\\Avishek\\LOGMANPROJECT\\Reports\\WebsiteFrontend\\LoginandRequestAQuote\\20180710_130612\\1531208302293.png, E:\\Avishek\\LOGMANPROJECT\\Reports\\WebsiteFrontend\\LoginandRequestAQuote\\20180710_130612\\1531208304724.png"/>
+         <property name="hostName" value="Avishek - DESKTOP-UNOIIMH"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="172.16.10.93"/>
+         <property name="sessionId" value="1eecbd0ec3d2a210bae38396bd57cb5d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/WebsitesFrontend/LoginandMakeABookingAsNO" classname="Test Cases/WebsitesFrontend/LoginandMakeABookingAsNO" status="PASSED">
+         <system-out><![CDATA[2018-07-10 13:08:12 - [TEST_CASE][PASSED] - Test Cases/WebsitesFrontend/LoginandMakeABookingAsNO: Test Cases/WebsitesFrontend/LoginandMakeABookingAsNO
+
+2018-07-10 13:08:12 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-10 13:08:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-10 13:08:15 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://logmanproj.com/Login.aspx' successfully
+
+2018-07-10 13:08:21 - [MESSAGE][PASSED] - Navigate to 'http://logmanproj.com/Login.aspx' successfully
+
+2018-07-10 13:08:21 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-10 13:08:22 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-10 13:08:22 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-10 13:08:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\Avishek\\LOGMANPROJECT\\Reports\\WebsiteFrontend\\LoginandRequestAQuote\\20180710_130612\\1531208302293.png]]
+
+2018-07-10 13:08:22 - [TEST_STEP][PASSED] - setText: Text 'avishek20@mailinator.com' is set on object 'Object Repository/Bookings/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-10 13:08:23 - [MESSAGE][PASSED] - Text 'avishek20@mailinator.com' is set on object 'Object Repository/Bookings/Page_JobyCo/input_ctl00ContentPlaceHolder1'
+
+2018-07-10 13:08:23 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/Bookings/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-10 13:08:23 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Bookings/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-10 13:08:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Bookings/Page_JobyCo/input_ctl00ContentPlaceHolder1_2' is clicked on
+
+2018-07-10 13:08:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Bookings/Page_JobyCo/input_ctl00ContentPlaceHolder1_2' is clicked on
+
+2018-07-10 13:08:24 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-10 13:08:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\Avishek\\LOGMANPROJECT\\Reports\\WebsiteFrontend\\LoginandRequestAQuote\\20180710_130612\\1531208304724.png]]
+
+2018-07-10 13:08:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CaptureObject/Page_ (3)/label_Make a Booking' is clicked on
+
+2018-07-10 13:08:26 - [MESSAGE][PASSED] - Object: 'Object Repository/CaptureObject/Page_ (3)/label_Make a Booking' is clicked on
+
+2018-07-10 13:08:26 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '0' are selected in object 'Object Repository/Bookings/Page_/select_Please SelectYesNo'  using regular expression
+
+2018-07-10 13:08:26 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Bookings/Page_/select_Please SelectYesNo'  using regular expression
+
+2018-07-10 13:08:26 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/Bookings/Page_/select_Please SelectYesNoI am'  using regular expression
+
+2018-07-10 13:08:26 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Bookings/Page_/select_Please SelectYesNoI am'  using regular expression
+
+2018-07-10 13:08:26 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '52' are selected in object 'Object Repository/Bookings/Page_/select_Pickup Category'  using regular expression
+
+2018-07-10 13:08:27 - [MESSAGE][PASSED] - All options with value '52' are selected in object 'Object Repository/Bookings/Page_/select_Pickup Category'  using regular expression
+
+2018-07-10 13:08:27 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/Bookings/Page_/select_Pickup ItemSuitCaseGhan'  using regular expression
+
+2018-07-10 13:08:27 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Bookings/Page_/select_Pickup ItemSuitCaseGhan'  using regular expression
+
+2018-07-10 13:08:27 - [TEST_STEP][PASSED] - setText: Text '45' is set on object 'Object Repository/Bookings/Page_/input_estimatedValue'
+
+2018-07-10 13:08:28 - [MESSAGE][PASSED] - Text '45' is set on object 'Object Repository/Bookings/Page_/input_estimatedValue'
+
+2018-07-10 13:08:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Bookings/Page_/button_Add Row' is clicked on
+
+2018-07-10 13:08:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Bookings/Page_/button_Add Row' is clicked on
+
+2018-07-10 13:08:28 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '53' are selected in object 'Object Repository/Bookings/Page_/select_Pickup CategoryAir Cond'  using regular expression
+
+2018-07-10 13:08:29 - [MESSAGE][PASSED] - All options with value '53' are selected in object 'Object Repository/Bookings/Page_/select_Pickup CategoryAir Cond'  using regular expression
+
+2018-07-10 13:08:29 - [TEST_STEP][PASSED] - setText: Text '115' is set on object 'Object Repository/Bookings/Page_/input_estimatedValue_1'
+
+2018-07-10 13:08:29 - [MESSAGE][PASSED] - Text '115' is set on object 'Object Repository/Bookings/Page_/input_estimatedValue_1'
+
+2018-07-10 13:08:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/input_ctl00ContentPlaceHolder1' is clicked on
+
+2018-07-10 13:08:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/input_ctl00ContentPlaceHolder1' is clicked on
+
+2018-07-10 13:08:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CaptureObject/Page_/Page_/table_July 2018SuMoTuWeThFrSa2' is clicked on
+
+2018-07-10 13:08:30 - [MESSAGE][PASSED] - Object: 'Object Repository/CaptureObject/Page_/Page_/table_July 2018SuMoTuWeThFrSa2' is clicked on
+
+2018-07-10 13:08:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1' is clicked on
+
+2018-07-10 13:08:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1' is clicked on
+
+2018-07-10 13:08:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Bookings/Page_/input_next' is clicked on
+
+2018-07-10 13:08:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Bookings/Page_/input_next' is clicked on
+
+2018-07-10 13:08:30 - [TEST_STEP][PASSED] - setText: Text 'Avishek' is set on object 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-10 13:08:31 - [MESSAGE][PASSED] - Text 'Avishek' is set on object 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_1'
+
+2018-07-10 13:08:31 - [TEST_STEP][PASSED] - setText: Text 'Kolkata' is set on object 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_2'
+
+2018-07-10 13:08:31 - [MESSAGE][PASSED] - Text 'Kolkata' is set on object 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_2'
+
+2018-07-10 13:08:31 - [TEST_STEP][PASSED] - setText: Text '2563' is set on object 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_3'
+
+2018-07-10 13:08:32 - [MESSAGE][PASSED] - Text '2563' is set on object 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_3'
+
+2018-07-10 13:08:32 - [TEST_STEP][PASSED] - setText: Text '1234567890' is set on object 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_4'
+
+2018-07-10 13:08:32 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_4'
+
+2018-07-10 13:08:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Bookings/Page_/div_Pickup Email Address' is clicked on
+
+2018-07-10 13:08:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Bookings/Page_/div_Pickup Email Address' is clicked on
+
+2018-07-10 13:08:32 - [TEST_STEP][PASSED] - setText: Text 'avishek5@mailinator.com' is set on object 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_5'
+
+2018-07-10 13:08:33 - [MESSAGE][PASSED] - Text 'avishek5@mailinator.com' is set on object 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_5'
+
+2018-07-10 13:08:33 - [TEST_STEP][PASSED] - setText: Text 'Avi' is set on object 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_6'
+
+2018-07-10 13:08:33 - [MESSAGE][PASSED] - Text 'Avi' is set on object 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_6'
+
+2018-07-10 13:08:33 - [TEST_STEP][PASSED] - setText: Text 'Kolkata' is set on object 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_7'
+
+2018-07-10 13:08:34 - [MESSAGE][PASSED] - Text 'Kolkata' is set on object 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_7'
+
+2018-07-10 13:08:34 - [TEST_STEP][PASSED] - setText: Text '4578' is set on object 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_8'
+
+2018-07-10 13:08:34 - [MESSAGE][PASSED] - Text '4578' is set on object 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_8'
+
+2018-07-10 13:08:34 - [TEST_STEP][PASSED] - setText: Text '1234567890' is set on object 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_9'
+
+2018-07-10 13:08:34 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_9'
+
+2018-07-10 13:08:34 - [TEST_STEP][PASSED] - setText: Text 'avisshek@mailinator.com' is set on object 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_10'
+
+2018-07-10 13:08:35 - [MESSAGE][PASSED] - Text 'avisshek@mailinator.com' is set on object 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_10'
+
+2018-07-10 13:08:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Bookings/Page_ (1)/input_next' is clicked on
+
+2018-07-10 13:08:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Bookings/Page_ (1)/input_next' is clicked on
+
+2018-07-10 13:08:35 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-07-10 13:08:35 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-07-10 13:08:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_11' is clicked on
+
+2018-07-10 13:08:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_11' is clicked on
+
+2018-07-10 13:08:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_12' is clicked on
+
+2018-07-10 13:08:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Bookings/Page_/input_ctl00ContentPlaceHolder1_12' is clicked on
+
+2018-07-10 13:08:36 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Bookings/Page_/button_Pay at  Kolkata' is hovered
+
+2018-07-10 13:08:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Bookings/Page_/button_Pay at  Kolkata' is hovered
+
+2018-07-10 13:08:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Bookings/Page_/button_Pay at  Kolkata' is clicked on
+
+2018-07-10 13:08:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Bookings/Page_/button_Pay at  Kolkata' is clicked on
+
+2018-07-10 13:08:36 - [TEST_STEP][PASSED] - waitForAlert: No alert found after 10 second(s).
+
+2018-07-10 13:08:46 - [MESSAGE][WARNING] - No alert found after 10 second(s).
+
+2018-07-10 13:08:46 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Bookings/Page_/a_Back to Dashboard' is hovered
+
+2018-07-10 13:08:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Bookings/Page_/a_Back to Dashboard' is hovered
+
+2018-07-10 13:08:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Bookings/Page_/a_Back to Dashboard' is clicked on
+
+2018-07-10 13:08:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Bookings/Page_/a_Back to Dashboard' is clicked on
+
+2018-07-10 13:08:47 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-10 13:08:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-10 13:08:11 - [TEST_SUITE][PASSED] - LoginandRequestAQuote: Test Cases/WebsitesFrontend/LoginandMakeABookingAsNO]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

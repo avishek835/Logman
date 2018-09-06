@@ -1,0 +1,2399 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-07-23T14:16:57</date>
+  <millis>1532335617496</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/CRM/AssignBookingToDriver</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">AssignBookingToDriver</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/CRM/AssignBookingToDriver</property>
+</record>
+<record>
+  <date>2018-07-23T14:16:57</date>
+  <millis>1532335617539</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostName&amp;apos; with value &amp;apos;Avishek - DESKTOP-UNOIIMH&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">Avishek - DESKTOP-UNOIIMH</property>
+</record>
+<record>
+  <date>2018-07-23T14:16:57</date>
+  <millis>1532335617541</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;os&amp;apos; with value &amp;apos;Windows 10 64bit&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2018-07-23T14:16:57</date>
+  <millis>1532335617542</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostAddress&amp;apos; with value &amp;apos;172.16.10.89&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">172.16.10.89</property>
+</record>
+<record>
+  <date>2018-07-23T14:16:57</date>
+  <millis>1532335617543</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;katalonVersion&amp;apos; with value &amp;apos;5.5.0.1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.5.0.1</property>
+</record>
+<record>
+  <date>2018-07-23T14:16:58</date>
+  <millis>1532335618114</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/CRM/AssignBookingToDriver</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/CRM/AssignBookingToDriver</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/CRM/AssignBookingToDriver</property>
+  <property name="source">E:\\Avishek\\LOGMANPROJECT\\Test Cases\\CRM\\AssignBookingToDriver.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2018-07-23T14:16:58</date>
+  <millis>1532335618181</millis>
+  <sequence>6</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Evaluating variables for test case</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:16:58</date>
+  <millis>1532335618612</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-07-23T14:16:59</date>
+  <millis>1532335619133</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Opening browser</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:16:59</date>
+  <millis>1532335619153</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:16:59</date>
+  <millis>1532335619206</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 1 seconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:03</date>
+  <millis>1532335623277</millis>
+  <sequence>12</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;sessionId&amp;apos; with value &amp;apos;f2e6be556d12a77b7dcc7133acd13bdc&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">f2e6be556d12a77b7dcc7133acd13bdc</property>
+</record>
+<record>
+  <date>2018-07-23T14:17:04</date>
+  <millis>1532335624326</millis>
+  <sequence>13</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;browser&amp;apos; with value &amp;apos;Chrome 67.0.3396.99&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 67.0.3396.99</property>
+</record>
+<record>
+  <date>2018-07-23T14:17:04</date>
+  <millis>1532335624327</millis>
+  <sequence>14</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;platform&amp;apos; with value &amp;apos;Windows 10&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2018-07-23T14:17:04</date>
+  <millis>1532335624331</millis>
+  <sequence>15</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;seleniumVersion&amp;apos; with value &amp;apos;3.7.1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2018-07-23T14:17:04</date>
+  <millis>1532335624335</millis>
+  <sequence>16</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;proxyInformation&amp;apos; with value &amp;apos;ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2018-07-23T14:17:04</date>
+  <millis>1532335624336</millis>
+  <sequence>17</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:04</date>
+  <millis>1532335624337</millis>
+  <sequence>18</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:04</date>
+  <millis>1532335624337</millis>
+  <sequence>19</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2018-07-23T14:17:04</date>
+  <millis>1532335624377</millis>
+  <sequence>20</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking url</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:04</date>
+  <millis>1532335624379</millis>
+  <sequence>21</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigating to &amp;apos;http://172.16.20.5:93/&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:07</date>
+  <millis>1532335627110</millis>
+  <sequence>22</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;http://172.16.20.5:93/&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:07</date>
+  <millis>1532335627111</millis>
+  <sequence>23</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:07</date>
+  <millis>1532335627111</millis>
+  <sequence>24</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : maximizeWindow</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2018-07-23T14:17:07</date>
+  <millis>1532335627136</millis>
+  <sequence>25</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Maximizing current window</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:09</date>
+  <millis>1532335629270</millis>
+  <sequence>26</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window maximized</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:09</date>
+  <millis>1532335629271</millis>
+  <sequence>27</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : maximizeWindow</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:09</date>
+  <millis>1532335629271</millis>
+  <sequence>28</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">27</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2018-07-23T14:17:09</date>
+  <millis>1532335629279</millis>
+  <sequence>29</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/AssignBookingToDriver/Page_JobyCo/input_ctl00ContentPlaceHolder1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:09</date>
+  <millis>1532335629321</millis>
+  <sequence>30</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:09</date>
+  <millis>1532335629321</millis>
+  <sequence>31</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking text</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:09</date>
+  <millis>1532335629322</millis>
+  <sequence>32</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:09</date>
+  <millis>1532335629342</millis>
+  <sequence>33</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/AssignBookingToDriver/Page_JobyCo/input_ctl00ContentPlaceHolder1&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;ContentPlaceHolder1_txtEmailID\&amp;quot;)[count(. | //input[@name = &amp;apos;ctl00$ContentPlaceHolder1$txtEmailID&amp;apos; and @type = &amp;apos;text&amp;apos; and @maxlength = &amp;apos;255&amp;apos; and @id = &amp;apos;ContentPlaceHolder1_txtEmailID&amp;apos; and @class = &amp;apos;form-control&amp;apos; and @placeholder = &amp;apos;Enter Email&amp;apos; and @title = &amp;apos;Please enter your Email&amp;apos; and @onkeypress = &amp;apos;clearErrorMessage();&amp;apos;]) = count(//input[@name = &amp;apos;ctl00$ContentPlaceHolder1$txtEmailID&amp;apos; and @type = &amp;apos;text&amp;apos; and @maxlength = &amp;apos;255&amp;apos; and @id = &amp;apos;ContentPlaceHolder1_txtEmailID&amp;apos; and @class = &amp;apos;form-control&amp;apos; and @placeholder = &amp;apos;Enter Email&amp;apos; and @title = &amp;apos;Please enter your Email&amp;apos; and @onkeypress = &amp;apos;clearErrorMessage();&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:10</date>
+  <millis>1532335630371</millis>
+  <sequence>34</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/AssignBookingToDriver/Page_JobyCo/input_ctl00ContentPlaceHolder1&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;ContentPlaceHolder1_txtEmailID\&amp;quot;)[count(. | //input[@name = &amp;apos;ctl00$ContentPlaceHolder1$txtEmailID&amp;apos; and @type = &amp;apos;text&amp;apos; and @maxlength = &amp;apos;255&amp;apos; and @id = &amp;apos;ContentPlaceHolder1_txtEmailID&amp;apos; and @class = &amp;apos;form-control&amp;apos; and @placeholder = &amp;apos;Enter Email&amp;apos; and @title = &amp;apos;Please enter your Email&amp;apos; and @onkeypress = &amp;apos;clearErrorMessage();&amp;apos;]) = count(//input[@name = &amp;apos;ctl00$ContentPlaceHolder1$txtEmailID&amp;apos; and @type = &amp;apos;text&amp;apos; and @maxlength = &amp;apos;255&amp;apos; and @id = &amp;apos;ContentPlaceHolder1_txtEmailID&amp;apos; and @class = &amp;apos;form-control&amp;apos; and @placeholder = &amp;apos;Enter Email&amp;apos; and @title = &amp;apos;Please enter your Email&amp;apos; and @onkeypress = &amp;apos;clearErrorMessage();&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:10</date>
+  <millis>1532335630372</millis>
+  <sequence>35</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clearing text of object &amp;apos;Object Repository/AssignBookingToDriver/Page_JobyCo/input_ctl00ContentPlaceHolder1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:11</date>
+  <millis>1532335631408</millis>
+  <sequence>36</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:11</date>
+  <millis>1532335631410</millis>
+  <sequence>37</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/AssignBookingToDriver/Page_JobyCo/input_ctl00ContentPlaceHolder1&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;ContentPlaceHolder1_txtEmailID\&amp;quot;)[count(. | //input[@name = &amp;apos;ctl00$ContentPlaceHolder1$txtEmailID&amp;apos; and @type = &amp;apos;text&amp;apos; and @maxlength = &amp;apos;255&amp;apos; and @id = &amp;apos;ContentPlaceHolder1_txtEmailID&amp;apos; and @class = &amp;apos;form-control&amp;apos; and @placeholder = &amp;apos;Enter Email&amp;apos; and @title = &amp;apos;Please enter your Email&amp;apos; and @onkeypress = &amp;apos;clearErrorMessage();&amp;apos;]) = count(//input[@name = &amp;apos;ctl00$ContentPlaceHolder1$txtEmailID&amp;apos; and @type = &amp;apos;text&amp;apos; and @maxlength = &amp;apos;255&amp;apos; and @id = &amp;apos;ContentPlaceHolder1_txtEmailID&amp;apos; and @class = &amp;apos;form-control&amp;apos; and @placeholder = &amp;apos;Enter Email&amp;apos; and @title = &amp;apos;Please enter your Email&amp;apos; and @onkeypress = &amp;apos;clearErrorMessage();&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:12</date>
+  <millis>1532335632427</millis>
+  <sequence>38</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/AssignBookingToDriver/Page_JobyCo/input_ctl00ContentPlaceHolder1&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;ContentPlaceHolder1_txtEmailID\&amp;quot;)[count(. | //input[@name = &amp;apos;ctl00$ContentPlaceHolder1$txtEmailID&amp;apos; and @type = &amp;apos;text&amp;apos; and @maxlength = &amp;apos;255&amp;apos; and @id = &amp;apos;ContentPlaceHolder1_txtEmailID&amp;apos; and @class = &amp;apos;form-control&amp;apos; and @placeholder = &amp;apos;Enter Email&amp;apos; and @title = &amp;apos;Please enter your Email&amp;apos; and @onkeypress = &amp;apos;clearErrorMessage();&amp;apos;]) = count(//input[@name = &amp;apos;ctl00$ContentPlaceHolder1$txtEmailID&amp;apos; and @type = &amp;apos;text&amp;apos; and @maxlength = &amp;apos;255&amp;apos; and @id = &amp;apos;ContentPlaceHolder1_txtEmailID&amp;apos; and @class = &amp;apos;form-control&amp;apos; and @placeholder = &amp;apos;Enter Email&amp;apos; and @title = &amp;apos;Please enter your Email&amp;apos; and @onkeypress = &amp;apos;clearErrorMessage();&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:12</date>
+  <millis>1532335632436</millis>
+  <sequence>39</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Setting text of object &amp;apos;Object Repository/AssignBookingToDriver/Page_JobyCo/input_ctl00ContentPlaceHolder1&amp;apos; to value &amp;apos;avishek101@mailinator.com&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:13</date>
+  <millis>1532335633609</millis>
+  <sequence>40</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;avishek101@mailinator.com&amp;apos; is set on object &amp;apos;Object Repository/AssignBookingToDriver/Page_JobyCo/input_ctl00ContentPlaceHolder1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:13</date>
+  <millis>1532335633610</millis>
+  <sequence>41</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:13</date>
+  <millis>1532335633611</millis>
+  <sequence>42</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setEncryptedText</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">29</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2018-07-23T14:17:13</date>
+  <millis>1532335633611</millis>
+  <sequence>43</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/AssignBookingToDriver/Page_JobyCo/input_ctl00ContentPlaceHolder1_1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:13</date>
+  <millis>1532335633635</millis>
+  <sequence>44</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:13</date>
+  <millis>1532335633636</millis>
+  <sequence>45</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking text</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:13</date>
+  <millis>1532335633906</millis>
+  <sequence>46</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:13</date>
+  <millis>1532335633909</millis>
+  <sequence>47</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/AssignBookingToDriver/Page_JobyCo/input_ctl00ContentPlaceHolder1_1&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;ContentPlaceHolder1_txtPassword\&amp;quot;)[count(. | //input[@name = &amp;apos;ctl00$ContentPlaceHolder1$txtPassword&amp;apos; and @type = &amp;apos;password&amp;apos; and @maxlength = &amp;apos;50&amp;apos; and @id = &amp;apos;ContentPlaceHolder1_txtPassword&amp;apos; and @class = &amp;apos;form-control&amp;apos; and @placeholder = &amp;apos;Enter Password&amp;apos; and @title = &amp;apos;Please enter your Password&amp;apos; and @onkeypress = &amp;apos;clearErrorMessage();&amp;apos;]) = count(//input[@name = &amp;apos;ctl00$ContentPlaceHolder1$txtPassword&amp;apos; and @type = &amp;apos;password&amp;apos; and @maxlength = &amp;apos;50&amp;apos; and @id = &amp;apos;ContentPlaceHolder1_txtPassword&amp;apos; and @class = &amp;apos;form-control&amp;apos; and @placeholder = &amp;apos;Enter Password&amp;apos; and @title = &amp;apos;Please enter your Password&amp;apos; and @onkeypress = &amp;apos;clearErrorMessage();&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:14</date>
+  <millis>1532335634939</millis>
+  <sequence>48</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/AssignBookingToDriver/Page_JobyCo/input_ctl00ContentPlaceHolder1_1&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;ContentPlaceHolder1_txtPassword\&amp;quot;)[count(. | //input[@name = &amp;apos;ctl00$ContentPlaceHolder1$txtPassword&amp;apos; and @type = &amp;apos;password&amp;apos; and @maxlength = &amp;apos;50&amp;apos; and @id = &amp;apos;ContentPlaceHolder1_txtPassword&amp;apos; and @class = &amp;apos;form-control&amp;apos; and @placeholder = &amp;apos;Enter Password&amp;apos; and @title = &amp;apos;Please enter your Password&amp;apos; and @onkeypress = &amp;apos;clearErrorMessage();&amp;apos;]) = count(//input[@name = &amp;apos;ctl00$ContentPlaceHolder1$txtPassword&amp;apos; and @type = &amp;apos;password&amp;apos; and @maxlength = &amp;apos;50&amp;apos; and @id = &amp;apos;ContentPlaceHolder1_txtPassword&amp;apos; and @class = &amp;apos;form-control&amp;apos; and @placeholder = &amp;apos;Enter Password&amp;apos; and @title = &amp;apos;Please enter your Password&amp;apos; and @onkeypress = &amp;apos;clearErrorMessage();&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:14</date>
+  <millis>1532335634940</millis>
+  <sequence>49</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clearing text of object &amp;apos;Object Repository/AssignBookingToDriver/Page_JobyCo/input_ctl00ContentPlaceHolder1_1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:15</date>
+  <millis>1532335635981</millis>
+  <sequence>50</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Setting  text of object &amp;apos;Object Repository/AssignBookingToDriver/Page_JobyCo/input_ctl00ContentPlaceHolder1_1&amp;apos; to value ******</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:17</date>
+  <millis>1532335637059</millis>
+  <sequence>51</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text ****** has been set on object &amp;apos;Object Repository/AssignBookingToDriver/Page_JobyCo/input_ctl00ContentPlaceHolder1_1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:17</date>
+  <millis>1532335637060</millis>
+  <sequence>52</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setEncryptedText</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:17</date>
+  <millis>1532335637060</millis>
+  <sequence>53</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">32</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2018-07-23T14:17:17</date>
+  <millis>1532335637061</millis>
+  <sequence>54</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/AssignBookingToDriver/Page_JobyCo/input_ctl00ContentPlaceHolder1_2&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:17</date>
+  <millis>1532335637085</millis>
+  <sequence>55</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:17</date>
+  <millis>1532335637099</millis>
+  <sequence>56</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:17</date>
+  <millis>1532335637102</millis>
+  <sequence>57</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/AssignBookingToDriver/Page_JobyCo/input_ctl00ContentPlaceHolder1_2&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;ContentPlaceHolder1_btnLogin\&amp;quot;)[count(. | //input[@type = &amp;apos;submit&amp;apos; and @name = &amp;apos;ctl00$ContentPlaceHolder1$btnLogin&amp;apos; and @value = &amp;apos;Login&amp;apos; and @onclick = &amp;apos;return checkBlankTextBoxes();&amp;apos; and @id = &amp;apos;ContentPlaceHolder1_btnLogin&amp;apos; and @class = &amp;apos;inSGNbtn&amp;apos;]) = count(//input[@type = &amp;apos;submit&amp;apos; and @name = &amp;apos;ctl00$ContentPlaceHolder1$btnLogin&amp;apos; and @value = &amp;apos;Login&amp;apos; and @onclick = &amp;apos;return checkBlankTextBoxes();&amp;apos; and @id = &amp;apos;ContentPlaceHolder1_btnLogin&amp;apos; and @class = &amp;apos;inSGNbtn&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:18</date>
+  <millis>1532335638127</millis>
+  <sequence>58</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/AssignBookingToDriver/Page_JobyCo/input_ctl00ContentPlaceHolder1_2&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;ContentPlaceHolder1_btnLogin\&amp;quot;)[count(. | //input[@type = &amp;apos;submit&amp;apos; and @name = &amp;apos;ctl00$ContentPlaceHolder1$btnLogin&amp;apos; and @value = &amp;apos;Login&amp;apos; and @onclick = &amp;apos;return checkBlankTextBoxes();&amp;apos; and @id = &amp;apos;ContentPlaceHolder1_btnLogin&amp;apos; and @class = &amp;apos;inSGNbtn&amp;apos;]) = count(//input[@type = &amp;apos;submit&amp;apos; and @name = &amp;apos;ctl00$ContentPlaceHolder1$btnLogin&amp;apos; and @value = &amp;apos;Login&amp;apos; and @onclick = &amp;apos;return checkBlankTextBoxes();&amp;apos; and @id = &amp;apos;ContentPlaceHolder1_btnLogin&amp;apos; and @class = &amp;apos;inSGNbtn&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:18</date>
+  <millis>1532335638128</millis>
+  <sequence>59</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/AssignBookingToDriver/Page_JobyCo/input_ctl00ContentPlaceHolder1_2&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:19</date>
+  <millis>1532335639583</millis>
+  <sequence>60</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/AssignBookingToDriver/Page_JobyCo/input_ctl00ContentPlaceHolder1_2&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:19</date>
+  <millis>1532335639584</millis>
+  <sequence>61</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:19</date>
+  <millis>1532335639584</millis>
+  <sequence>62</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2018-07-23T14:17:19</date>
+  <millis>1532335639585</millis>
+  <sequence>63</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/AssignBookingToDriver/Page_/button_toggle navigation&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:19</date>
+  <millis>1532335639592</millis>
+  <sequence>64</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:19</date>
+  <millis>1532335639593</millis>
+  <sequence>65</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:19</date>
+  <millis>1532335639594</millis>
+  <sequence>66</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/AssignBookingToDriver/Page_/button_toggle navigation&amp;apos; located by &amp;apos;By.xpath: /html[1]/body[@class=\&amp;quot;drawer drawer--left drawer-close darkBG\&amp;quot;]/div[3]/header[1]/button[@class=\&amp;quot;drawer-toggle drawer-hamburger flash\&amp;quot;][count(. | //button[@type = &amp;apos;button&amp;apos; and @class = &amp;apos;drawer-toggle drawer-hamburger flash&amp;apos; and (text() = &amp;apos;\n              toggle navigation\n              \n            &amp;apos; or . = &amp;apos;\n              toggle navigation\n              \n            &amp;apos;)]) = count(//button[@type = &amp;apos;button&amp;apos; and @class = &amp;apos;drawer-toggle drawer-hamburger flash&amp;apos; and (text() = &amp;apos;\n              toggle navigation\n              \n            &amp;apos; or . = &amp;apos;\n              toggle navigation\n              \n            &amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:20</date>
+  <millis>1532335640623</millis>
+  <sequence>67</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/AssignBookingToDriver/Page_/button_toggle navigation&amp;apos; located by &amp;apos;By.xpath: /html[1]/body[@class=\&amp;quot;drawer drawer--left drawer-close darkBG\&amp;quot;]/div[3]/header[1]/button[@class=\&amp;quot;drawer-toggle drawer-hamburger flash\&amp;quot;][count(. | //button[@type = &amp;apos;button&amp;apos; and @class = &amp;apos;drawer-toggle drawer-hamburger flash&amp;apos; and (text() = &amp;apos;\n              toggle navigation\n              \n            &amp;apos; or . = &amp;apos;\n              toggle navigation\n              \n            &amp;apos;)]) = count(//button[@type = &amp;apos;button&amp;apos; and @class = &amp;apos;drawer-toggle drawer-hamburger flash&amp;apos; and (text() = &amp;apos;\n              toggle navigation\n              \n            &amp;apos; or . = &amp;apos;\n              toggle navigation\n              \n            &amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:20</date>
+  <millis>1532335640623</millis>
+  <sequence>68</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/AssignBookingToDriver/Page_/button_toggle navigation&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:21</date>
+  <millis>1532335641715</millis>
+  <sequence>69</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/AssignBookingToDriver/Page_/button_toggle navigation&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:21</date>
+  <millis>1532335641715</millis>
+  <sequence>70</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:21</date>
+  <millis>1532335641716</millis>
+  <sequence>71</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">36</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2018-07-23T14:17:21</date>
+  <millis>1532335641718</millis>
+  <sequence>72</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/AssignBookingToDriver/Page_/a_Booking&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:21</date>
+  <millis>1532335641725</millis>
+  <sequence>73</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:21</date>
+  <millis>1532335641726</millis>
+  <sequence>74</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:21</date>
+  <millis>1532335641727</millis>
+  <sequence>75</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/AssignBookingToDriver/Page_/a_Booking&amp;apos; located by &amp;apos;By.xpath: /html[1]/body[@class=\&amp;quot;drawer drawer--left darkBG drawer-open\&amp;quot;]/div[3]/header[1]/nav[@class=\&amp;quot;drawer-nav\&amp;quot;]/ul[@class=\&amp;quot;drawer-menu\&amp;quot;]/li[@class=\&amp;quot;drawer-dropdown\&amp;quot;]/a[@class=\&amp;quot;drawer-menu-item\&amp;quot;][count(. | //a[@class = &amp;apos;drawer-menu-item&amp;apos; and @data-target = &amp;apos;#&amp;apos; and @href = &amp;apos;#&amp;apos; and @data-toggle = &amp;apos;dropdown&amp;apos; and @role = &amp;apos;button&amp;apos; and @aria-expanded = &amp;apos;false&amp;apos; and (text() = &amp;apos;\n                        Booking \n                      &amp;apos; or . = &amp;apos;\n                        Booking \n                      &amp;apos;)]) = count(//a[@class = &amp;apos;drawer-menu-item&amp;apos; and @data-target = &amp;apos;#&amp;apos; and @href = &amp;apos;#&amp;apos; and @data-toggle = &amp;apos;dropdown&amp;apos; and @role = &amp;apos;button&amp;apos; and @aria-expanded = &amp;apos;false&amp;apos; and (text() = &amp;apos;\n                        Booking \n                      &amp;apos; or . = &amp;apos;\n                        Booking \n                      &amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:22</date>
+  <millis>1532335642763</millis>
+  <sequence>76</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/AssignBookingToDriver/Page_/a_Booking&amp;apos; located by &amp;apos;By.xpath: /html[1]/body[@class=\&amp;quot;drawer drawer--left darkBG drawer-open\&amp;quot;]/div[3]/header[1]/nav[@class=\&amp;quot;drawer-nav\&amp;quot;]/ul[@class=\&amp;quot;drawer-menu\&amp;quot;]/li[@class=\&amp;quot;drawer-dropdown\&amp;quot;]/a[@class=\&amp;quot;drawer-menu-item\&amp;quot;][count(. | //a[@class = &amp;apos;drawer-menu-item&amp;apos; and @data-target = &amp;apos;#&amp;apos; and @href = &amp;apos;#&amp;apos; and @data-toggle = &amp;apos;dropdown&amp;apos; and @role = &amp;apos;button&amp;apos; and @aria-expanded = &amp;apos;false&amp;apos; and (text() = &amp;apos;\n                        Booking \n                      &amp;apos; or . = &amp;apos;\n                        Booking \n                      &amp;apos;)]) = count(//a[@class = &amp;apos;drawer-menu-item&amp;apos; and @data-target = &amp;apos;#&amp;apos; and @href = &amp;apos;#&amp;apos; and @data-toggle = &amp;apos;dropdown&amp;apos; and @role = &amp;apos;button&amp;apos; and @aria-expanded = &amp;apos;false&amp;apos; and (text() = &amp;apos;\n                        Booking \n                      &amp;apos; or . = &amp;apos;\n                        Booking \n                      &amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:22</date>
+  <millis>1532335642764</millis>
+  <sequence>77</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/AssignBookingToDriver/Page_/a_Booking&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:23</date>
+  <millis>1532335643849</millis>
+  <sequence>78</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/AssignBookingToDriver/Page_/a_Booking&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:23</date>
+  <millis>1532335643850</millis>
+  <sequence>79</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:23</date>
+  <millis>1532335643851</millis>
+  <sequence>80</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2018-07-23T14:17:23</date>
+  <millis>1532335643852</millis>
+  <sequence>81</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/AssignBookingToDriver/Page_/a_Assign Booking To Driver&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:23</date>
+  <millis>1532335643857</millis>
+  <sequence>82</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:23</date>
+  <millis>1532335643858</millis>
+  <sequence>83</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:23</date>
+  <millis>1532335643859</millis>
+  <sequence>84</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/AssignBookingToDriver/Page_/a_Assign Booking To Driver&amp;apos; located by &amp;apos;By.xpath: /html[1]/body[@class=\&amp;quot;drawer drawer--left darkBG drawer-open\&amp;quot;]/div[3]/header[1]/nav[@class=\&amp;quot;drawer-nav\&amp;quot;]/ul[@class=\&amp;quot;drawer-menu\&amp;quot;]/li[@class=\&amp;quot;drawer-dropdown open\&amp;quot;]/ul[@class=\&amp;quot;drawer-dropdown-menu\&amp;quot;]/li[3]/a[@class=\&amp;quot;drawer-dropdown-menu-item\&amp;quot;][count(. | //a[@class = &amp;apos;drawer-dropdown-menu-item&amp;apos; and @href = &amp;apos;/Booking/AssignBookingToDriver.aspx&amp;apos; and (text() = &amp;apos;Assign Booking To Driver&amp;apos; or . = &amp;apos;Assign Booking To Driver&amp;apos;)]) = count(//a[@class = &amp;apos;drawer-dropdown-menu-item&amp;apos; and @href = &amp;apos;/Booking/AssignBookingToDriver.aspx&amp;apos; and (text() = &amp;apos;Assign Booking To Driver&amp;apos; or . = &amp;apos;Assign Booking To Driver&amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:24</date>
+  <millis>1532335644884</millis>
+  <sequence>85</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/AssignBookingToDriver/Page_/a_Assign Booking To Driver&amp;apos; located by &amp;apos;By.xpath: /html[1]/body[@class=\&amp;quot;drawer drawer--left darkBG drawer-open\&amp;quot;]/div[3]/header[1]/nav[@class=\&amp;quot;drawer-nav\&amp;quot;]/ul[@class=\&amp;quot;drawer-menu\&amp;quot;]/li[@class=\&amp;quot;drawer-dropdown open\&amp;quot;]/ul[@class=\&amp;quot;drawer-dropdown-menu\&amp;quot;]/li[3]/a[@class=\&amp;quot;drawer-dropdown-menu-item\&amp;quot;][count(. | //a[@class = &amp;apos;drawer-dropdown-menu-item&amp;apos; and @href = &amp;apos;/Booking/AssignBookingToDriver.aspx&amp;apos; and (text() = &amp;apos;Assign Booking To Driver&amp;apos; or . = &amp;apos;Assign Booking To Driver&amp;apos;)]) = count(//a[@class = &amp;apos;drawer-dropdown-menu-item&amp;apos; and @href = &amp;apos;/Booking/AssignBookingToDriver.aspx&amp;apos; and (text() = &amp;apos;Assign Booking To Driver&amp;apos; or . = &amp;apos;Assign Booking To Driver&amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:24</date>
+  <millis>1532335644885</millis>
+  <sequence>86</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/AssignBookingToDriver/Page_/a_Assign Booking To Driver&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:26</date>
+  <millis>1532335646500</millis>
+  <sequence>87</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/AssignBookingToDriver/Page_/a_Assign Booking To Driver&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:26</date>
+  <millis>1532335646502</millis>
+  <sequence>88</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:26</date>
+  <millis>1532335646502</millis>
+  <sequence>89</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">40</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2018-07-23T14:17:26</date>
+  <millis>1532335646503</millis>
+  <sequence>90</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/AssignBookingToDriver/Page_/input_ctl00ContentPlaceHolder1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:26</date>
+  <millis>1532335646510</millis>
+  <sequence>91</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:26</date>
+  <millis>1532335646510</millis>
+  <sequence>92</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:26</date>
+  <millis>1532335646511</millis>
+  <sequence>93</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/AssignBookingToDriver/Page_/input_ctl00ContentPlaceHolder1&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;ContentPlaceHolder1_btnAssignBookingToDriver\&amp;quot;)[count(. | //input[@type = &amp;apos;submit&amp;apos; and @name = &amp;apos;ctl00$ContentPlaceHolder1$btnAssignBookingToDriver&amp;apos; and @value = &amp;apos;Assign Booking To Driver&amp;apos; and @onclick = &amp;apos;return showAssigningModalDialog();&amp;apos; and @id = &amp;apos;ContentPlaceHolder1_btnAssignBookingToDriver&amp;apos;]) = count(//input[@type = &amp;apos;submit&amp;apos; and @name = &amp;apos;ctl00$ContentPlaceHolder1$btnAssignBookingToDriver&amp;apos; and @value = &amp;apos;Assign Booking To Driver&amp;apos; and @onclick = &amp;apos;return showAssigningModalDialog();&amp;apos; and @id = &amp;apos;ContentPlaceHolder1_btnAssignBookingToDriver&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:27</date>
+  <millis>1532335647562</millis>
+  <sequence>94</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/AssignBookingToDriver/Page_/input_ctl00ContentPlaceHolder1&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;ContentPlaceHolder1_btnAssignBookingToDriver\&amp;quot;)[count(. | //input[@type = &amp;apos;submit&amp;apos; and @name = &amp;apos;ctl00$ContentPlaceHolder1$btnAssignBookingToDriver&amp;apos; and @value = &amp;apos;Assign Booking To Driver&amp;apos; and @onclick = &amp;apos;return showAssigningModalDialog();&amp;apos; and @id = &amp;apos;ContentPlaceHolder1_btnAssignBookingToDriver&amp;apos;]) = count(//input[@type = &amp;apos;submit&amp;apos; and @name = &amp;apos;ctl00$ContentPlaceHolder1$btnAssignBookingToDriver&amp;apos; and @value = &amp;apos;Assign Booking To Driver&amp;apos; and @onclick = &amp;apos;return showAssigningModalDialog();&amp;apos; and @id = &amp;apos;ContentPlaceHolder1_btnAssignBookingToDriver&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:27</date>
+  <millis>1532335647563</millis>
+  <sequence>95</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/AssignBookingToDriver/Page_/input_ctl00ContentPlaceHolder1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:28</date>
+  <millis>1532335648698</millis>
+  <sequence>96</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/AssignBookingToDriver/Page_/input_ctl00ContentPlaceHolder1&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:28</date>
+  <millis>1532335648699</millis>
+  <sequence>97</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:28</date>
+  <millis>1532335648699</millis>
+  <sequence>98</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : mouseOver</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">42</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2018-07-23T14:17:28</date>
+  <millis>1532335648700</millis>
+  <sequence>99</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/AssignBookingToDriver/Page_/button_OK&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:28</date>
+  <millis>1532335648721</millis>
+  <sequence>100</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:28</date>
+  <millis>1532335648721</millis>
+  <sequence>101</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:28</date>
+  <millis>1532335648722</millis>
+  <sequence>102</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/AssignBookingToDriver/Page_/button_OK&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;Failure-bx\&amp;quot;)/div[@class=\&amp;quot;modal-dialog\&amp;quot;]/div[@class=\&amp;quot;modal-content\&amp;quot;]/div[@class=\&amp;quot;modal-footer\&amp;quot;]/button[@class=\&amp;quot;btn btn-warning\&amp;quot;][count(. | //button[@type = &amp;apos;button&amp;apos; and @class = &amp;apos;btn btn-warning&amp;apos; and @data-dismiss = &amp;apos;modal&amp;apos; and (text() = &amp;apos;OK&amp;apos; or . = &amp;apos;OK&amp;apos;)]) = count(//button[@type = &amp;apos;button&amp;apos; and @class = &amp;apos;btn btn-warning&amp;apos; and @data-dismiss = &amp;apos;modal&amp;apos; and (text() = &amp;apos;OK&amp;apos; or . = &amp;apos;OK&amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:29</date>
+  <millis>1532335649754</millis>
+  <sequence>103</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/AssignBookingToDriver/Page_/button_OK&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;Failure-bx\&amp;quot;)/div[@class=\&amp;quot;modal-dialog\&amp;quot;]/div[@class=\&amp;quot;modal-content\&amp;quot;]/div[@class=\&amp;quot;modal-footer\&amp;quot;]/button[@class=\&amp;quot;btn btn-warning\&amp;quot;][count(. | //button[@type = &amp;apos;button&amp;apos; and @class = &amp;apos;btn btn-warning&amp;apos; and @data-dismiss = &amp;apos;modal&amp;apos; and (text() = &amp;apos;OK&amp;apos; or . = &amp;apos;OK&amp;apos;)]) = count(//button[@type = &amp;apos;button&amp;apos; and @class = &amp;apos;btn btn-warning&amp;apos; and @data-dismiss = &amp;apos;modal&amp;apos; and (text() = &amp;apos;OK&amp;apos; or . = &amp;apos;OK&amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:29</date>
+  <millis>1532335649755</millis>
+  <sequence>104</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Moving mouse over object: &amp;apos;Object Repository/AssignBookingToDriver/Page_/button_OK&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:31</date>
+  <millis>1532335651841</millis>
+  <sequence>105</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/AssignBookingToDriver/Page_/button_OK&amp;apos; is hovered</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:31</date>
+  <millis>1532335651842</millis>
+  <sequence>106</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : mouseOver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:31</date>
+  <millis>1532335651842</millis>
+  <sequence>107</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">43</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2018-07-23T14:17:31</date>
+  <millis>1532335651843</millis>
+  <sequence>108</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/AssignBookingToDriver/Page_/button_OK&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:31</date>
+  <millis>1532335651849</millis>
+  <sequence>109</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:31</date>
+  <millis>1532335651850</millis>
+  <sequence>110</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:31</date>
+  <millis>1532335651851</millis>
+  <sequence>111</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/AssignBookingToDriver/Page_/button_OK&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;Failure-bx\&amp;quot;)/div[@class=\&amp;quot;modal-dialog\&amp;quot;]/div[@class=\&amp;quot;modal-content\&amp;quot;]/div[@class=\&amp;quot;modal-footer\&amp;quot;]/button[@class=\&amp;quot;btn btn-warning\&amp;quot;][count(. | //button[@type = &amp;apos;button&amp;apos; and @class = &amp;apos;btn btn-warning&amp;apos; and @data-dismiss = &amp;apos;modal&amp;apos; and (text() = &amp;apos;OK&amp;apos; or . = &amp;apos;OK&amp;apos;)]) = count(//button[@type = &amp;apos;button&amp;apos; and @class = &amp;apos;btn btn-warning&amp;apos; and @data-dismiss = &amp;apos;modal&amp;apos; and (text() = &amp;apos;OK&amp;apos; or . = &amp;apos;OK&amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:32</date>
+  <millis>1532335652868</millis>
+  <sequence>112</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/AssignBookingToDriver/Page_/button_OK&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;Failure-bx\&amp;quot;)/div[@class=\&amp;quot;modal-dialog\&amp;quot;]/div[@class=\&amp;quot;modal-content\&amp;quot;]/div[@class=\&amp;quot;modal-footer\&amp;quot;]/button[@class=\&amp;quot;btn btn-warning\&amp;quot;][count(. | //button[@type = &amp;apos;button&amp;apos; and @class = &amp;apos;btn btn-warning&amp;apos; and @data-dismiss = &amp;apos;modal&amp;apos; and (text() = &amp;apos;OK&amp;apos; or . = &amp;apos;OK&amp;apos;)]) = count(//button[@type = &amp;apos;button&amp;apos; and @class = &amp;apos;btn btn-warning&amp;apos; and @data-dismiss = &amp;apos;modal&amp;apos; and (text() = &amp;apos;OK&amp;apos; or . = &amp;apos;OK&amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:32</date>
+  <millis>1532335652869</millis>
+  <sequence>113</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/AssignBookingToDriver/Page_/button_OK&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:33</date>
+  <millis>1532335653959</millis>
+  <sequence>114</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/AssignBookingToDriver/Page_/button_OK&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:33</date>
+  <millis>1532335653960</millis>
+  <sequence>115</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:33</date>
+  <millis>1532335653960</millis>
+  <sequence>116</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">45</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2018-07-23T14:17:33</date>
+  <millis>1532335653961</millis>
+  <sequence>117</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/AssignBookingToDriver/Page_/input_SelectCheckBox&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:33</date>
+  <millis>1532335653966</millis>
+  <sequence>118</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:33</date>
+  <millis>1532335653967</millis>
+  <sequence>119</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:33</date>
+  <millis>1532335653967</millis>
+  <sequence>120</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/AssignBookingToDriver/Page_/input_SelectCheckBox&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;dtAssignBookingToDriver\&amp;quot;)/tbody[1]/tr[@class=\&amp;quot;odd\&amp;quot;]/td[@class=\&amp;quot;sorting_1\&amp;quot;]/input[@class=\&amp;quot;SelectCheckBox\&amp;quot;][count(. | //input[@type = &amp;apos;checkbox&amp;apos; and @class = &amp;apos;SelectCheckBox&amp;apos;]) = count(//input[@type = &amp;apos;checkbox&amp;apos; and @class = &amp;apos;SelectCheckBox&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:35</date>
+  <millis>1532335655012</millis>
+  <sequence>121</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 5 web elements with id: &amp;apos;Object Repository/AssignBookingToDriver/Page_/input_SelectCheckBox&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;dtAssignBookingToDriver\&amp;quot;)/tbody[1]/tr[@class=\&amp;quot;odd\&amp;quot;]/td[@class=\&amp;quot;sorting_1\&amp;quot;]/input[@class=\&amp;quot;SelectCheckBox\&amp;quot;][count(. | //input[@type = &amp;apos;checkbox&amp;apos; and @class = &amp;apos;SelectCheckBox&amp;apos;]) = count(//input[@type = &amp;apos;checkbox&amp;apos; and @class = &amp;apos;SelectCheckBox&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:35</date>
+  <millis>1532335655013</millis>
+  <sequence>122</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/AssignBookingToDriver/Page_/input_SelectCheckBox&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:36</date>
+  <millis>1532335656119</millis>
+  <sequence>123</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/AssignBookingToDriver/Page_/input_SelectCheckBox&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:36</date>
+  <millis>1532335656121</millis>
+  <sequence>124</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:36</date>
+  <millis>1532335656121</millis>
+  <sequence>125</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">47</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2018-07-23T14:17:36</date>
+  <millis>1532335656122</millis>
+  <sequence>126</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/AssignBookingToDriver/Page_/input_ctl00ContentPlaceHolder1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:36</date>
+  <millis>1532335656129</millis>
+  <sequence>127</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:36</date>
+  <millis>1532335656129</millis>
+  <sequence>128</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:36</date>
+  <millis>1532335656130</millis>
+  <sequence>129</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/AssignBookingToDriver/Page_/input_ctl00ContentPlaceHolder1&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;ContentPlaceHolder1_btnAssignBookingToDriver\&amp;quot;)[count(. | //input[@type = &amp;apos;submit&amp;apos; and @name = &amp;apos;ctl00$ContentPlaceHolder1$btnAssignBookingToDriver&amp;apos; and @value = &amp;apos;Assign Booking To Driver&amp;apos; and @onclick = &amp;apos;return showAssigningModalDialog();&amp;apos; and @id = &amp;apos;ContentPlaceHolder1_btnAssignBookingToDriver&amp;apos;]) = count(//input[@type = &amp;apos;submit&amp;apos; and @name = &amp;apos;ctl00$ContentPlaceHolder1$btnAssignBookingToDriver&amp;apos; and @value = &amp;apos;Assign Booking To Driver&amp;apos; and @onclick = &amp;apos;return showAssigningModalDialog();&amp;apos; and @id = &amp;apos;ContentPlaceHolder1_btnAssignBookingToDriver&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:37</date>
+  <millis>1532335657150</millis>
+  <sequence>130</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/AssignBookingToDriver/Page_/input_ctl00ContentPlaceHolder1&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;ContentPlaceHolder1_btnAssignBookingToDriver\&amp;quot;)[count(. | //input[@type = &amp;apos;submit&amp;apos; and @name = &amp;apos;ctl00$ContentPlaceHolder1$btnAssignBookingToDriver&amp;apos; and @value = &amp;apos;Assign Booking To Driver&amp;apos; and @onclick = &amp;apos;return showAssigningModalDialog();&amp;apos; and @id = &amp;apos;ContentPlaceHolder1_btnAssignBookingToDriver&amp;apos;]) = count(//input[@type = &amp;apos;submit&amp;apos; and @name = &amp;apos;ctl00$ContentPlaceHolder1$btnAssignBookingToDriver&amp;apos; and @value = &amp;apos;Assign Booking To Driver&amp;apos; and @onclick = &amp;apos;return showAssigningModalDialog();&amp;apos; and @id = &amp;apos;ContentPlaceHolder1_btnAssignBookingToDriver&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:37</date>
+  <millis>1532335657151</millis>
+  <sequence>131</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/AssignBookingToDriver/Page_/input_ctl00ContentPlaceHolder1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:38</date>
+  <millis>1532335658264</millis>
+  <sequence>132</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/AssignBookingToDriver/Page_/input_ctl00ContentPlaceHolder1&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:38</date>
+  <millis>1532335658266</millis>
+  <sequence>133</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:38</date>
+  <millis>1532335658267</millis>
+  <sequence>134</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">49</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2018-07-23T14:17:38</date>
+  <millis>1532335658268</millis>
+  <sequence>135</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/AssignBookingToDriver/Page_/span_Select Driver&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:38</date>
+  <millis>1532335658273</millis>
+  <sequence>136</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:38</date>
+  <millis>1532335658273</millis>
+  <sequence>137</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:38</date>
+  <millis>1532335658278</millis>
+  <sequence>138</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/AssignBookingToDriver/Page_/span_Select Driver&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;ContentPlaceHolder1_ddlDrivers_chosen\&amp;quot;)/a[@class=\&amp;quot;chosen-single\&amp;quot;]/span[1][count(. | //span[(text() = &amp;apos;Select Driver&amp;apos; or . = &amp;apos;Select Driver&amp;apos;)]) = count(//span[(text() = &amp;apos;Select Driver&amp;apos; or . = &amp;apos;Select Driver&amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:39</date>
+  <millis>1532335659326</millis>
+  <sequence>139</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/AssignBookingToDriver/Page_/span_Select Driver&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;ContentPlaceHolder1_ddlDrivers_chosen\&amp;quot;)/a[@class=\&amp;quot;chosen-single\&amp;quot;]/span[1][count(. | //span[(text() = &amp;apos;Select Driver&amp;apos; or . = &amp;apos;Select Driver&amp;apos;)]) = count(//span[(text() = &amp;apos;Select Driver&amp;apos; or . = &amp;apos;Select Driver&amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:39</date>
+  <millis>1532335659327</millis>
+  <sequence>140</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/AssignBookingToDriver/Page_/span_Select Driver&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:40</date>
+  <millis>1532335660461</millis>
+  <sequence>141</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/AssignBookingToDriver/Page_/span_Select Driver&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:40</date>
+  <millis>1532335660462</millis>
+  <sequence>142</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:40</date>
+  <millis>1532335660463</millis>
+  <sequence>143</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">50</property>
+  <property name="stepIndex">16</property>
+</record>
+<record>
+  <date>2018-07-23T14:17:40</date>
+  <millis>1532335660463</millis>
+  <sequence>144</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/AssignBookingToDriver/Page_/Page_/ul_Select Driver  Avishekthirt&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:40</date>
+  <millis>1532335660468</millis>
+  <sequence>145</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:40</date>
+  <millis>1532335660469</millis>
+  <sequence>146</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:40</date>
+  <millis>1532335660470</millis>
+  <sequence>147</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/AssignBookingToDriver/Page_/Page_/ul_Select Driver  Avishekthirt&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;ContentPlaceHolder1_ddlDrivers_chosen\&amp;quot;)/div[@class=\&amp;quot;chosen-drop\&amp;quot;]/ul[@class=\&amp;quot;chosen-results\&amp;quot;][count(. | //ul[(text() = &amp;apos;Select Driver  Avishekthirty  AvishekthirtyEight  Avishekthirtyfive  Avishekthirtyfour  AvishekthirtyFourty  AvishekthirtyFoutyfive  AvishekthirtyFoutyfour  AvishekthirtyFoutyone  AvishekthirtyFoutythree  AvishekthirtyFoutytwo  AvishekthirtyNine  AvishekthirtySeven  AvishekthirtySix  Avishekthirtythree  PropagationalWithWayLong Balpib Imawsog Chris Barrie Dennis Waterman Kenneth Williams Luke Treadaway Mathew Baynton Patrick Barr Subhankar Kusari Trevor Bannister&amp;apos; or . = &amp;apos;Select Driver  Avishekthirty  AvishekthirtyEight  Avishekthirtyfive  Avishekthirtyfour  AvishekthirtyFourty  AvishekthirtyFoutyfive  AvishekthirtyFoutyfour  AvishekthirtyFoutyone  AvishekthirtyFoutythree  AvishekthirtyFoutytwo  AvishekthirtyNine  AvishekthirtySeven  AvishekthirtySix  Avishekthirtythree  PropagationalWithWayLong Balpib Imawsog Chris Barrie Dennis Waterman Kenneth Williams Luke Treadaway Mathew Baynton Patrick Barr Subhankar Kusari Trevor Bannister&amp;apos;)]) = count(//ul[(text() = &amp;apos;Select Driver  Avishekthirty  AvishekthirtyEight  Avishekthirtyfive  Avishekthirtyfour  AvishekthirtyFourty  AvishekthirtyFoutyfive  AvishekthirtyFoutyfour  AvishekthirtyFoutyone  AvishekthirtyFoutythree  AvishekthirtyFoutytwo  AvishekthirtyNine  AvishekthirtySeven  AvishekthirtySix  Avishekthirtythree  PropagationalWithWayLong Balpib Imawsog Chris Barrie Dennis Waterman Kenneth Williams Luke Treadaway Mathew Baynton Patrick Barr Subhankar Kusari Trevor Bannister&amp;apos; or . = &amp;apos;Select Driver  Avishekthirty  AvishekthirtyEight  Avishekthirtyfive  Avishekthirtyfour  AvishekthirtyFourty  AvishekthirtyFoutyfive  AvishekthirtyFoutyfour  AvishekthirtyFoutyone  AvishekthirtyFoutythree  AvishekthirtyFoutytwo  AvishekthirtyNine  AvishekthirtySeven  AvishekthirtySix  Avishekthirtythree  PropagationalWithWayLong Balpib Imawsog Chris Barrie Dennis Waterman Kenneth Williams Luke Treadaway Mathew Baynton Patrick Barr Subhankar Kusari Trevor Bannister&amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:41</date>
+  <millis>1532335661520</millis>
+  <sequence>148</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/AssignBookingToDriver/Page_/Page_/ul_Select Driver  Avishekthirt&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;ContentPlaceHolder1_ddlDrivers_chosen\&amp;quot;)/div[@class=\&amp;quot;chosen-drop\&amp;quot;]/ul[@class=\&amp;quot;chosen-results\&amp;quot;][count(. | //ul[(text() = &amp;apos;Select Driver  Avishekthirty  AvishekthirtyEight  Avishekthirtyfive  Avishekthirtyfour  AvishekthirtyFourty  AvishekthirtyFoutyfive  AvishekthirtyFoutyfour  AvishekthirtyFoutyone  AvishekthirtyFoutythree  AvishekthirtyFoutytwo  AvishekthirtyNine  AvishekthirtySeven  AvishekthirtySix  Avishekthirtythree  PropagationalWithWayLong Balpib Imawsog Chris Barrie Dennis Waterman Kenneth Williams Luke Treadaway Mathew Baynton Patrick Barr Subhankar Kusari Trevor Bannister&amp;apos; or . = &amp;apos;Select Driver  Avishekthirty  AvishekthirtyEight  Avishekthirtyfive  Avishekthirtyfour  AvishekthirtyFourty  AvishekthirtyFoutyfive  AvishekthirtyFoutyfour  AvishekthirtyFoutyone  AvishekthirtyFoutythree  AvishekthirtyFoutytwo  AvishekthirtyNine  AvishekthirtySeven  AvishekthirtySix  Avishekthirtythree  PropagationalWithWayLong Balpib Imawsog Chris Barrie Dennis Waterman Kenneth Williams Luke Treadaway Mathew Baynton Patrick Barr Subhankar Kusari Trevor Bannister&amp;apos;)]) = count(//ul[(text() = &amp;apos;Select Driver  Avishekthirty  AvishekthirtyEight  Avishekthirtyfive  Avishekthirtyfour  AvishekthirtyFourty  AvishekthirtyFoutyfive  AvishekthirtyFoutyfour  AvishekthirtyFoutyone  AvishekthirtyFoutythree  AvishekthirtyFoutytwo  AvishekthirtyNine  AvishekthirtySeven  AvishekthirtySix  Avishekthirtythree  PropagationalWithWayLong Balpib Imawsog Chris Barrie Dennis Waterman Kenneth Williams Luke Treadaway Mathew Baynton Patrick Barr Subhankar Kusari Trevor Bannister&amp;apos; or . = &amp;apos;Select Driver  Avishekthirty  AvishekthirtyEight  Avishekthirtyfive  Avishekthirtyfour  AvishekthirtyFourty  AvishekthirtyFoutyfive  AvishekthirtyFoutyfour  AvishekthirtyFoutyone  AvishekthirtyFoutythree  AvishekthirtyFoutytwo  AvishekthirtyNine  AvishekthirtySeven  AvishekthirtySix  Avishekthirtythree  PropagationalWithWayLong Balpib Imawsog Chris Barrie Dennis Waterman Kenneth Williams Luke Treadaway Mathew Baynton Patrick Barr Subhankar Kusari Trevor Bannister&amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:41</date>
+  <millis>1532335661523</millis>
+  <sequence>149</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/AssignBookingToDriver/Page_/Page_/ul_Select Driver  Avishekthirt&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:42</date>
+  <millis>1532335662659</millis>
+  <sequence>150</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/AssignBookingToDriver/Page_/Page_/ul_Select Driver  Avishekthirt&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:42</date>
+  <millis>1532335662660</millis>
+  <sequence>151</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:42</date>
+  <millis>1532335662661</millis>
+  <sequence>152</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">55</property>
+  <property name="stepIndex">17</property>
+</record>
+<record>
+  <date>2018-07-23T14:17:42</date>
+  <millis>1532335662662</millis>
+  <sequence>153</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/AssignBookingToDriver/Page_/input_ctl00ContentPlaceHolder1_1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:42</date>
+  <millis>1532335662667</millis>
+  <sequence>154</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:42</date>
+  <millis>1532335662668</millis>
+  <sequence>155</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:42</date>
+  <millis>1532335662669</millis>
+  <sequence>156</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/AssignBookingToDriver/Page_/input_ctl00ContentPlaceHolder1_1&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;ContentPlaceHolder1_btnAssignBookingDetailsToDriver\&amp;quot;)[count(. | //input[@type = &amp;apos;submit&amp;apos; and @name = &amp;apos;ctl00$ContentPlaceHolder1$btnAssignBookingDetailsToDriver&amp;apos; and @value = &amp;apos;Assign Booking Details&amp;apos; and @onclick = &amp;apos;return assignBookingToDriver();&amp;apos; and @id = &amp;apos;ContentPlaceHolder1_btnAssignBookingDetailsToDriver&amp;apos; and @class = &amp;apos;btn btn-primary btn-register&amp;apos;]) = count(//input[@type = &amp;apos;submit&amp;apos; and @name = &amp;apos;ctl00$ContentPlaceHolder1$btnAssignBookingDetailsToDriver&amp;apos; and @value = &amp;apos;Assign Booking Details&amp;apos; and @onclick = &amp;apos;return assignBookingToDriver();&amp;apos; and @id = &amp;apos;ContentPlaceHolder1_btnAssignBookingDetailsToDriver&amp;apos; and @class = &amp;apos;btn btn-primary btn-register&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:43</date>
+  <millis>1532335663717</millis>
+  <sequence>157</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/AssignBookingToDriver/Page_/input_ctl00ContentPlaceHolder1_1&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;ContentPlaceHolder1_btnAssignBookingDetailsToDriver\&amp;quot;)[count(. | //input[@type = &amp;apos;submit&amp;apos; and @name = &amp;apos;ctl00$ContentPlaceHolder1$btnAssignBookingDetailsToDriver&amp;apos; and @value = &amp;apos;Assign Booking Details&amp;apos; and @onclick = &amp;apos;return assignBookingToDriver();&amp;apos; and @id = &amp;apos;ContentPlaceHolder1_btnAssignBookingDetailsToDriver&amp;apos; and @class = &amp;apos;btn btn-primary btn-register&amp;apos;]) = count(//input[@type = &amp;apos;submit&amp;apos; and @name = &amp;apos;ctl00$ContentPlaceHolder1$btnAssignBookingDetailsToDriver&amp;apos; and @value = &amp;apos;Assign Booking Details&amp;apos; and @onclick = &amp;apos;return assignBookingToDriver();&amp;apos; and @id = &amp;apos;ContentPlaceHolder1_btnAssignBookingDetailsToDriver&amp;apos; and @class = &amp;apos;btn btn-primary btn-register&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:43</date>
+  <millis>1532335663718</millis>
+  <sequence>158</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/AssignBookingToDriver/Page_/input_ctl00ContentPlaceHolder1_1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:44</date>
+  <millis>1532335664863</millis>
+  <sequence>159</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/AssignBookingToDriver/Page_/input_ctl00ContentPlaceHolder1_1&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:44</date>
+  <millis>1532335664864</millis>
+  <sequence>160</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:44</date>
+  <millis>1532335664864</millis>
+  <sequence>161</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : mouseOver</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">57</property>
+  <property name="stepIndex">18</property>
+</record>
+<record>
+  <date>2018-07-23T14:17:44</date>
+  <millis>1532335664865</millis>
+  <sequence>162</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/AssignBookingToDriver/Page_/button_OK_1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:44</date>
+  <millis>1532335664872</millis>
+  <sequence>163</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:44</date>
+  <millis>1532335664873</millis>
+  <sequence>164</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:44</date>
+  <millis>1532335664874</millis>
+  <sequence>165</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/AssignBookingToDriver/Page_/button_OK_1&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;Success-bx\&amp;quot;)/div[@class=\&amp;quot;modal-dialog\&amp;quot;]/div[@class=\&amp;quot;modal-content\&amp;quot;]/div[@class=\&amp;quot;modal-footer\&amp;quot;]/button[@class=\&amp;quot;btn btn-success\&amp;quot;][count(. | //button[@type = &amp;apos;button&amp;apos; and @class = &amp;apos;btn btn-success&amp;apos; and @data-dismiss = &amp;apos;modal&amp;apos; and (text() = &amp;apos;OK&amp;apos; or . = &amp;apos;OK&amp;apos;)]) = count(//button[@type = &amp;apos;button&amp;apos; and @class = &amp;apos;btn btn-success&amp;apos; and @data-dismiss = &amp;apos;modal&amp;apos; and (text() = &amp;apos;OK&amp;apos; or . = &amp;apos;OK&amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:45</date>
+  <millis>1532335665921</millis>
+  <sequence>166</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/AssignBookingToDriver/Page_/button_OK_1&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;Success-bx\&amp;quot;)/div[@class=\&amp;quot;modal-dialog\&amp;quot;]/div[@class=\&amp;quot;modal-content\&amp;quot;]/div[@class=\&amp;quot;modal-footer\&amp;quot;]/button[@class=\&amp;quot;btn btn-success\&amp;quot;][count(. | //button[@type = &amp;apos;button&amp;apos; and @class = &amp;apos;btn btn-success&amp;apos; and @data-dismiss = &amp;apos;modal&amp;apos; and (text() = &amp;apos;OK&amp;apos; or . = &amp;apos;OK&amp;apos;)]) = count(//button[@type = &amp;apos;button&amp;apos; and @class = &amp;apos;btn btn-success&amp;apos; and @data-dismiss = &amp;apos;modal&amp;apos; and (text() = &amp;apos;OK&amp;apos; or . = &amp;apos;OK&amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:45</date>
+  <millis>1532335665922</millis>
+  <sequence>167</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Moving mouse over object: &amp;apos;Object Repository/AssignBookingToDriver/Page_/button_OK_1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:47</date>
+  <millis>1532335667981</millis>
+  <sequence>168</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/AssignBookingToDriver/Page_/button_OK_1&amp;apos; is hovered</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:47</date>
+  <millis>1532335667982</millis>
+  <sequence>169</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : mouseOver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:47</date>
+  <millis>1532335667982</millis>
+  <sequence>170</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">58</property>
+  <property name="stepIndex">19</property>
+</record>
+<record>
+  <date>2018-07-23T14:17:47</date>
+  <millis>1532335667984</millis>
+  <sequence>171</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/AssignBookingToDriver/Page_/button_OK_1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:47</date>
+  <millis>1532335667990</millis>
+  <sequence>172</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:47</date>
+  <millis>1532335667990</millis>
+  <sequence>173</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:47</date>
+  <millis>1532335667991</millis>
+  <sequence>174</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/AssignBookingToDriver/Page_/button_OK_1&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;Success-bx\&amp;quot;)/div[@class=\&amp;quot;modal-dialog\&amp;quot;]/div[@class=\&amp;quot;modal-content\&amp;quot;]/div[@class=\&amp;quot;modal-footer\&amp;quot;]/button[@class=\&amp;quot;btn btn-success\&amp;quot;][count(. | //button[@type = &amp;apos;button&amp;apos; and @class = &amp;apos;btn btn-success&amp;apos; and @data-dismiss = &amp;apos;modal&amp;apos; and (text() = &amp;apos;OK&amp;apos; or . = &amp;apos;OK&amp;apos;)]) = count(//button[@type = &amp;apos;button&amp;apos; and @class = &amp;apos;btn btn-success&amp;apos; and @data-dismiss = &amp;apos;modal&amp;apos; and (text() = &amp;apos;OK&amp;apos; or . = &amp;apos;OK&amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:49</date>
+  <millis>1532335669018</millis>
+  <sequence>175</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/AssignBookingToDriver/Page_/button_OK_1&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;Success-bx\&amp;quot;)/div[@class=\&amp;quot;modal-dialog\&amp;quot;]/div[@class=\&amp;quot;modal-content\&amp;quot;]/div[@class=\&amp;quot;modal-footer\&amp;quot;]/button[@class=\&amp;quot;btn btn-success\&amp;quot;][count(. | //button[@type = &amp;apos;button&amp;apos; and @class = &amp;apos;btn btn-success&amp;apos; and @data-dismiss = &amp;apos;modal&amp;apos; and (text() = &amp;apos;OK&amp;apos; or . = &amp;apos;OK&amp;apos;)]) = count(//button[@type = &amp;apos;button&amp;apos; and @class = &amp;apos;btn btn-success&amp;apos; and @data-dismiss = &amp;apos;modal&amp;apos; and (text() = &amp;apos;OK&amp;apos; or . = &amp;apos;OK&amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:49</date>
+  <millis>1532335669020</millis>
+  <sequence>176</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/AssignBookingToDriver/Page_/button_OK_1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:50</date>
+  <millis>1532335670148</millis>
+  <sequence>177</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/AssignBookingToDriver/Page_/button_OK_1&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:50</date>
+  <millis>1532335670149</millis>
+  <sequence>178</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:50</date>
+  <millis>1532335670149</millis>
+  <sequence>179</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">60</property>
+  <property name="stepIndex">20</property>
+</record>
+<record>
+  <date>2018-07-23T14:17:50</date>
+  <millis>1532335670150</millis>
+  <sequence>180</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/AssignBookingToDriver/Page_/input_ctl00ContentPlaceHolder1_2&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:50</date>
+  <millis>1532335670154</millis>
+  <sequence>181</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:50</date>
+  <millis>1532335670156</millis>
+  <sequence>182</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:50</date>
+  <millis>1532335670157</millis>
+  <sequence>183</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/AssignBookingToDriver/Page_/input_ctl00ContentPlaceHolder1_2&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;ContentPlaceHolder1_btnExportPdfBookingDetails\&amp;quot;)[count(. | //input[@type = &amp;apos;submit&amp;apos; and @name = &amp;apos;ctl00$ContentPlaceHolder1$btnExportPdfBookingDetails&amp;apos; and @value = &amp;apos;Export to PDF&amp;apos; and @id = &amp;apos;ContentPlaceHolder1_btnExportPdfBookingDetails&amp;apos;]) = count(//input[@type = &amp;apos;submit&amp;apos; and @name = &amp;apos;ctl00$ContentPlaceHolder1$btnExportPdfBookingDetails&amp;apos; and @value = &amp;apos;Export to PDF&amp;apos; and @id = &amp;apos;ContentPlaceHolder1_btnExportPdfBookingDetails&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:51</date>
+  <millis>1532335671207</millis>
+  <sequence>184</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/AssignBookingToDriver/Page_/input_ctl00ContentPlaceHolder1_2&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;ContentPlaceHolder1_btnExportPdfBookingDetails\&amp;quot;)[count(. | //input[@type = &amp;apos;submit&amp;apos; and @name = &amp;apos;ctl00$ContentPlaceHolder1$btnExportPdfBookingDetails&amp;apos; and @value = &amp;apos;Export to PDF&amp;apos; and @id = &amp;apos;ContentPlaceHolder1_btnExportPdfBookingDetails&amp;apos;]) = count(//input[@type = &amp;apos;submit&amp;apos; and @name = &amp;apos;ctl00$ContentPlaceHolder1$btnExportPdfBookingDetails&amp;apos; and @value = &amp;apos;Export to PDF&amp;apos; and @id = &amp;apos;ContentPlaceHolder1_btnExportPdfBookingDetails&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:51</date>
+  <millis>1532335671208</millis>
+  <sequence>185</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/AssignBookingToDriver/Page_/input_ctl00ContentPlaceHolder1_2&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:52</date>
+  <millis>1532335672590</millis>
+  <sequence>186</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/AssignBookingToDriver/Page_/input_ctl00ContentPlaceHolder1_2&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:52</date>
+  <millis>1532335672591</millis>
+  <sequence>187</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:52</date>
+  <millis>1532335672591</millis>
+  <sequence>188</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">62</property>
+  <property name="stepIndex">21</property>
+</record>
+<record>
+  <date>2018-07-23T14:17:52</date>
+  <millis>1532335672592</millis>
+  <sequence>189</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/AssignBookingToDriver/Page_/span_glyphicon glyphicon-user&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:52</date>
+  <millis>1532335672596</millis>
+  <sequence>190</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:52</date>
+  <millis>1532335672597</millis>
+  <sequence>191</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:52</date>
+  <millis>1532335672598</millis>
+  <sequence>192</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/AssignBookingToDriver/Page_/span_glyphicon glyphicon-user&amp;apos; located by &amp;apos;By.xpath: /html[1]/body[@class=\&amp;quot;drawer drawer--left drawer-close darkBG\&amp;quot;]/div[3]/main[1]/section[@class=\&amp;quot;item\&amp;quot;]/section[@class=\&amp;quot;topBar affix\&amp;quot;]/div[@class=\&amp;quot;col-md-6\&amp;quot;]/ul[@class=\&amp;quot;acntLog\&amp;quot;]/li[@class=\&amp;quot;dropdown\&amp;quot;]/a[@class=\&amp;quot;dropdown-toggle\&amp;quot;]/span[@class=\&amp;quot;glyphicon glyphicon-user pull-right userID\&amp;quot;][count(. | //span[@class = &amp;apos;glyphicon glyphicon-user pull-right userID&amp;apos;]) = count(//span[@class = &amp;apos;glyphicon glyphicon-user pull-right userID&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:53</date>
+  <millis>1532335673624</millis>
+  <sequence>193</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/AssignBookingToDriver/Page_/span_glyphicon glyphicon-user&amp;apos; located by &amp;apos;By.xpath: /html[1]/body[@class=\&amp;quot;drawer drawer--left drawer-close darkBG\&amp;quot;]/div[3]/main[1]/section[@class=\&amp;quot;item\&amp;quot;]/section[@class=\&amp;quot;topBar affix\&amp;quot;]/div[@class=\&amp;quot;col-md-6\&amp;quot;]/ul[@class=\&amp;quot;acntLog\&amp;quot;]/li[@class=\&amp;quot;dropdown\&amp;quot;]/a[@class=\&amp;quot;dropdown-toggle\&amp;quot;]/span[@class=\&amp;quot;glyphicon glyphicon-user pull-right userID\&amp;quot;][count(. | //span[@class = &amp;apos;glyphicon glyphicon-user pull-right userID&amp;apos;]) = count(//span[@class = &amp;apos;glyphicon glyphicon-user pull-right userID&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:53</date>
+  <millis>1532335673625</millis>
+  <sequence>194</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/AssignBookingToDriver/Page_/span_glyphicon glyphicon-user&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:54</date>
+  <millis>1532335674768</millis>
+  <sequence>195</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/AssignBookingToDriver/Page_/span_glyphicon glyphicon-user&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:54</date>
+  <millis>1532335674769</millis>
+  <sequence>196</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:54</date>
+  <millis>1532335674769</millis>
+  <sequence>197</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">64</property>
+  <property name="stepIndex">22</property>
+</record>
+<record>
+  <date>2018-07-23T14:17:54</date>
+  <millis>1532335674770</millis>
+  <sequence>198</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/AssignBookingToDriver/Page_/button_Sign Out&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:54</date>
+  <millis>1532335674775</millis>
+  <sequence>199</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:54</date>
+  <millis>1532335674776</millis>
+  <sequence>200</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:54</date>
+  <millis>1532335674777</millis>
+  <sequence>201</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/AssignBookingToDriver/Page_/button_Sign Out&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;lnkLogout\&amp;quot;)[count(. | //button[@onclick = concat(&amp;apos;__doPostBack(&amp;apos; , \&amp;quot;&amp;apos;\&amp;quot; , &amp;apos;ctl00$lnkLogout&amp;apos; , \&amp;quot;&amp;apos;\&amp;quot; , &amp;apos;,&amp;apos; , \&amp;quot;&amp;apos;\&amp;quot; , &amp;apos;&amp;apos; , \&amp;quot;&amp;apos;\&amp;quot; , &amp;apos;)&amp;apos;) and @id = &amp;apos;lnkLogout&amp;apos; and @type = &amp;apos;button&amp;apos; and (text() = &amp;apos;Sign Out&amp;apos; or . = &amp;apos;Sign Out&amp;apos;)]) = count(//button[@onclick = concat(&amp;apos;__doPostBack(&amp;apos; , \&amp;quot;&amp;apos;\&amp;quot; , &amp;apos;ctl00$lnkLogout&amp;apos; , \&amp;quot;&amp;apos;\&amp;quot; , &amp;apos;,&amp;apos; , \&amp;quot;&amp;apos;\&amp;quot; , &amp;apos;&amp;apos; , \&amp;quot;&amp;apos;\&amp;quot; , &amp;apos;)&amp;apos;) and @id = &amp;apos;lnkLogout&amp;apos; and @type = &amp;apos;button&amp;apos; and (text() = &amp;apos;Sign Out&amp;apos; or . = &amp;apos;Sign Out&amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:55</date>
+  <millis>1532335675809</millis>
+  <sequence>202</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/AssignBookingToDriver/Page_/button_Sign Out&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;lnkLogout\&amp;quot;)[count(. | //button[@onclick = concat(&amp;apos;__doPostBack(&amp;apos; , \&amp;quot;&amp;apos;\&amp;quot; , &amp;apos;ctl00$lnkLogout&amp;apos; , \&amp;quot;&amp;apos;\&amp;quot; , &amp;apos;,&amp;apos; , \&amp;quot;&amp;apos;\&amp;quot; , &amp;apos;&amp;apos; , \&amp;quot;&amp;apos;\&amp;quot; , &amp;apos;)&amp;apos;) and @id = &amp;apos;lnkLogout&amp;apos; and @type = &amp;apos;button&amp;apos; and (text() = &amp;apos;Sign Out&amp;apos; or . = &amp;apos;Sign Out&amp;apos;)]) = count(//button[@onclick = concat(&amp;apos;__doPostBack(&amp;apos; , \&amp;quot;&amp;apos;\&amp;quot; , &amp;apos;ctl00$lnkLogout&amp;apos; , \&amp;quot;&amp;apos;\&amp;quot; , &amp;apos;,&amp;apos; , \&amp;quot;&amp;apos;\&amp;quot; , &amp;apos;&amp;apos; , \&amp;quot;&amp;apos;\&amp;quot; , &amp;apos;)&amp;apos;) and @id = &amp;apos;lnkLogout&amp;apos; and @type = &amp;apos;button&amp;apos; and (text() = &amp;apos;Sign Out&amp;apos; or . = &amp;apos;Sign Out&amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:55</date>
+  <millis>1532335675810</millis>
+  <sequence>203</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/AssignBookingToDriver/Page_/button_Sign Out&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:57</date>
+  <millis>1532335677119</millis>
+  <sequence>204</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/AssignBookingToDriver/Page_/button_Sign Out&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:57</date>
+  <millis>1532335677120</millis>
+  <sequence>205</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:57</date>
+  <millis>1532335677121</millis>
+  <sequence>206</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : closeBrowser</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">66</property>
+  <property name="stepIndex">23</property>
+</record>
+<record>
+  <date>2018-07-23T14:17:57</date>
+  <millis>1532335677138</millis>
+  <sequence>207</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Closing browser</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:58</date>
+  <millis>1532335678863</millis>
+  <sequence>208</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:58</date>
+  <millis>1532335678864</millis>
+  <sequence>209</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : closeBrowser</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:58</date>
+  <millis>1532335678865</millis>
+  <sequence>210</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/CRM/AssignBookingToDriver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:58</date>
+  <millis>1532335678865</millis>
+  <sequence>211</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/CRM/AssignBookingToDriver</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-07-23T14:17:58</date>
+  <millis>1532335678946</millis>
+  <sequence>212</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/CRM/AssignBookingToDriver</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>
