@@ -23,7 +23,7 @@ import internal.GlobalVariable as GlobalVariable
 //WebUI.navigateToUrl('http://portal.logmanproj.com/Login.aspx')
 //WebUI.maximizeWindow()
 WebUI.navigateToUrl(GlobalVariable.URL1)
-WebUI.maximizeWindow()
+WebUI.maximizeWindow() 
 println ("URL Loaded in the Browser")
 //CustomKeywords.'CRM.AddUserRoleManagement.AddUserRoleManagement'()
 CustomKeywords.'logmanKeywords.AllKeywordsDefine.AddUserRoleManagement'()

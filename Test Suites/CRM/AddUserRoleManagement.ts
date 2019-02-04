@@ -4,7 +4,6 @@
    <name>AddUserRoleManagement</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-07-18T15:05:04</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
