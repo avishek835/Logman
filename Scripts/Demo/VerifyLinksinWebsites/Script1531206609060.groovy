@@ -26,15 +26,15 @@ import org.openqa.selenium.Keys as Keys
 import org.testng.annotations.BeforeSuite
 
 
-WebUI.navigateToUrl(GlobalVariable.URL)
+WebUI.navigateToUrl(GlobalVariable.Customer)
 WebUI.maximizeWindow()
 WebUI.takeScreenshot()
 	WebUI.click(findTestObject('VerifyLinksinWebsites/Page_Jobyco (1)/a_Home'))
 	WebUI.takeScreenshot()
 	WebUI.click(findTestObject('VerifyLinksinWebsites/Page_JobyCo/a_About'))
 	WebUI.takeScreenshot()
-	WebUI.click(findTestObject('VerifyLinksinWebsites/Page_Jobyco (1)/a_Quote'))
-	WebUI.takeScreenshot()
+	/*WebUI.click(findTestObject('VerifyLinksinWebsites/Page_Jobyco (1)/a_Quote'))
+	WebUI.takeScreenshot()*/
 	
 	WebUI.click(findTestObject('VerifyLinksinWebsites/Page_JobyCo/a_Contact'))
 	WebUI.takeScreenshot()

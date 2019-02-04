@@ -48,28 +48,27 @@ public class AllKeywordsDefine {
 			println ("SignOut from the Logman site")
 			WebUI.takeScreenshot()
 			/*
-			0 Include:- BDD integration
-			1 Test Listeners :- works like testng.
-			  code will run first from here and end here.
-			  ex:- open browser/ close browser
-			2 profile:- act as properties file java
-			  eg:- kept the URL
-			3 Keywoards:- kept the entire code over here. under your own custom keywoard
-			4 Data files:- create/ upload external files for input
-			5 test case:- The entire code will be run from here.
-			6 Test suite:- collection of test cases. for parallel or sequential execution
-			7. report:- report generation
-			
-			format:- test listeners
-               profiles
-               keywoards
-                      data files, 
-                      Object repository
-                      Taking screenshots
-               keywoards
-               profiles
-               test listners
-			*/
+			 0 Include:- BDD integration
+			 1 Test Listeners :- works like testng.
+			 code will run first from here and end here.
+			 ex:- open browser/ close browser
+			 2 profile:- act as properties file java
+			 eg:- kept the URL
+			 3 Keywoards:- kept the entire code over here. under your own custom keywoard
+			 4 Data files:- create/ upload external files for input
+			 5 test case:- The entire code will be run from here.
+			 6 Test suite:- collection of test cases. for parallel or sequential execution
+			 7. report:- report generation
+			 format:- test listeners
+			 profiles
+			 keywoards
+			 data files, 
+			 Object repository
+			 Taking screenshots
+			 keywoards
+			 profiles
+			 test listners
+			 */
 		}
 	}
 

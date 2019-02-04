@@ -4,6 +4,12 @@
    <name>a_Quote</name>
    <tag></tag>
    <elementGuidId>3248093d-db29-4412-af13-81fcaba95583</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;navbar&quot;)/ul[@class=&quot;nav navbar-nav navbar-right&quot;]/li[3]/a[1][count(. | //a[@href = '/Landing.aspx' and (text() = 'Quote' or . = 'Quote')]) = count(//a[@href = '/Landing.aspx' and (text() = 'Quote' or . = 'Quote')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -28,7 +34,7 @@
       <value>Quote</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

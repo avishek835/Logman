@@ -21,38 +21,41 @@ import internal.GlobalVariable as GlobalVariable
 
 
 
-WebUI.navigateToUrl(GlobalVariable.URL1)
+WebUI.navigateToUrl(GlobalVariable.Admin)
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Page_JobyCo/input_ctl00ContentPlaceHolder1 (3)'), 'avishek101@mailinator.com')
-WebUI.setEncryptedText(findTestObject('Page_JobyCo/input_ctl00ContentPlaceHolder1_1 (2)'), 'aeHFOx8jV/A=')
+WebUI.setText(findTestObject('Page_JobyCo/input_ctl00ContentPlaceHolder1 (3)'), 'support@switch2web.com')
+WebUI.setText(findTestObject('Page_JobyCo/input_ctl00ContentPlaceHolder1_1 (2)'), 'sup123')
 WebUI.click(findTestObject('Page_JobyCo/input_ctl00ContentPlaceHolder1_2 (2)'))
-
+WebUI.waitForJQueryLoad(30)
+WebUI.waitForElementClickable(findTestObject('Page_/button_toggle navigation (4)'), 10)
 WebUI.click(findTestObject('Page_/button_toggle navigation (4)'))
 WebUI.click(findTestObject('Page_/a_Booking (1)'))
 WebUI.click(findTestObject('Page_/a_View All Bookings (1)'))
 
 
-WebUI.click(findTestObject('Page_/a_JBCO000000144'))
+WebUI.click(findTestObject('Object Repository/Page_/a_JBCO000000114'))
 WebUI.waitForJQueryLoad(10)
 WebUI.mouseOver(findTestObject('Page_/button_ (1)'))
 WebUI.click(findTestObject('Page_/button_ (1)'))
 
 
-WebUI.waitForJQueryLoad(10)
+WebUI.waitForJQueryLoad(20)
 WebUI.scrollToElement(findTestObject('Page_/a_2'), 10)
 WebUI.mouseOver(findTestObject('Page_/a_2'))
 WebUI.waitForJQueryLoad(20)
+WebUI.waitForElementClickable(findTestObject('Page_/a_2'), 10)
 WebUI.click(findTestObject('Page_/a_2'))
 
 
-if(WebUI.verifyElementPresent(findTestObject('Object Repository/ObjectViewBookingsCRM/Page_/a_JBCO000000135'), 10)== true)
+/*if(WebUI.verifyElementPresent(findTestObject('Object Repository/ObjectViewBookingsCRM/Page_/a_JBCO000000135'), 10)== true)
 {
 	WebUI.click(findTestObject('Object Repository/ObjectViewBookingsCRM/Page_/a_JBCO000000135'))
 	WebUI.waitForJQueryLoad(10)
 	WebUI.mouseOver(findTestObject('Object Repository/ObjectViewBookingsCRM/Page_/button_'))
 	WebUI.click(findTestObject('Object Repository/ObjectViewBookingsCRM/Page_/button_'))
-	}
+}*/
+
 	
 	
 WebUI.waitForJQueryLoad(10)
@@ -61,19 +64,22 @@ WebUI.mouseOver(findTestObject('Object Repository/ObjectViewBookingsCRM/Page_/a_
 WebUI.waitForJQueryLoad(20)
 WebUI.click(findTestObject('Object Repository/ObjectViewBookingsCRM/Page_/a_5'))
 	
-if(WebUI.verifyElementPresent(findTestObject('Object Repository/ObjectViewBookingsCRM/Page_/a_JBCO000000115'),10)==true)
+	
+/*if(WebUI.verifyElementPresent(findTestObject('Object Repository/ObjectViewBookingsCRM/Page_/a_JBCO000000115'),10)==true)
 	{
 	WebUI.scrollToElement(findTestObject('Object Repository/ObjectAddBookingCRM/Page_/Page_/input_ctl00ContentPlaceHolder1'),10)
 	WebUI.click(findTestObject('Object Repository/ObjectViewBookingsCRM/Page_/a_JBCO000000115'))
 	WebUI.waitForJQueryLoad(10)
 	WebUI.mouseOver(findTestObject('Object Repository/ObjectViewBookingsCRM/Page_/button_'))
 	WebUI.click(findTestObject('Object Repository/ObjectViewBookingsCRM/Page_/button_'))
-	}
+	}*/
 	
 
-WebUI.click(findTestObject('Page_/span_glyphicon glyphicon-user (4)'))
+WebUI.click(findTestObject('Object Repository/Page_/span_Subhankar_glyphicon glyph'))
 
-WebUI.click(findTestObject('Page_/button_Sign Out (4)'))
+
+
+WebUI.click(findTestObject('Object Repository/Page_/button_Sign Out (5)'))
 
 
 
