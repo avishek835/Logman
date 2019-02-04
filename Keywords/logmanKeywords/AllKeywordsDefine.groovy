@@ -27,7 +27,7 @@ import WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.testdata.InternalData
 public class AllKeywordsDefine {
 
-	@Keyword 
+	@Keyword
 	def LoginandLogoutWithMultipledata() {
 
 		InternalData data = findTestData("FrontendDDF/LoginandLogoutMultipleData")
@@ -47,7 +47,26 @@ public class AllKeywordsDefine {
 			WebUI.click(findTestObject('Demo/Page_/button_Sign Out'))
 			println ("SignOut from the Logman site")
 			WebUI.takeScreenshot()
-
+			/*0 Include:- BDD integration
+1Test Listeners :- works like testng.
+code will run first from here and end here.
+ex:- open browser/ close browser
+2profile:- act as properties file java
+eg:- kept the URL
+3Keywoards:- kept the entire code over here. under your own custom keywoard
+4Data files:- create/ upload external files for input
+5test case:- The entire code will be run from here.
+format:- test listeners
+               profiles
+               keywoards
+                      data files, 
+                       Object repository
+                        Taking screenshots
+                keywoards
+                profiles
+                test listners
+6 Test suite:- collection of test cases. for parallel or sequential execution
+7. report:- report generation*/
 		}
 	}
 
