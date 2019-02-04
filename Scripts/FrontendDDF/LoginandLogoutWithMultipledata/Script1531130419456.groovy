@@ -26,4 +26,5 @@ import org.openqa.selenium.Keys as Keys
 println ("Browser Opened")
 WebUI.navigateToUrl(GlobalVariable.URL)
 println ("URL Loaded in the Browser")
-CustomKeywords.'frontendDDF.LoginandLogoutwithMultipleData.LoginandLogoutWithMultipledata'()
+CustomKeywords.'logmanKeywords.AllKeywordsDefine.LoginandLogoutWithMultipledata'()
+

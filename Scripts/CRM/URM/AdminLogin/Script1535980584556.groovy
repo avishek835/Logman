@@ -18,27 +18,22 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-
-WebUI.navigateToUrl(GlobalVariable.URL1)
+import org.openqa.selenium.Keys as Keys
+WebUI.navigateToUrl(GlobalVariable.Admin)
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Object Repository/adminlogin/Page_JobyCo/input_ctl00ContentPlaceHolder1'), 'aviadmin@mailinator.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/adminlogin/Page_JobyCo/input_ctl00ContentPlaceHolder1_1'), 'aeHFOx8jV/A=')
+CustomKeywords.'logmanKeywords.AllKeywordsDefine.AdminLogin'()
 
-WebUI.click(findTestObject('Object Repository/adminlogin/Page_JobyCo/input_ctl00ContentPlaceHolder1_2'))
 
-WebUI.waitForPageLoad(10)
-WebUI.waitForJQueryLoad(10)
+WebUI.waitForPageLoad(20)
+WebUI.waitForJQueryLoad(20)
 WebUI.click(findTestObject('Object Repository/adminlogin/Page_/button_toggle navigation'))
 
-WebUI.click(findTestObject('Object Repository/adminlogin/Page_/Page_/button_toggle navigation'))
-
-
-WebUI.click(findTestObject('Object Repository/adminlogin/Page_/span_glyphicon glyphicon-user'))
 WebUI.waitForPageLoad(10)
 WebUI.waitForJQueryLoad(10)
-WebUI.click(findTestObject('Object Repository/adminlogin/Page_/button_Sign Out'))
+
+
 
 
 

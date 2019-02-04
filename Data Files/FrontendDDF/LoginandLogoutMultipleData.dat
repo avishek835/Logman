@@ -8,18 +8,16 @@
    <dataFileGUID>d14c1845-4a9e-40f3-b882-2473a1fd23b9</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>avishek20%40mailinator.com 123456</data>
-   <data>avishek21%40mailinator.com 123456</data>
-   <data>avishek22%40mailinator.com 123456</data>
+   <data>+support%40switch2web.com sup123</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>demo_usn</name>
-      <size>3</size>
+      <size>1</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
       <name>demo_pass</name>
-      <size>3</size>
+      <size>1</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>

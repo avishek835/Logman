@@ -6,12 +6,12 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'http://172.16.20.5:94/Login.aspx'</initValue>
-      <name>URL</name>
+      <initValue>'http://14.143.49.170:7087'</initValue>
+      <name>Customer</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'http://172.16.20.5:93/'</initValue>
-      <name>URL1</name>
+      <initValue>'http://14.143.49.170:7095'</initValue>
+      <name>Admin</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

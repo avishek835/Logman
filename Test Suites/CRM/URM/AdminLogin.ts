@@ -4,7 +4,6 @@
    <name>AdminLogin</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-09-05T17:18:06</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

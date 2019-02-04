@@ -4,7 +4,7 @@
    <name>LOGMANPROJECT</name>
    <tag></tag>
    <UUID>5e90cd3d-efcc-48cd-9960-ac2f65f131f5</UUID>
-   <migratedVersion>5.7.0</migratedVersion>
+   <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
    <sourceContent>
       <sourceFolderList>
@@ -19,6 +19,10 @@
          <systemFolderConfiguration>
             <url>Include/features</url>
          </systemFolderConfiguration>
+         <systemFolderConfiguration>
+            <url>Include/config</url>
+         </systemFolderConfiguration>
       </systemFolderList>
    </sourceContent>
+   <type>GENERIC</type>
 </Project>
