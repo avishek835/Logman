@@ -4,7 +4,6 @@
    <name>WebsiteVerifyLinksAndSignUp</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-07-10T14:44:07</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
